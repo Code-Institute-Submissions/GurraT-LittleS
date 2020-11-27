@@ -1,6 +1,6 @@
 # Lomsten
 
-![Lomsten](assets/img/LS.png "Main page large devices")
+![Lomsten](assets/img/Homepage.png "Main page large devices")
 
 #### The aim of this website is to in an easy and intuitive way present useful and crucial information to people living or working in a building owned by Lomsten. 
 
@@ -51,9 +51,9 @@ Sum |22 |18
 4. The final prototype should deployed on GITHUB masterbranch
 
 ### Wireframe 
-[Large Media Devices](assets/document/MP1en.pdf "Wireframe Lomsten")
+[Large Media Devices](assets/document/MP1en2.pdf "Wireframe Lomsten")
 
-[Small Media Devices](assets/document/MP1ensmd.pdf "Wireframe Lomsten small devices")
+[Small Media Devices](assets/document/MP1ensmd2.pdf "Wireframe Lomsten small devices")
 
 ## Features
 
@@ -62,7 +62,7 @@ Sum |22 |18
 
 Features|   Content |Difficulty level
 --------|-----------|----------------|
-Framework| Main page, About the building page, About the living page, Guidelines page, Profile page, Contact Info page, The neighbourhood page, Partner Page, Forms (Report an issue, Login), Linkbuttom to pdf-file (Cancel contract, Contract, Invoice, Blueprint) |2
+Framework| Main page, About the building page, Living Here page, Guidelines page, Profile page, Contact Info page, The neighbourhood page, Partner Page, Forms (Report an issue, Login), Linkbuttom to pdf-file (Cancel contract, Contract, Invoice, Blueprint) |2
 Simple, clean, intuative design| Header with Logo + link buttom, + nav bar, Section with main text-content, SubSection with links, Footer with contact info| 1
 |||
 Head | Title and content| 1
@@ -76,10 +76,10 @@ About the Building page: Section| Div with Vision, Div with History, Div with Bo
 About the Building page: SubSection | Links to About the living, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
 About the Building page: Footer|Contact information|1
 |||
-About the living page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
-About the living page: Section| Div with About the Building with list with information on water, electricity, laundary etc..|2
-About the living page: SubSection | Links to About the living, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
-About the living page: Footer|Contact information|1
+Living Here page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
+Living Here page: Section| Div with About the Building with list with information on water, electricity, laundary etc..|2
+Living Here page: SubSection | Links to About the living, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
+Living Here page: Footer|Contact information|1
 |||
 Guidelines page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
 Guidelines page: Section| Div with For your comfort Guidelines, Div with worth to know before implementing|2
@@ -127,7 +127,7 @@ Partner page: Footer|Contact information|1
 1. Click on the Report an Issue buttom(wrench icon) in the Header (applicable for all pages)
 2. Click on the Report an Issue field in the SubSection (applicable for all pages)
 
-- To get information about what is included in the rent and where to find assets such as laundary there is following options to open About the Living pages 
+- To get information about what is included in the rent and where to find assets such as laundary there is following options to open Living Here pages 
 1. Click on the About the living field in the Navbar (applicable for all pages)
 2. Click on the About the living field in the SubSection (applicable for all pages)
 
