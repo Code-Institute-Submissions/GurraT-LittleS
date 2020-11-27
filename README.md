@@ -51,9 +51,9 @@ Sum |22 |18
 4. The final prototype should deployed on GITHUB masterbranch
 
 ### Wireframe 
-[Large Media Devices](assets/documents/MP1en.pdf "Wireframe Lomsten")
+[Large Media Devices](assets/document/MP1en.pdf "Wireframe Lomsten")
 
-[Small Media Devices](assets/documents/MP1ensmd.pdf "Wireframe Lomsten small devices")
+[Small Media Devices](assets/document/MP1ensmd.pdf "Wireframe Lomsten small devices")
 
 ## Features
 
