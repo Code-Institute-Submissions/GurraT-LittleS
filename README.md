@@ -7,29 +7,29 @@
 ## UX
 
 ### User story
-#### We aspect this website to be used by the following personas 
+#### We expect this website to be used by the following personas 
 - tenants: these are the people living in the building owned by Lomsten
 - the caretaker: this is the people taking care about the building
-- the other contructors: these are the people involved in other activities connected to the building 
+- the other contractors: these are the people involved in other activities connected to the building 
 
 The personas main goal is to find information about building so that they know how they should relate, locate and act within the building. Their agespan is supposted to be between 25 and 45 years old.
 
-#### Being more specific 
-- As a tenant I want to have a website so that....
- 1.  I can find information to who i can contact if i have questions or if need to solve an issue </br>
- 2. I can see what is included in the rent <br/>
- 3. I know where I can find assets such as storage, laundary etc.<br/>
-4. I know how I should act in different situations (eg. when to turn done music, if it is allowed to refurbushing the apartment etc.) <br/>
-5. I know if there is something happening that will affect my living<br/>
-6. I can find Forms, Blueprint, Invoice, Contract connected to the living so I know how to act in different situations (what is needed to been done when moving in or moving out, when to pay the bill, what is agree upon in the contract etc.) <br/>
+### Being more specific 
+#### As a tenant I want to have a website so that....
+ 1.  I can find information to who i can contact if i have questions or if need to solve an issue 
+ 2. I can see what is included in the rent
+ 3. I know where I can find assets such as storage, laundary etc.
+4. I know how I should act in different situations (eg. when to turn done music, if it is allowed to refurbushing the apartment etc.)
+5. I know if there is something happening that will affect my living
+6. I can find Forms, Blueprint, Invoice, Contract connected to the living so I know how to act in different situations (what is needed to been done when moving in or moving out, when to pay the bill, what is agree upon in the contract etc.)
 7. I can find information about the neighbourhood so I know where to go if I want to shop, eat, park the car etc.
 
- - As a constructor our as another constructor i want to have a website so that....
- 1.  I can find information to who i can contact if i have questions or need to solve an issue </br>
- 2. I know where I can find assets such as storage, laundary etc.<br/>
+ #### As a constructor/contractor i want to have a website so that....
+ 1.  I can find information to who i can contact if i have questions or need to solve an issue
+ 2. I know where I can find assets such as storage, laundary etc.
  
 
-#### Decisions
+### Decisions
 
 Problems/Opportunities | Importance | Viability/Feasibility|
 -----------------------|------------|----------------------|
