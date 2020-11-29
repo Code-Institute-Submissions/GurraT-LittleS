@@ -9,56 +9,66 @@ header{
     margin: 0px 0px 0px 0px;
 }
 
-header .container{
-    border-bottom: #545048 1px solid;
-    border-top: #545048 1px solid;
-     background-color: lightgray;
+
+
+nav{
+    text-align: center;
 }
 
 .logo{
 font-family: "Monserrat", sans-serif;
-color: #545048;
-text-shadow: 0.5px 0.5px #de9957;
+color: #987e6a;
+text-shadow: 1.5px 1.5px #3c2a2a;
+text-align: right;
 font-weight: 500;
 font-size: 46px;
 }
 
-.navbar_header{
-margin: 25px 0px 0px 0px;
+.logo:hover{
+color: #c6beb1;
+text-shadow: 1.5px 1.5px #3c2a2a;
 }
+
+
+
+
 
 .navbar_header li a{
      font-family: "Oswald", sans-serif;
      font-weight: 500;
-     align-content: 46px;
-     color:#63605b;
+     padding: 0px 6px 0px 6px;
+    color: #3c2a2a;
+    text-shadow: 0.25px 0.25px #c6beb1;
     transition: all 0.35s ease-in-out;
      -moz-transition: all 0.35s ease-in-out;
      -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
      }
 
+
 .navbar_header li a:hover{
-  color:#de9957;
-  text-decoration:none;
+    color: #987e6a;
+    text-shadow: 0.3px 0.3px #5d3033;
+    text-decoration:none;
 
 }
 
 
 .link_icon_header{
- padding: 0px 0px 20px 40px; 
+    text-align: center;
+ padding: 0px 0px 20px 60px; 
 }
 
 .link_icon_header a{
     font-weight: 500;
 font-size: 18px; 
-color:black; 
-text-shadow: 0.5px 0.5px #de9957;
+color:#3c2a2a; 
+text-shadow: 0.5px 0.5px #5d3033;
 }
 
 .link_icon_header a:hover{
-    color:#de9957; 
-text-shadow: 0.5px 0.5px black;
+    color:#987e6a; 
+text-shadow: 0.5px 0.5px #3c2a2a;
 }
 
 /*---------------------------------Main Section*/
@@ -70,7 +80,7 @@ text-shadow: 0.5px 0.5px black;
 .Title_section{
       margin: 0px 0px 40px 0px;
     font-family: "Oswald", sans-serif;
-    color:black;
+    color:#77293a;
      font-weight: 500;
      align-content: 46px;
 
@@ -80,15 +90,32 @@ text-shadow: 0.5px 0.5px black;
     align-items: right;
 }
 
+.upper_section_left img, .lower_section_right img{
+}
+
 .upper_section, .lower_section{
     font-family: "Roboto", sans-serif;
-    color:black;
+    color:#987e6a;
      font-weight: 300;
      align-content: 18px;
 }
 
 .upper_section_left, .lower_section_right{
    text-align: center;
+}
+
+.dropdown_header_smd{
+   margin: 0px 0 0px 0;
+    border: 2px #987e6a solid;
+    border-radius: 20%;
+     font-weight: 200;
+     font-size: 8px;
+}
+
+.dropdown_header_smd a{
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+     color:#77293a;
 }
 
 
@@ -137,8 +164,33 @@ text-shadow: 0.5px 0.5px black;
 .contact_footer{
       margin: 10px 0px 40px 0px;;
     font-family: "Oswald", sans-serif;
-    color:black;
+    color:#77293a;
      font-weight: 500;
      align-content: 46px; 
+
+}
+
+
+/*---------------------------------Media query*/
+
+
+
+
+@media screen and (max-width: 992px){
+
+    .logo{
+        font-size: 28px;
+        }
+    .navbar_header li a{
+     font-family: "Oswald", sans-serif;
+     font-weight: 500;
+     font-size: 12px;
+     
+     }
+
+     .link_icon_header a{
+    font-weight: 500;
+    font-size: 16px; 
+     }
 
 }
