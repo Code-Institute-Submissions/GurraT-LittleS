@@ -17,8 +17,8 @@ nav{
 
 .logo{
 font-family: "Monserrat", sans-serif;
-color: #987e6a;
-text-shadow: 1.5px 1.5px #3c2a2a;
+  color:#3c2a2a;
+    text-shadow: 0.5px 0.5px #987e6a;
 text-align: right;
 font-weight: 500;
 font-size: 46px;
@@ -47,8 +47,8 @@ text-shadow: 1.5px 1.5px #3c2a2a;
 
 
 .navbar_header li a:hover{
-    color: #987e6a;
-    text-shadow: 0.3px 0.3px #5d3033;
+ color: #c6beb1;
+text-shadow: 1.5px 1.5px #3c2a2a;
     text-decoration:none;
 
 }
@@ -56,21 +56,21 @@ text-shadow: 1.5px 1.5px #3c2a2a;
 
 .link_icon_header{
     text-align: center;
-    border-bottom: 2px #987e6a solid;
-     border-top: 2px #987e6a solid;
- padding: 0px 0px 0px 60px; 
+    border-bottom: 2px #3c2a2a solid;
+     border-top: 2px #3c2a2a solid;
+ padding: 3px 0px 3px 60px; 
 }
 
 .link_icon_header a{
     font-weight: 500;
 font-size: 18px; 
-color:#77293a; 
-text-shadow: 0.5px 0.5px #5d3033;
+color: #987e6a;
+text-shadow: 1.5px 1.5px #3c2a2a;
 }
 
 .link_icon_header a:hover{
-    color:#987e6a; 
-text-shadow: 0.5px 0.5px #3c2a2a;
+color: #c6beb1;
+text-shadow: 1.5px 1.5px #3c2a2a;
 }
 
 /*---------------------------------Main Section*/
@@ -98,10 +98,18 @@ text-shadow: 0.5px 0.5px #3c2a2a;
 
 .upper_section, .lower_section{
     font-family: "Roboto", sans-serif;
-    color:#987e6a;
-     font-weight: 300;
-     align-content: 18px;
+    color:#77675b;
+     font-weight: 400;
+     align-content: 12px;
 }
+
+.upper_section a, .lower_section a{
+    font-family: "Roboto", sans-serif;
+    color:#77293a;
+     font-weight: 600;
+     align-content: 14px;
+}
+
 
 .upper_section_left, .lower_section_right{
    text-align: center;
@@ -109,7 +117,7 @@ text-shadow: 0.5px 0.5px #3c2a2a;
 
 .dropdown_header_smd{
    margin: 0px 0 0px 0;
-    border: 2px #987e6a solid;
+    border: 2px #3c2a2a solid;
     border-radius: 20%;
      font-weight: 200;
      font-size: 8px;
@@ -125,8 +133,8 @@ text-shadow: 0.5px 0.5px #3c2a2a;
 /*---------------------------------Sub Section*/
 
 .links{
-    border-bottom: 2px #987e6a solid;
-     border-top: 2px #987e6a solid;
+    border-bottom: 2px #3c2a2a solid;
+     border-top: 2px #3c2a2a solid;
      }
 
 .dropdown_footer_info{
@@ -145,7 +153,7 @@ text-shadow: 0.5px 0.5px #3c2a2a;
        font-family: "Oswald", sans-serif;
        font-weight: 400;
       color:#3c2a2a;
-      font-size: 18px;
+      font-size: 22px;
 }
 
 .links_sub_section li a:hover{
@@ -164,14 +172,12 @@ text-shadow: 0.5px 0.5px #3c2a2a;
 
 /*---------------------------------Footer*/
 
-
-.contact_footer p{
-      margin: 10px 0px 40px 0px;;
+.contactfooter{
+      margin: 10px 0px 0px 0px;;
     font-family: "Oswald", sans-serif;
     color:#77293a;
      font-weight: 500;
-     align-content: 46px; 
-
+     align-content: 28px; 
 }
 
 
@@ -188,7 +194,7 @@ text-shadow: 0.5px 0.5px #3c2a2a;
     .navbar_header li a{
      font-family: "Oswald", sans-serif;
      font-weight: 500;
-     font-size: 12px;
+     font-size: 14px;
      
      }
 
@@ -197,13 +203,12 @@ text-shadow: 0.5px 0.5px #3c2a2a;
     font-size: 16px; 
      }
 
-     .contact_footer p{
-      margin: 10px 0px 40px 0px;;
+.contactfooter{
+      margin: 10px 0px 0px 0px;;
     font-family: "Oswald", sans-serif;
     color:#77293a;
      font-weight: 500;
-     align-content: 28px; 
-
+     align-content: 18px; 
 }
 
 
@@ -211,7 +216,7 @@ text-shadow: 0.5px 0.5px #3c2a2a;
        font-family: "Oswald", sans-serif;
        font-weight: 400;
       color:#3c2a2a;
-      font-size: 12px;
+      font-size: 16px;
 }
 
 }
