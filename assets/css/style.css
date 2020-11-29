@@ -56,13 +56,15 @@ text-shadow: 1.5px 1.5px #3c2a2a;
 
 .link_icon_header{
     text-align: center;
- padding: 0px 0px 20px 60px; 
+    border-bottom: 2px #987e6a solid;
+     border-top: 2px #987e6a solid;
+ padding: 0px 0px 0px 60px; 
 }
 
 .link_icon_header a{
     font-weight: 500;
 font-size: 18px; 
-color:#3c2a2a; 
+color:#77293a; 
 text-shadow: 0.5px 0.5px #5d3033;
 }
 
@@ -80,7 +82,8 @@ text-shadow: 0.5px 0.5px #3c2a2a;
 .Title_section{
       margin: 0px 0px 40px 0px;
     font-family: "Oswald", sans-serif;
-    color:#77293a;
+    color:#3c2a2a;
+    text-shadow: 0.5px 0.5px #987e6a;
      font-weight: 500;
      align-content: 46px;
 
@@ -121,28 +124,28 @@ text-shadow: 0.5px 0.5px #3c2a2a;
 
 /*---------------------------------Sub Section*/
 
-.links_sub_section{
-      margin-top: 40px;
-      margin-bottom: 20px;
-      background-color: lightgray;
-    border-bottom: black 1px solid;
-     border-top: black 1px solid;
-}
+.links{
+    border-bottom: 2px #987e6a solid;
+     border-top: 2px #987e6a solid;
+     }
 
-.links_sub_section li{
-    list-style-type: none; 
-}
-
-.links_sub_section li a{
+.dropdown_footer_info{
       font-family: "Oswald", sans-serif;
      font-weight: 300;
-     align-content: 18px;
      list-style-type: none;  
      color:#63605b;
-    transition: all 0.35s ease-in-out;
-     -moz-transition: all 0.35s ease-in-out;
-     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+}
+
+.dropdown_footer_info a, .dropdown_footer_neighbourhood a, .dropdown_footer_partners a,.dropdown_footer_contact a {
+      color:#63605b;
+      font-size: 12px;
+}
+
+.dropdown_footer_info button, .dropdown_footer_neighbourhood button, .dropdown_footer_partners button,.dropdown_footer_contact button {
+       font-family: "Oswald", sans-serif;
+       font-weight: 400;
+      color:#3c2a2a;
+      font-size: 18px;
 }
 
 .links_sub_section li a:hover{
@@ -161,7 +164,8 @@ text-shadow: 0.5px 0.5px #3c2a2a;
 
 /*---------------------------------Footer*/
 
-.contact_footer{
+
+.contact_footer p{
       margin: 10px 0px 40px 0px;;
     font-family: "Oswald", sans-serif;
     color:#77293a;
@@ -192,5 +196,22 @@ text-shadow: 0.5px 0.5px #3c2a2a;
     font-weight: 500;
     font-size: 16px; 
      }
+
+     .contact_footer p{
+      margin: 10px 0px 40px 0px;;
+    font-family: "Oswald", sans-serif;
+    color:#77293a;
+     font-weight: 500;
+     align-content: 28px; 
+
+}
+
+
+.dropdown_footer_info button, .dropdown_footer_neighbourhood button, .dropdown_footer_partners button,.dropdown_footer_contact button {
+       font-family: "Oswald", sans-serif;
+       font-weight: 400;
+      color:#3c2a2a;
+      font-size: 12px;
+}
 
 }
