@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Document</title>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+</head>
+<body>
+<section>
+<div class="col-12 text-center Title_issue">
+<p><i class="fas fa-box-tissue"></i> Report An Issue</p>
+</div>
+<form class="form-inline">
+  <input type="text" name="FirstName" class="form-control" placeholder="Enter First Name" id="first_name" required>
+  <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
+  <div class="form">
+    <input type="text" name="ID" class="form-control" placeholder="Enter Apartment ID" id="apartment_id"required>
+  </div>
+     <div class="col-md-4 mb-4">
+      <label class="Issuereport_label" for="Issuereport">Type of Issue</label>
+      <select class="custom-select" id="Issuereport" required>
+        <option selected disabled value="">Apartment</option>
+        <option>Loundary</option>
+        <option>Storage</option>
+        <option>Neighbours</option>
+        <option>Invoice</option>
+        <option>Complaints</option>
+      </select>
+    </div>
+    <textarea row="10" name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
+ <div>
+  <button type="submit" class="btn btn-secondary send_report">Send Report</button>
+ </div>
+</form>
+
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

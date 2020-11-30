@@ -93,9 +93,6 @@ text-shadow: 1.5px 1.5px #3c2a2a;
     align-items: right;
 }
 
-.upper_section_left img, .lower_section_right img{
-}
-
 .upper_section, .lower_section{
     font-family: "Roboto", sans-serif;
     color:#77675b;
@@ -181,7 +178,65 @@ text-shadow: 1.5px 1.5px #3c2a2a;
     font-family: "Oswald", sans-serif;
     color:#77293a;
      font-weight: 500;
-     align-content: 28px; 
+     font-size: 16px; 
+}
+
+/*---------------------------------Report an Issue Form*/
+
+.Title_issue p{
+    font-family: "Oswald", sans-serif;
+    color:#77293a;
+text-align: center;
+     font-weight: 500;
+     font-size: 18px; 
+}
+
+.failure{
+    text-align: center;
+}
+.failure img{
+    border-radius: 50%;
+}
+
+Form {
+    text-align: center;
+}
+
+.form-control{
+    margin:10px 0 0 0;
+    border:#c6beb1 3px solid;
+    width: 30%;
+    height:20%;
+    
+}
+
+.custom-select{
+     margin:10px 0 0 0;
+      border:#c6beb1 3px solid;
+}
+
+
+.Issuereport_label{
+     font-family: "Oswald", sans-serif;
+      color:#77293a;
+text-align: center;
+     font-weight: 400;
+     font-size: 14px;   
+}
+
+#first_name, #last_name, #apartment_id{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+#DescriptionOfIssue {
+   resize: none;
+   width: 60%;
+   height: 60%;
+}
+
+.send_report{
+     margin:20px 0 0 0;
 }
 
 
@@ -199,7 +254,6 @@ text-shadow: 1.5px 1.5px #3c2a2a;
      font-family: "Oswald", sans-serif;
      font-weight: 500;
      font-size: 14px;
-     
      }
 
      .link_icon_header a{
@@ -207,12 +261,11 @@ text-shadow: 1.5px 1.5px #3c2a2a;
     font-size: 16px; 
      }
 
-footer .contactfooter{
-      margin: 10px 0px 0px 0px;;
+ .contactfooter{
     font-family: "Oswald", sans-serif;
     color:#77293a;
      font-weight: 500;
-     align-content: 12px; 
+     align-content: 8px; 
 }
 
 
@@ -223,4 +276,11 @@ footer .contactfooter{
       font-size: 12px;
 }
 
+.contactfooter{
+      margin: 10px 0px 0px 0px;;
+    font-family: "Oswald", sans-serif;
+    color:#77293a;
+     font-weight: 500;
+     font-size: 12px; 
+}
 }
