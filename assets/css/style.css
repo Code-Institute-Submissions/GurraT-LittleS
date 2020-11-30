@@ -20,7 +20,7 @@ font-family: "Monserrat", sans-serif;
   color:#3c2a2a;
     text-shadow: 0.5px 0.5px #987e6a;
 text-align: right;
-font-weight: 500;
+font-weight: 600;
 font-size: 46px;
 }
 
@@ -80,7 +80,7 @@ text-shadow: 1.5px 1.5px #3c2a2a;
 }
 
 .Title_section{
-      margin: 0px 0px 40px 0px;
+      margin: 12px 0px 40px 0px;
     font-family: "Oswald", sans-serif;
     color:#3c2a2a;
     text-shadow: 0.5px 0.5px #987e6a;
@@ -113,6 +113,10 @@ text-shadow: 1.5px 1.5px #3c2a2a;
 
 .upper_section_left, .lower_section_right{
    text-align: center;
+}
+
+.upper_section{
+   border-bottom: 2px #3c2a2a solid; 
 }
 
 .dropdown_header_smd{
@@ -203,12 +207,12 @@ text-shadow: 1.5px 1.5px #3c2a2a;
     font-size: 16px; 
      }
 
-.contactfooter{
+footer .contactfooter{
       margin: 10px 0px 0px 0px;;
     font-family: "Oswald", sans-serif;
     color:#77293a;
      font-weight: 500;
-     align-content: 18px; 
+     align-content: 12px; 
 }
 
 
@@ -216,7 +220,7 @@ text-shadow: 1.5px 1.5px #3c2a2a;
        font-family: "Oswald", sans-serif;
        font-weight: 400;
       color:#3c2a2a;
-      font-size: 16px;
+      font-size: 12px;
 }
 
 }
