@@ -4,6 +4,8 @@
 
 #### The aim of this website is to in an easy and intuitive way present useful and crucial information to people living or working in a building owned by Lomsten. 
 
+---
+---
 ## UX
 
 ### User story
@@ -49,11 +51,15 @@ Sum |22 |18
 2. Language used in the first version is English (in the final version local language will be used)
 3. Forms, Profile-site and interactive part will be presented as Mockups 
 4. The final prototype should deployed on GITHUB masterbranch
-
+---
+---
 ### Wireframe 
 [Large Media Devices](assets/document/MP1en2.pdf "Wireframe Lomsten")
 
 [Small Media Devices](assets/document/MP1ensmd2.pdf "Wireframe Lomsten small devices")
+
+---
+---
 
 ## Features
 
@@ -157,19 +163,19 @@ In order to use this web-page on small media device follow action has/should bee
 - Adjust fontsize of Sub Section Navbar Title and text-content for small and medium media devices
 - Remove Titles for buttoms in Sub Section for small media devices
 - Adjust fontsize of Footer text-content for small and medium media devices 
-
+---
 ### Time plan
 
 #### Part 1. Visual Design and Basal structure
 
-1. Construct a Main page-template readable in small media and large media devices.
-2. Test and validate the design through google inspection tool & lighthouse
+1. Construct a Main page-template readable in small media and large media devices. -Check
+2. Test and validate the design through google inspection tool & lighthouse -Check 
 3. When satisfied with the design of the Main page use this template to construct the rest of the pages on the website
 4. Test and validate the design through google inspection tool & lighthouse
-5. Construct a form for login to profile page
+5. Construct a form for login to profile page 
 6. Test and validate the form through google inspection tool & lighthouse
-5. Construct a form for report an issue
-7. Test and validate the form through google inspection tool & lighthouse
+5. Construct a form for report an issue -check
+7. Test and validate the form through google inspection tool & lighthouse -check
 8. Link Contract, Blueprint, Invoice to Mockups
 11. Test and validate the whole design through google inspection tool, lighthouse and CCS3/HTML-validator
 12. Validate the code via CSS & HTML validator
@@ -177,15 +183,17 @@ In order to use this web-page on small media device follow action has/should bee
 14. Deploy repository to masterbranch
 12. Collect feedback regarding the visual design
 
-#### Part 2. Evaluate app
+#### Part 2. Evaluate webpage
 
 1. Use google ananlytics to see behavoir and traffic on the homepage
 2. Adjust the platform from conclusion made
-
+---
+---
 ## Technologies that has been used
 
-#### HTML, CSS, Bootstrap, Font awesome, Google Fonts, Google analytics
-
+#### HTML, CSS, Bootstrap, Font awesome, Google Fonts, Google Inspection Tool, Light House, Image Resizer, 
+---
+---
 ## Testing
 
 
@@ -253,31 +261,53 @@ In order to use this web-page on small media device follow action has/should bee
 3. Using Google Inspection tool the responsiveness for mobile devices (eg. Iphone, Samsung Galaxy, Motorola etc..) and computer devices was inspected 
 4. The code was added, commit and push to GITHUB using following commands in the Gitpod terminal "git add ., git commit -m "", git push"
 5. In GITHUB the code was deployed to "Main Branch" through open setting and navigate to the section "GitHub pages" and under "Source" chosing "Main branch" and confirming the chose pushing "Save"
-6. [Deployed webpage](gurrat.github.io/LittleS/index.html) was sent out through Messenger to 5 selected Beta-tester for comments
+6. [Deployed webpage](gurrat.github.io/LittleS/index.html) was sent out through Messenger to 5 selected Beta-tester for comments (see Acknowledgement)
 7. The deployed webpage was then opened on following browser Microsoft Explorer, Microsoft Edge, Samsung Internet
 8. Finally the code was tested using LightHouse in Google Inspection tool (see fixed Bugs and Open Questions)
+- Remains to Validate code by using CSS3/HTML-validator and send code to Mentor for comments
+
+### Step 3. Implementing code for ReportAnIssue-form
+#### Implementing code for the ReportAnIssue.html, linked it with style.css, Bootstrap, FontAwesome and Google Fonts and tested
+
+#### Form
+   - Created main structure for the Form with inputs, select-box, input-text area and submit buttom
+   - Adjusted the placement of the items in the Form (see fixed bugs)
+   - Adjusted the margin of the items
+   - Sat border around items
+   - Sat font, fontsize, text-color, and text-alignment of the contents
+   - Locked the size of textarea (see fixed bugs)
 
 
+### Step 4. Testing Design and Responsiveness of ReportAnIssue.html
+#### Followed same procedure as Step 2. (Testing Design and Responsiveness of index.html)
 
-1. At early stage lighthouse and google inspections tool will be used, to assure for good and stable design
-2. After assuring stable visual appealing design the commited code will be deployed through GITHUB masterbranch,
-the deployed site will be sent out to beta-tester for feedback
-3. The platform will be update in accordance with feedback from beta-tester
-4. The updated site would once more be tested via google inspection tool and lighthouse
-5. When the design is considered to forfill all requirements from above inspection tools, the code will be validated via CSS3/HTML-validation tool
-6. After assuring a good and stable code the project will be deployed and sent to mentor for comments
+* [The deployed code](https://gurrat.github.io/LittleS/ReportAnIssue.html) was sent out to 5 beta-tester for comments (see Acknowledgement) and tested using LightHouse (see fixed Bugs)
+######
 
 
+<!--
+1. At early stage lighthouse and google inspections tool will be used, to assure for good and stable design -check
+2. After assuring stable visual appealing design the commited code will be deployed through GITHUB masterbranch, -check
+the deployed site will be sent out to beta-tester for feedback -check
+3. The platform will be update in accordance with feedback from beta-tester -check
+4. The updated site would once more be tested via google inspection tool and lighthouse -check
+5. When the design is considered to forfill all requirements from above inspection tools, the code will be validated via CSS3/HTML-validation tool !!!
+6. After assuring a good and stable code the project will be deployed and sent to mentor for comments !!!
+--->
+---
 ### Fixed Bugs
 #### I have encountered and fixed following bugs 
+
+Connected to index.html
+
 - Removed underlines when hovering over links in Header Navbar following comments from José Lopez Coronado and Vahid Alvandi on Stack Overflow adding following code to style.css (see Credit-section)
     * .navbar_header li a:hover{text-decoration:none;}
 
 - Adjusted the dropdown list to be presented to the left of the buttom using alternatives from bootstrapshuffle adding following code to index.html (see Credit-section) 
-    * <div class="dropdown dropleft>
+    * div class="dropdown dropleft"
 
 - Centered images in Left_upper_div and Right_lower_div in Main section following comments from Tushar Gupta - curioustushar on Stack OverFlow adding following code to style.css (See Credit-Section)
-    * .upper_section_left, .lower_section_right{ text-align: center;}
+    * upper_section_left, .lower_section_right{ text-align: center;}
 
 - Removed Dots in the List in Sub Section Navbar following comments from Alexis on Stack OverFlow adding following code to style.css (See Credit-Section)
     * .links_sub_section li a:hover{text-decoration:none;}
@@ -285,6 +315,14 @@ the deployed site will be sent out to beta-tester for feedback
 - Removed unused classes and junc-code
 
 - Optimized the size of my image using Image resizer (see Credit-section)
+
+Connect to ReportAnIssue.html
+
+- Aligned FirstName and LastName input beside each other using exampel from w3school (see Credit-section) adding following code
+    * form class="form-inline"
+
+- Locked the size of the text-area following comments from Simon on Stack Overflow adding following code
+    * #DescriptionOfIssue {resize: none;}
 
 ### Known Bugs
 
@@ -300,7 +338,8 @@ the deployed site will be sent out to beta-tester for feedback
 * git commit -m ""
 * git push
 #### In GITHUB the code was deployed to "Main Branch" through opening setting and navigate to the section "GitHub pages" and under "Source" chosing "Main branch" and confirming the choice by pushing "Save"-buttom
-
+---
+---
 
 ## Credits
 
@@ -333,7 +372,20 @@ the deployed site will be sent out to beta-tester for feedback
 #### Implemented code
 - .links_sub_section li a:hover{text-decoration:none;}
 
+
+
 ---
+#### Orginal code 
+- [form class="form-inline" action="/action_page.php"](https://www.w3schools.com/bootstrap4/bootstrap_forms.asp) ,exemple from w3school on Bootstrap Inline Form
+#### Implemented code
+- form class="form-inline
+---
+#### Orginal code 
+- [textarea {resize: none;}"](https://stackoverflow.com/questions/5271782/how-to-disable-the-resize-grabber-of-textarea) ,comments from Simon on Stack Overflow
+#### Implemented code
+- #DescriptionOfIssue {resize: none;}
+---
+
 
 ### Media
  - Used my own images but optimized their size using [Imageresizer](https://imageresizer.com/) 
