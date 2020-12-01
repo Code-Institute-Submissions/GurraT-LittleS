@@ -175,9 +175,69 @@ Partner page: Footer|Contact information|1
 
 ## Technologies that will be used
 
-#### HTML, CSS, Bootstrap, fontawesome, Google analytics
+#### HTML, CSS, Bootstrap, Font awesome, Google Fonts, Google analytics
 
 ## Testing
+
+
+### Step 1. Implementing code for index.html and style.css
+#### Began with implementing code for the index.html, linked it with style.css, Bootstrap, FontAwesome and Google Fonts and tested following Sections
+
+1. Header
+
+    - Logo & Navbar
+        * Adjusted fontsize to correlate with rest of the page content
+        * Sat color theme by using color picker and choose color from the images used in the page to create harmony between text-color and image color theme
+        * Sat padding on Navbar so the links align in a nice way with the Logo
+        * Sat fontsize, textcolor (using color picker) and adjusted behavior of hovering function (see fixed bugs) 
+        * Adjusted the responsive design by adjusting the fontsize for mediumsized media devices and did  hide navbar for small medium device and instead presented the links in a dropdown-menu
+        * Sat border, size and margin for dropdown 
+        * Adjusted so the dropdown list was presented to the left of the buttom (see fixed bugs)
+    - Link icon
+        * Choosed intuitive icons from fontawesome to represent what action to adress
+        * Sat textcolor using color picker and fontsize to correlate with the rest of the page
+        * Centered icons to the middle of the page
+        * Sat fontsize, textcolor (using color picker) and adjusted behavior of hovering function
+        * Added a borderline at top & bottom and adjusted the color to rest of the page color theme
+        * Sat some padding to adjust the space between the borderlines and icons
+        * Adjusted so the dropdown list was presented above the buttom 
+
+2. Main Section
+    - Title
+        * Sat fontsize, textcolor to correlate with the rest of the page
+        * Centered text to the middle of the page
+
+    - Upper Section Container
+        * Divided the container in two sized containers 
+        * Added an image to the left container and text-contents to the right container
+        * Adjusted size of image position of image 
+        * Sat textcolor, fontsize and positioning of text-contents to harmonize with the rest of the page
+        * Added a Contact Link and a Report Issue link to the text-text contents and adjusted its color
+        * Adjusted the responsive design by chancing the size of the container for small & mediumsized media device letting the container with the image be presented above the container with text content for thoose devices
+        * Added a bottom-border-line to divide this Upper Section Container with Containers below
+        * Adjusted margin and paddings to get some between Header, Title, contents and lower container
+    - Lower Section Container ( Same Procedure as Upper Section, with exeption for following points)
+        * Added text-contents to left container and image to right container
+        * Did not add a border line
+
+3. Sub Section
+    * Added a Navbar with four divs with Lists and links connected to a buttom functions  
+    * Added Title with intuative icons from font Awesome to respectively buttoms
+    * Adjusted fontsize and text-color to harmonize with the rest of the page
+    * Removed points in the list (see fixed bugs)
+    * Adjusted the responsive design by chancing the size of the container for small & mediumsized media device letting the container with the image be presented above the container with text content for thoose devices
+    * Sat border-line above Sub Section
+    * Adjusted margin of the Sub Section to get some space between this section and surrounding Sections
+    * Added padding to Navbar to get some spacing between navbar and border-lines
+    * Adjusted the responsive design by chancing the  font-size title and icons for small & mediumsized media device and removing titles for small media devices
+
+4. Footer
+    * Added text-contents and adjusted the fontsize and text-color to harmonize with the rest of the page
+    * Adjusted the responsive design by chancing the font-size of textcontents for small & mediumsized media device
+
+### Step 2. Testing Design and responsiveness of index.html
+#### 
+
 
 1. At early stage lighthouse and google inspections tool will be used, to assure for good and stable design
 2. After assuring stable visual appealing design the commited code will be deployed through GITHUB masterbranch,

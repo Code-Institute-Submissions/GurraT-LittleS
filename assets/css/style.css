@@ -17,7 +17,7 @@ nav{
 
 .logo{
 font-family: "Monserrat", sans-serif;
-  color:#3c2a2a;
+  color:hsl(0, 18%, 20%);
     text-shadow: 0.5px 0.5px #987e6a;
 text-align: right;
 font-weight: 600;
@@ -29,11 +29,7 @@ color: #c6beb1;
 text-shadow: 1.5px 1.5px #3c2a2a;
 }
 
-
-
-
-
-.navbar_header li a{
+ .navbar_header li a{
      font-family: "Oswald", sans-serif;
      font-weight: 500;
      padding: 0px 6px 0px 6px;
@@ -72,6 +68,21 @@ text-shadow: 1.5px 1.5px #3c2a2a;
 color: #c6beb1;
 text-shadow: 1.5px 1.5px #3c2a2a;
 }
+
+.dropdown_header_smd{
+   margin: 0px 0 0px 0;
+    border: 2px #3c2a2a solid;
+    border-radius: 20%;
+     font-weight: 200;
+     font-size: 8px;
+}
+
+.dropdown_header_smd a{
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+     color:#77293a;
+}
+
 
 /*---------------------------------Main Section*/
 
@@ -114,20 +125,6 @@ text-shadow: 1.5px 1.5px #3c2a2a;
 
 .upper_section{
    border-bottom: 2px #3c2a2a solid; 
-}
-
-.dropdown_header_smd{
-   margin: 0px 0 0px 0;
-    border: 2px #3c2a2a solid;
-    border-radius: 20%;
-     font-weight: 200;
-     font-size: 8px;
-}
-
-.dropdown_header_smd a{
-    font-family: "Oswald", sans-serif;
-    font-size: 14px;
-     color:#77293a;
 }
 
 
