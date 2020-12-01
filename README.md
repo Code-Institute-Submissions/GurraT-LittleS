@@ -56,7 +56,7 @@ Sum |22 |18
 ### Wireframe 
 [Large Media Devices](assets/document/MP1en2.pdf "Wireframe Lomsten")
 
-[Small Media Devices](assets/document/MP1ensmd2.pdf "Wireframe Lomsten small devices")
+[Small Media Devices](assets/document/MP1ensmd3.pdf "Wireframe Lomsten small devices")
 
 ---
 ---
@@ -281,7 +281,7 @@ In order to use this web-page on small media device follow action has/should bee
 ### Step 4. Testing Design and Responsiveness of ReportAnIssue.html
 #### Followed same procedure as Step 2. (Testing Design and Responsiveness of index.html)
 
-* [The deployed code](https://gurrat.github.io/LittleS/ReportAnIssue.html) was sent out to 5 beta-tester for comments (see Acknowledgement) and tested using LightHouse (see fixed Bugs)
+* [The deployed code](https://gurrat.github.io/LittleS/ReportAnIssue.html) was sent out to 5 beta-tester for comments (see Acknowledgement) and tested using LightHouse
 ######
 
 

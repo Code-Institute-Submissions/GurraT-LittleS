@@ -32,6 +32,7 @@ text-shadow: 1.5px 1.5px #3c2a2a;
  .navbar_header li a{
      font-family: "Oswald", sans-serif;
      font-weight: 500;
+     font-size: 18px;
      padding: 0px 6px 0px 6px;
     color: #3c2a2a;
     text-shadow: 0.25px 0.25px #c6beb1;
@@ -144,7 +145,7 @@ text-shadow: 1.5px 1.5px #3c2a2a;
 
 .dropdown_footer_info a, .dropdown_footer_neighbourhood a, .dropdown_footer_partners a,.dropdown_footer_contact a {
       color:#63605b;
-      font-size: 12px;
+      font-size: 18px;
 }
 
 .dropdown_footer_info button, .dropdown_footer_neighbourhood button, .dropdown_footer_partners button,.dropdown_footer_contact button {
@@ -162,7 +163,7 @@ text-shadow: 1.5px 1.5px #3c2a2a;
 
 .links_sub_section p{
       font-family: "Oswald", sans-serif;
-    color:black;
+    color:#3c2a2a;
      font-weight: 500;
      align-content: 46px; 
 
@@ -236,6 +237,9 @@ text-align: center;
      margin:20px 0 0 0;
 }
 
+/*---------------------------------Profile page form buttom*/
+
+
 
 /*---------------------------------Media query*/
 
@@ -255,7 +259,7 @@ text-align: center;
 
      .link_icon_header a{
     font-weight: 500;
-    font-size: 16px; 
+    font-size: 18px; 
      }
 
  .contactfooter{
@@ -270,7 +274,7 @@ text-align: center;
        font-family: "Oswald", sans-serif;
        font-weight: 400;
       color:#3c2a2a;
-      font-size: 12px;
+      font-size: 18px;
 }
 
 .contactfooter{
