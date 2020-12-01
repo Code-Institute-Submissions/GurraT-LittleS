@@ -146,6 +146,18 @@ Partner page: Footer|Contact information|1
 - To find information about the neighbourhood there is following options to go to the neighbourhood page
 1. Click on the Neighbourhood field in the SubSection (applicable for all pages)
 
+
+### Responsive Design
+
+In order to use this web-page on small media device follow action has/should been done
+- Adjust fontsize of logo for small/medium media devices
+- Adjust fontsize of Header navbar text for medium media devices
+- Remove Header navbar in favor for a buttom in small media devices
+- Change size and presentation of Main section div in small and medium media devices
+- Adjust fontsize of Sub Section Navbar Title and text-content for small and medium media devices
+- Remove Titles for buttoms in Sub Section for small media devices
+- Adjust fontsize of Footer text-content for small and medium media devices 
+
 ### Time plan
 
 #### Part 1. Visual Design and Basal structure
@@ -170,10 +182,7 @@ Partner page: Footer|Contact information|1
 1. Use google ananlytics to see behavoir and traffic on the homepage
 2. Adjust the platform from conclusion made
 
-### Open questions
-- How should i handle sending, receiving and store info connected to Login, Report an Issue and open inovoices etc
-
-## Technologies that will be used
+## Technologies that has been used
 
 #### HTML, CSS, Bootstrap, Font awesome, Google Fonts, Google analytics
 
@@ -235,8 +244,19 @@ Partner page: Footer|Contact information|1
     * Added text-contents and adjusted the fontsize and text-color to harmonize with the rest of the page
     * Adjusted the responsive design by chancing the font-size of textcontents for small & mediumsized media device
 
-### Step 2. Testing Design and responsiveness of index.html
-#### 
+### Step 2. Testing Design and Responsiveness of index.html
+#### Inorder to test the design of index.html following steps were conducted
+######
+
+1. The code from Gitpod was opened on Google Chrome by running following command in the Gitpod terminal "python3 -m http.server"
+2. In Google Chrome the design was inspected through enlarging and shrinking the webbrowser window
+3. Using Google Inspection tool the responsiveness for mobile devices (eg. Iphone, Samsung Galaxy, Motorola etc..) and computer devices was inspected 
+4. The code was added, commit and push to GITHUB using following commands in the Gitpod terminal "git add ., git commit -m "", git push"
+5. In GITHUB the code was deployed to "Main Branch" through open setting and navigate to the section "GitHub pages" and under "Source" chosing "Main branch" and confirming the chose pushing "Save"
+6. [Deployed webpage](gurrat.github.io/LittleS/index.html) was sent out through Messenger to 5 selected Beta-tester for comments
+7. The deployed webpage was then opened on following browser Microsoft Explorer, Microsoft Edge, Samsung Internet
+8. Finally the code was tested using LightHouse in Google Inspection tool (see fixed Bugs and Open Questions)
+
 
 
 1. At early stage lighthouse and google inspections tool will be used, to assure for good and stable design
@@ -248,21 +268,75 @@ the deployed site will be sent out to beta-tester for feedback
 6. After assuring a good and stable code the project will be deployed and sent to mentor for comments
 
 
+### Fixed Bugs
+#### I have encountered and fixed following bugs 
+- Removed underlines when hovering over links in Header Navbar following comments from José Lopez Coronado and Vahid Alvandi on Stack Overflow adding following code to style.css (see Credit-section)
+    * .navbar_header li a:hover{text-decoration:none;}
+
+- Adjusted the dropdown list to be presented to the left of the buttom using alternatives from bootstrapshuffle adding following code to index.html (see Credit-section) 
+    * <div class="dropdown dropleft>
+
+- Centered images in Left_upper_div and Right_lower_div in Main section following comments from Tushar Gupta - curioustushar on Stack OverFlow adding following code to style.css (See Credit-Section)
+    * .upper_section_left, .lower_section_right{ text-align: center;}
+
+- Removed Dots in the List in Sub Section Navbar following comments from Alexis on Stack OverFlow adding following code to style.css (See Credit-Section)
+    * .links_sub_section li a:hover{text-decoration:none;}
+
+- Removed unused classes and junc-code
+
+- Optimized the size of my image using Image resizer (see Credit-section)
+
+### Known Bugs
+
+### Open questions
+- How should i handle sending, receiving and store info connected to Login, Report an Issue and open inovoices etc
+- How do I use Light house and interpret results generated in the reports
+
 ## Deployment
 
 #### The code is made using Gitpod-editor 
-#### The code will be pushed to GITHUB through using
-- git add, git commit and git push commands
-#### In GITHUB repository the code will be deployed to a masterbransch
+#### The code has been pushed to GITHUB using following commands in the Gitpod terminal
+* git add .
+* git commit -m ""
+* git push
+#### In GITHUB the code was deployed to "Main Branch" through opening setting and navigate to the section "GitHub pages" and under "Source" chosing "Main branch" and confirming the choice by pushing "Save"-buttom
 
 
 ## Credits
 
 ### Content
-- will be added continuously
+
+---
+#### Orginal code 
+- [a, a:hover,a:visited, a:focus {text-decoration:none;}](https://stackoverflow.com/questions/47482158/bootstrap-4-remove-underline-when-clicked) , comments from José Lopez Coronado and Vahid Alvandi  on Stack OverFlow
+  
+
+#### Implemented code
+- .navbar_header li a:hover{text-decoration:none;}
+
+---
+
+#### Orginal code 
+- [dropleft](https://bootstrapshuffle.com/classes) , list with commands for bootstrap on Bootstrapshuffle 
+#### Implemented code
+- div class="dropdown dropleft
+
+--- 
+#### Orginal code 
+- [#over{position:absolute; width:100%; height:100%; text-align: center; /*handles the horizontal centering*/}](https://stackoverflow.com/questions/4888223/align-image-in-center-and-middle-within-div) ,comments from Tushar Gupta - curioustushar on Stack OverFlow 
+#### Implemented code
+- .upper_section_left, .lower_section_right{ text-align: center;}
+
+---
+#### Orginal code 
+- [ul{list-style-type:none;}}](https://stackoverflow.com/questions/36350948/removing-black-dots-from-li-and-ul) ,comments from Alexis on Stack OverFlow 
+#### Implemented code
+- .links_sub_section li a:hover{text-decoration:none;}
+
+---
 
 ### Media
-- - will be added continuously
+ - Used my own images but optimized their size using [Imageresizer](https://imageresizer.com/) 
 
 ### Acknowledgements
 
