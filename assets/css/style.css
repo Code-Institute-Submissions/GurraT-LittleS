@@ -63,12 +63,10 @@ color:white;
     font-weight: 500;
 font-size: 18px; 
 color: #77293a;
-text-shadow: (1.5px 1.5px black);
 }
 
 .link_icon_header a:hover{
-color:rgb(180, 206, 129);
-text-shadow: (1.5px 1.5px black); 
+color:rgb(180, 206, 129); 
 }
 
 .dropdown_header_smd{
@@ -98,7 +96,6 @@ text-shadow: (1.5px 1.5px black);
     color:black;
     text-shadow: 0.5px 0.5px #987e6a;
      font-weight: 500;
-     align-content: 46px;
      border-bottom: 1px solid black;
      margin-top:40px;
 }
@@ -149,7 +146,6 @@ text-shadow: (1.5px 1.5px black);
     font-family: "Roboto", sans-serif;
     color:#6a380d;
      font-weight: 400;
-     align-content: 12px;
      vertical-align: middle;
 }
 
@@ -157,7 +153,6 @@ text-shadow: (1.5px 1.5px black);
     font-family: "Roboto", sans-serif;
     color:red;
      font-weight: 600;
-     align-content: 14px;
 }
 
 
@@ -165,8 +160,6 @@ text-shadow: (1.5px 1.5px black);
    text-align: center;
 }
 
-.upper_section{
-}
 
 .lower_section_right_index, .upper_section_left_profilepage{
         height: 300px;
@@ -213,6 +206,14 @@ text-shadow: (1.5px 1.5px black);
       margin: 10px 0px 0px 0px;;
     font-family: "Oswald", sans-serif;
     color:#77293a;
+     font-weight: 500;
+     font-size: 16px; 
+}
+
+.contactfooter a{
+      margin: 10px 0px 0px 0px;;
+    font-family: "Oswald", sans-serif;
+    color:black;
      font-weight: 500;
      font-size: 16px; 
 }
@@ -304,7 +305,6 @@ text-align: center;
     font-family: "Oswald", sans-serif;
     color:#77293a;
      font-weight: 500;
-     align-content: 8px; 
 }
 
 

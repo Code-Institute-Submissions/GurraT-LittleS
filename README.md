@@ -339,6 +339,14 @@ In order to use this web-page on small media device follow action has/should bee
 ### Step 9. Run Html-revalidation on index.html code
 #### 
 
+### Step 10. Copied updated change in header, subsection and footer to aboutthebuilding.html and profilepage.html
+
+### Step 11. Run CSS-validation on style.css
+
+### Step 12. Pushed code to GITHUB to see if validation work
+
+
+
 <!--
 1. At early stage lighthouse and google inspections tool will be used, to assure for good and stable design -check
 2. After assuring stable visual appealing design the commited code will be deployed through GITHUB masterbranch, -check
