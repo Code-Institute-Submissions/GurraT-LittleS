@@ -188,7 +188,7 @@ text-shadow: (1.5px 1.5px black);
      color:white;
 }
 
-.dropdown_footer_info a, .dropdown_footer_neighbourhood a, .dropdown_footer_partners a,.dropdown_footer_contact a {
+.dropdown_footer_info p, .dropdown_footer_neighbourhood p, .dropdown_footer_partners p,.dropdown_footer_contact p {
       color:#63605b;
       font-size: 18px;
 }
