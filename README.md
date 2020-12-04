@@ -398,7 +398,9 @@ Connect to ReportAnIssue.html
 - How do I use Light house and interpret results generated in the reports
 - How important is the responsiveness to splash screen
 - How important is it that the icon is aplle-touch-compatible
-- 
+- Aria-label whats the best manufacturing practise
+- How should i label bgimage in css
+- How to center image vertically -align with text
 
 ## Deployment
 

@@ -121,6 +121,29 @@ color:rgb(180, 206, 129);
     background-repeat: no-repeat;
 }
 
+.Livinghere_main_section{   
+    background-image: url("../img/info.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#c52222;
+    font-family: "Oswald", sans-serif;
+}
+
+
+#infoelectricity a, #infogas a, #infotele a, #infotele a, #infoinsurance a{   
+    color:red;
+    font-family: "Oswald", sans-serif;
+;
+}
+
+.Livinghere_main_section button{
+      color:#f1f1f1;
+}
+
+.Livinghere_main_section button:hover{
+     color:#c52222;
+}
+
 .board{
  color:#111111;   
 }
@@ -136,7 +159,7 @@ color:rgb(180, 206, 129);
      font-weight: 400;
      font-size: 18px;
 }
-.board_text{
+.board_text ,.livinghere_text{
  font-family: "Roboto", sans-serif;
  color:#6a380d;
      font-weight: 400;
@@ -149,7 +172,7 @@ color:rgb(180, 206, 129);
      vertical-align: middle;
 }
 
-.upper_section a, .lower_section a{
+.upper_section a, .lower_section a {
     font-family: "Roboto", sans-serif;
     color:red;
      font-weight: 600;
