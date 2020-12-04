@@ -285,6 +285,54 @@ In order to use this web-page on small media device follow action has/should bee
 ######
 
 
+### Step 5. Implementing code for Profilepage.html using index.html as template
+#### Following change was done on the template to create profilepage.html
+1. Head
+    - Changed text-content in Title
+
+2. Header
+    - Kept as the template
+
+3. Main Section
+    - Added three buttom above first Title-section
+    - Removed upper_section div with its content
+
+4. Sub Section
+    - Kept as the template
+
+5. Footer
+    - Kept as the template
+
+### Step 6. Implementing code for Aboutthebuilding.html using index.html as template
+#### Following change was done on the template to create profilepage.html
+1. Head
+    - Changed text-content in Title
+
+2. Header
+    - Kept as the template
+
+3. Main Section
+    - Added a Section Dic called board_section in top of this section 
+    - Added the text-content "Board of Management and Executive Committee" to board_section
+    - Added a table with information of the Boardmember below the text-content mentoined above
+    - Changed column-size for the div in the upper-section so image was presented above text-content at all devices types
+    - Changed the positioning of image and text middle section depending on device (image right of text-content at large device and above text-content at medium and smaller devices)
+
+4. Sub Section
+    - Kept as the template
+
+5. Footer
+    - Kept as the template
+
+### Step 7. Testing Design and Responsiveness of Profile.html and Aboutthebuilding.html
+#### Followed same procedure as Step 2. (Testing Design and Responsiveness of index.html)
+
+    - Adjusted alignment of Header Icon 
+    - Adjusted the margin between text and image contents
+    - Set underlines to Title_section
+    - Adjusted colortheme
+    - Sat meta tags to Header
+
 <!--
 1. At early stage lighthouse and google inspections tool will be used, to assure for good and stable design -check
 2. After assuring stable visual appealing design the commited code will be deployed through GITHUB masterbranch, -check
@@ -326,9 +374,17 @@ Connect to ReportAnIssue.html
 
 ### Known Bugs
 
+- Text in right dropdown menu in Footer partially visible
+- Image size to large
+- Unused CSS and Html code
+- Texts and Images could be aligned better
+
 ### Open questions
 - How should i handle sending, receiving and store info connected to Login, Report an Issue and open inovoices etc
 - How do I use Light house and interpret results generated in the reports
+- How important is the responsiveness to splash screen
+- How important is it that the icon is aplle-touch-compatible
+- 
 
 ## Deployment
 

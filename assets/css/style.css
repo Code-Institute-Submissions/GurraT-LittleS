@@ -100,18 +100,50 @@ text-shadow: (1.5px 1.5px black);
      font-weight: 500;
      align-content: 46px;
      border-bottom: 1px solid black;
-    border-top: 1px solid black;
-
+     margin-top:40px;
 }
 
 .upper_section_left_index{
     height: 300px;
     background-image: url("../img/GeneralInfo3.jpg");
-    background-size: 100% 100%;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 
+.upper_section_left_aboutthebuilding{
+    height: 300px;
+    background-image: url("../img/vision1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.middle_section_right__aboutthebuilding{   
+    height: 300px;
+    background-image: url("../img/history.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.board{
+ color:#111111;   
+}
+
+.board_title, .board_pic{
+ font-family: "Oswald", sans-serif;
+     font-weight: 500;
+     font-size: 24px;
+}
+
+.board_text1{
+ font-family: "Oswald", sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+}
+.board_text{
+ font-family: "Roboto", sans-serif;
+ color:#6a380d;
+     font-weight: 400;
+}
 
 .upper_section, .lower_section{
     font-family: "Roboto", sans-serif;
@@ -167,6 +199,13 @@ text-shadow: (1.5px 1.5px black);
       color:white;
       font-size: 22px;
 }
+
+.dropdown_footer_info button:hover, .dropdown_footer_neighbourhood button:hover, .dropdown_footer_partners button:hover,.dropdown_footer_contact button:hover{
+       font-family: "Oswald", sans-serif;
+       font-weight: 400;
+     color:#e6d4cd;
+}
+
 
 .links_sub_section li a:hover{
       color:#de9957;
