@@ -181,29 +181,23 @@ text-shadow: (1.5px 1.5px black);
      background-color: #111111;
      }
 
-.dropdown_footer_info{
-      font-family: "Oswald", sans-serif;
-     font-weight: 300;
-     list-style-type: none;  
-     color:white;
-}
-
-.dropdown_footer_info p, .dropdown_footer_neighbourhood p, .dropdown_footer_partners p,.dropdown_footer_contact p {
-      color:#63605b;
+.dropdown_footer_info, .dropdown_footer_neighbourhood, .dropdown_footer_partners,.dropdown_footer_contact {
+    font-family: "Oswald", sans-serif;
+      color:white;
       font-size: 18px;
 }
 
 .dropdown_footer_info button, .dropdown_footer_neighbourhood button, .dropdown_footer_partners button,.dropdown_footer_contact button {
        font-family: "Oswald", sans-serif;
        font-weight: 400;
-      color:white;
-      font-size: 22px;
+     color:white;
+      font-size: 18px;
 }
 
 .dropdown_footer_info button:hover, .dropdown_footer_neighbourhood button:hover, .dropdown_footer_partners button:hover,.dropdown_footer_contact button:hover{
        font-family: "Oswald", sans-serif;
        font-weight: 400;
-     color:#e6d4cd;
+     color:#77293a;
 }
 
 

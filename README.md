@@ -333,6 +333,12 @@ In order to use this web-page on small media device follow action has/should bee
     - Adjusted colortheme
     - Sat meta tags to Header
 
+### Step 8. Run Html-validation on index.html code
+#### 
+
+### Step 9. Run Html-revalidation on index.html code
+#### 
+
 <!--
 1. At early stage lighthouse and google inspections tool will be used, to assure for good and stable design -check
 2. After assuring stable visual appealing design the commited code will be deployed through GITHUB masterbranch, -check
