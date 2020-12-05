@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
  <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Font google fonts Oswald, Roboto, Montserrat -->
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-<title>Lomsten - Profile page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <title>Lomsten - Guidelines</title>
 </head>
 <body>
 <header>
@@ -55,39 +55,76 @@
     </div>   
 </header>
 <section class="Main_content">
-            <div class="container">
-            <div class="col-12 text-center">
-                <a class="contract_buttom" href="#" target="_blank"> <button class="btn btn-dark">Contract</button></a>
-                <a class="invoice_buttom" href="#" target="_blank"><button class="btn btn-secondary">Invoice</button></a>
-                 <a class="blueprint_buttom" href="assets/document/Blueprint_Mockup_MP1.pdf" target="_blank"><button class="btn btn-dark">Blueprint</button></a>
+    <div class="container">
+        <div class="Title_section col-12">
+            <h4 class="Title_upper_section text-center">Guidelines</h4>
+            <p class="text-center"> Below you find useful information connected to your living </p>
          </div>
+         <div class="row">
+    <div class="col-12 text-center Livinghere_main_section">
+        <div class ="Sound">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infosound" aria-expanded="false" aria-label="info about sound" aria-controls="infosound">
+                <i class="fas fa-drum"></i> About Sound
+            </button>
+        <div class="collapse" id="infosound">
+            Care for your neighbours and make sure to keep a good sound environment, we recommend that you turn-off the music after 22 pm,
+            for more informations regarding the sound environment see <a href="https://lagen.nu/1970:994#K3" target="_blank"> Jordabalken § 3:1 </a>
+        </div>
          </div>
-         <div class="container">
-         <div class="Title_section col-12">
-    <h4 class="text-center">News</h4>
+            <div class ="Pets">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infopets" aria-expanded="false" aria-label="info about pets" aria-controls="infopets">
+                <i class="fas fa-dog"></i> Pets
+            </button>
+                    <div class="collapse" id="infopets">
+                You are allowed to keep pets in your apartment but make sure to prevent damage on the apartment and provide an adequate environment for your pets,
+                for more information see <a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-20071150-om-tillsyn-over-hundar-och_sfs-2007-1150" target="_blank">Lag (2007:1150) om tillsyn över hundar och katter </a>
+             </div>
+            </div>
+         <div class ="Fire">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infofire" aria-expanded="false" aria-label="info about fire" aria-controls="infofire">
+               <i class="fas fa-fire-extinguisher"></i> Fire regulation
+            </button>
+            </div>
+            <div class="collapse" id="infofire">
+           All apartements are equiped with Smoke detectors, make sure to not block stairways and common spaces with items, for more information see <a href="https://www.elskling.se" target="_blank">Boverkets overview of fireregulations </a>
         </div>
-     <div class="lower_section container">
-             <div class="row">
-        <div class="col-md-12 col-lg-6 upper_section_left_profilepage"></div>
-        <div class="col-md-12 col-lg-6 mt-4 lower_section_left ">
-        <p class="text-center">
-       2020-12-13 : Gluewine party - In the garden (max 8 persons)
-        </p>
-        <p class="text-center">
-       2020-12-21 : Course in picking christmastree - Guided tour on the Island (max 8 persons)
-        </p>
-        <p class="text-center">
-       2020-12-23 : Voulenteer aid action - Help the Neighbourhood (max 8 persons)
-        </p>
-        <p class="text-center">
-       2020-12-24: Santa in Town - Chrismas dinner with the neighbour (max 8 persons)
-        </p>
+        <div class ="Smoking">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infosmoking" aria-expanded="false" aria-label="info about smoking" aria-controls="infosmoking">
+               <i class="fas fa-smoking"></i> Smoking
+            </button>
+            </div>
+            <div class="collapse" id="infosmoking">
+                As stated within your contract it is not allowed to smoke inside the apartment, for more information see <a href="https://lagen.nu/1970:994" target="_blank">Jordabalken 12 kap 24§</a>
         </div>
-        </div> 
-     </div>
-        
+         <div class ="Balcony">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infobalcony" aria-expanded="false" aria-label="info about balcony" aria-controls="infobalcony">
+                <i class="fas fa-store"></i> Balcony
+            </button>
+            </div>
+            <div class="collapse" id="infobalcony">
+                For fire safety reason it is not allowed to make barbeque on the balcony      
+            </div>
+                 <div class ="Waste">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infowaste" aria-expanded="false" aria-label="info about waste" aria-controls="infowaste">
+               <i class="fa fa-trash" aria-hidden="true"></i> Waste sorting
+            </button>
+            </div>
+            <div class="collapse" id="infowaste">
+            A Garbage room for ordinary waste is found in the basement, for more detailed sorting of garbage such as plastic, papper and metals a collection point is found outside Essingbrogata 37
+        </div>
+        <div class ="Storage">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infostorage" aria-expanded="false" aria-label="info about storage" aria-controls="infostorage">
+            <i class="fa fa-gift" aria-hidden="true"></i> Laundary
+            </button>
+            </div>
+            <div class="collapse" id="infostorage">
+            Storageroom is found in the attic, be aware of fire regulations and make sure not to occupy common space in the attic
+        </div>
+        </div>
 
- </section>
+
+    </div>
+</section> 
 <section class="Link">
     <div class="container links">
     <nav class="navbar">
@@ -137,7 +174,7 @@
  </div>
     </nav>
     </div>
-</section> 
+</section>
 <footer>    
     <div class="row">
             <div class="col text-center contactfooter">
