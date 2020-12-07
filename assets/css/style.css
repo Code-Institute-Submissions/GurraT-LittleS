@@ -137,7 +137,7 @@ color:rgb(180, 206, 129);
     font-family: "Oswald", sans-serif;
 }
 
-.Neighbourhood_main_section,.Partners_section{
+.Neighbourhood_main_section,.Partners_section, .Form_main_section{
     font-family: "Oswald", sans-serif;
     color:black;
     font-weight: 400;
@@ -169,7 +169,7 @@ color:rgb(180, 206, 129);
 }
 
 
-.Partners_section a, #infoelectricity a, #infogas a, #infotele a, #infotele a, #infoinsurance a, #infotransport a, #infokid a, #infohealth a, #inforestaurants a, #infosupermarket a, #infoother a{   
+.Partners_section a, #infoelectricity a, #infogas a, #infotele a, #infotele a, #infoinsurance a, #infotransport a, #infokid a, #infohealth a, #inforestaurants a, #infosupermarket a, #infoother a, #infomovingin a, #infomovingout a, #infosublet a, #infocancel a, #inforelocate a{   
     color:darkblue;
     font-family: "Oswald", sans-serif;
 }
@@ -328,65 +328,55 @@ color:rgb(180, 206, 129);
 
 /*---------------------------------Report an Issue Form*/
 
-.Title_issue p{
-    font-family: "Oswald", sans-serif;
+.modal-header h5{
+    text-align:center;
+    width:100%;
     color:#77293a;
-text-align: center;
-     font-weight: 500;
-     font-size: 18px; 
 }
 
-.failure{
-    text-align: center;
-}
-.failure img{
-    border-radius: 50%;
+#Issuereport{
+    margin:0 0 20px 0;
+   width: 30%;
 }
 
-Form {
-    text-align: center;
-}
-
-.form-control{
-    margin:10px 0 0 0;
-    border:#c6beb1 3px solid;
-    width: 30%;
-    height:20%;
-    
-}
-
-.custom-select{
-     margin:10px 0 0 0;
-      border:#c6beb1 3px solid;
-}
-
-
-.Issuereport_label{
+.Issuereport_label, .MovingIN_label{
      font-family: "Oswald", sans-serif;
+     margin:0px 0 0 0;
       color:#77293a;
-text-align: center;
+  text-align: center;
      font-weight: 400;
-     font-size: 14px;   
+     font-size: 20px;   
 }
 
-#first_name, #last_name, #apartment_id{
-    text-align: center;
+#apartment_id{
+        margin:0 0px 20px 30%;
+      width: 40%;
+}
+
+#first_name, #last_name{
+    margin: 0px 0 20px 0;
+    width:50%;
+    align-content: center;
     font-family: "Oswald", sans-serif;
 }
 
 #DescriptionOfIssue {
    resize: none;
-   width: 60%;
-   height: 60%;
+   width: 100%;
+   height: 20%;
 }
 
-.send_report{
-     margin:20px 0 0 0;
+.report_buttom{
+    background-color: #77293a;
+    color:white;
+}
+
+.report_buttom:hover{
+    background-color: lightgray;
+    color:black;
 }
 
 /*---------------------------------Profile page form buttom*/
-
-
 
 /*---------------------------------Media query*/
 

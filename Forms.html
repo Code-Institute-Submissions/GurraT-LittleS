@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Apartment at Lilla Essingen">
+    <meta name="keywords" content="Lilla Essingen, apartment, rent, living, Lomsten">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+   <!-- fontawesome CSS icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Font google fonts Oswald, Roboto, Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <title>Lomsten - Guidelines</title>
+</head>
+<body>
+<header>
+    <div class="container Logo_picture">
+    <nav class="navbar navbar-expand-sm">
+        <a href="/" class="navbar-brand logo ">Lomsten</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav navbar_header mx-auto">
+            <li class="active nav-item mr-2 d-none d-md-block"><a class="nav-link" href="Aboutthebuilding.html">About the Building</a></li>
+            <li class="active nav-item mr-2 d-none d-md-block"><a class="nav-link" href="Livinghere.html">Living Here</a></li>
+            <li class="active nav-item mr-2 d-none d-md-block"><a class="nav-link" href="Guidelines.html">Guidelines</a></li>
+            <li class="active nav-item mr-2 d-none d-md-block"><a class="nav-link" href="Profilepage.html">My page</a></li>
+            <li class="active nav-item mr-2 d-none d-md-block"><a class="nav-link" href="Contactpage.html">Contact information</a></li>
+            </ul>
+         </div>
+        <div class="dropdown dropleft d-block d-md-none d-lg-none dropdown_header_smd">
+            <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Menu">
+                <i class="fas fa-grip-lines"></i>
+            </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="Aboutthebuilding.html">About the Building</a>
+                    <a class="dropdown-item" href="Livinghere.html">Living Here</a>
+                    <a class="dropdown-item" href="Guidelines">Guidelines</a>
+                    <a class="dropdown-item" href="Profilepage.html">My page</a>
+                    <a class="dropdown-item" href="Contactpage.html">Contact information</a>
+                </div>
+            </div>
+    </nav>
+ <div class="container">
+            <div class="col-12 link_icon_header">
+                 <a href="index.html"><i class="fas fa-home"></i></a>
+                 <a href="Profilepage.html"><i class="fas fa-user"></i></a>
+                 <a href="Contactpage.html"><i class="fas fa-phone"></i></a>
+                 <a href="#" data-toggle="modal" data-target="#ReportAnIssue"><i class="fas fa-box-tissue"></i></a>
+     </div>
+    </div>
+    </div> 
+
+    
+<!-- Modal ReportAnIssue -->
+<div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Issuereport_label">Report An Issue</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+    <form class="form-inline">
+        <input type="text" name="FirstName" class="form-control" placeholder="Enter First Name" id="first_name" required>
+        <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
+    </form>
+    <form>
+        <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id"required>
+    <label class="Issuereport_label" for="Issuereport">Type of Issue  </label>
+      <select class="custom-select" id="Issuereport" required>
+        <option selected disabled value="">Apartment</option>
+        <option>Loundary</option>
+        <option>Storage</option>
+        <option>Neighbours</option>
+        <option>Invoice</option>
+        <option>Complaints</option>
+      </select>
+     <textarea row="10" name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
+ </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn report_buttom">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+</header>
+<section class="Main_content">
+    <div class="container">
+        <div class="Title_section col-12">
+            <h4 class="Title_upper_section text-center">Forms</h4>
+         </div>
+         <div class="row">
+    <div class="col-12 text-center Form_main_section">
+        <div class ="MovIN">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infomovingin" aria-expanded="false" aria-label="info about moving in" aria-controls="infomovingin">
+                <i class="fas fa-door-open"></i> Moving In
+            </button>
+        <div class="collapse" id="infomovingin">
+          </br> We hope you will feel at home in your new apartment, a good way to start is to go through this <a href="#" data-toggle="modal" data-target="#MovingIn"> checklist </a>
+        </br></br>
+        </div>
+         </div>
+            <div class ="MovOut">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infomovingout" aria-expanded="false" aria-label="info about movingout" aria-controls="infomovingout">
+                <i class="fas fa-truck-loading"></i> Moving Out 
+            </button>
+                    <div class="collapse" id="infomovingout">
+           </br> We hope you enjoyed your time in our building, before you move out we encourage you to look into following <a href="https://lagen.nu/1970:994#K3" target="_blank"> checklist </a>
+            </br></br>
+             </div>
+            </div>
+         <div class ="Sublet">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infosublet" aria-expanded="false" aria-label="info about changing apartment" aria-controls="infosublet">
+              <i class="fas fa-people-arrows"></i> Changing Apartment
+            </button>
+            </div>
+            <div class="collapse" id="infosublet">
+           </br>If you want to change or sublet your apartment please fill in following <a href="https://www.elskling.se" target="_blank"> Form </a>
+         </br></br>
+        </div>
+        <div class ="Cancelation">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#infocancel" aria-expanded="false" aria-label="info about cancelling contract" aria-controls="infocancel">
+               <i class="fas fa-times-circle"></i> Cancel Contract
+            </button>
+            </div>
+            <div class="collapse" id="infocancel">
+             </br>To cancel your contract please fill-in following <a href="https://lagen.nu/1970:994" target="_blank">Form</a>
+         </br></br>
+        </div>
+         <div class ="Relocate">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#inforelocate" aria-expanded="false" aria-label="info about relocation" aria-controls="inforelocate">
+                <i class="fas fa-paper-plane"></i> Update mailadress and notify relocation
+            </button>
+            </div>
+            <div class="collapse" id="inforelocate">
+            <br/> Notify <a href="https://skatteverket.se/privat/folkbokforing.4.18e1b10334ebe8bc800039.html" target="_blank"> the tax authorities </a> about your new adress </br>
+            You can also change the delivery of your mail to your new adress at <a href="https://www.adressandring.se/" target="_blank"> Svensk AdressÄndrings homepage </a>
+                 </br></br>
+                </div>
+    </div>
+<!-- Modal MovingIn-checklist -->
+
+<div class="modal fade" id="MovingIn" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="MovingIN_label"> Checklist for Moving In</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+    <form class="form">
+     <p>Pickup your keys before 12 pm at our office, keep in mind to bring your ID</p>
+  <input type="radio" id="key" name="key" value="key">
+  <label for="key">Received Keys</label><br>
+  <br>  
+  <p>Avoid blocking elevator or parking in the middle of the street while moving in</p>
+  <input type="radio" id="movIn" name="movIn" value="movIn">
+  <label for="movIn">Done moving in my belongings</label><br>
+    <br/>
+    <p>Locate your storage space which is marked with your Apartment ID and install a locker</p>
+  <input type="radio" id="storage" name="storage" value="storage">
+  <label for="storage">Located and locked my storage space</label><br>
+   <br/>
+    <p>Go over your Inspection protocol, if you find any deficiencies make sure to report them within 8 days notice</p>
+  <input type="radio" id="inspection" name="inspection" value="inspection">
+  <label for="inspection">Read the Inspection protocol</label><br>
+      <br/>
+      <p>familiarize yourself with the neighbourhood and find the parking and storage room for bicycle in the basement</p>
+  <input type="radio" id="parking" name="parking" value="parking">
+  <label for="parking">Located Parking lot and Bicycle storage</label>
+    <br/>
+      <p>Located the table for booking washing time in the attic outside the laundary room, your lock is marked with your Aprtment ID</p>
+  <input type="radio" id="laundary" name="laundary" value="laundary">
+  <br/>
+  <label for="laundary">Find the table for booking washing times</label><br>
+      <br/>
+      <p>Get acquainted with the neighbours, if you planning a moving in party make sure to set up a notice in the entrance so you neighbour are aware</p>
+  <input type="radio" id="sayhello" name="sayhello" value="sayhello">
+  </br>
+  <label for="sayhello">Got acquainted with the neighbours</label><br>
+  
+  <br><br>
+  </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn report_buttom">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+</section> 
+<section class="Link">
+    <div class="container links">
+    <nav class="navbar">
+ <div class="dropdown dropright dropdown_footer_info">
+   <p class="d-none d-md-block"> General Info </p> <i class="fas fa-book-open"></i>
+  <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButtonFooter1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="General Info">
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonFooter1">
+    <a class="dropdown-item" href="Livinghere.html">Living Here</a>
+    <a class="dropdown-item" href="Guidelines.html">Guidelines</a>
+    <a class="dropdown-item" href="#">Forms</a>
+  </div>
+ </div>
+  <div class="dropdown_footer_neighbourhood">
+         <div class="col-12 text-center">
+         Neighbourhood<br/><br/> <a href="Neighbourhood.html"> <i class="fas fa-city"></i></a>
+ </div>
+ </div>
+  <div class="dropdown_footer_partners">
+         <div class="col-12 text-center">
+         Partners<br/><br/> <a href="Partners.html"> <i class="far fa-handshake"></i></a>
+ </div>
+ </div>
+ <div class="dropdown_footer_contact dropleft">
+     <p class="d-none d-md-block">Contact Us </p><i class="fas fa-phone"></i>
+  <button class=" btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButtonFooter4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Contact">
+ </button>
+  <div class="dropdown-menu contact_footer_box" aria-labelledby="dropdownMenuButtonFooter4">
+    <a class="dropdown-item" href="Contactpage.html">Contact</a>
+    <a class="dropdown-item" href="ReportAnIssue.html">Report an Issue</a>
+    <a class="dropdown-item" href="#" >Cancel Contract</a>
+  </div>
+ </div>
+    </nav>
+    </div>
+</section> 
+<footer>    
+    <div class="row">
+            <div class="col text-center contactfooter">
+               <p class="text-center">Telephone: <a href="tel:00468XXXXXX"> 0046(0)8-XXXXXX </a> <br>  Openhour: Friday 8am to 12.30pm <br> <a href="mailto:xxx@lomsten.se"> Email: xxx@lomsten.se</a>
+            </div>
+            </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    </html>    
