@@ -319,19 +319,34 @@ color:rgb(180, 206, 129);
 }
 
 .contactfooter a{
-      margin: 10px 0px 0px 0px;;
+      margin: 0px 0px 0px 0px;;
     font-family: "Oswald", sans-serif;
     color:black;
      font-weight: 500;
      font-size: 16px; 
 }
 
-/*---------------------------------Report an Issue Form*/
+/*--------------------------------- Modal*/
 
 .modal-header h5{
     text-align:center;
     width:100%;
     color:#77293a;
+    font-weight: 600;
+     font-size: 20px; 
+}
+
+.Movin_form p, .Movout_form p{
+    color:black;
+         font-weight: 500;
+     font-size: 18px; 
+     text-decoration:underline;
+}
+
+.Movin_form label, .Movout_form label{
+    color:#77293a;
+         font-weight: 400;
+     font-size: 16px; 
 }
 
 #Issuereport{
@@ -339,14 +354,15 @@ color:rgb(180, 206, 129);
    width: 30%;
 }
 
-.Issuereport_label, .MovingIN_label{
+#Issuereport_label, #MovingIN_label{
      font-family: "Oswald", sans-serif;
      margin:0px 0 0 0;
       color:#77293a;
   text-align: center;
-     font-weight: 400;
+     font-weight: 600;
      font-size: 20px;   
 }
+
 
 #apartment_id{
         margin:0 0px 20px 30%;

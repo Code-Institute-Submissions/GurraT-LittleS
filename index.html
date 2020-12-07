@@ -49,10 +49,46 @@
                  <a href="index.html"><i class="fas fa-home"></i></a>
                  <a href="Profilepage.html"><i class="fas fa-user"></i></a>
                  <a href="Contactpage.html"><i class="fas fa-phone"></i></a>
-                 <a href="ReportAnIssue.html"><i class="fas fa-box-tissue"></i></a>
+                 <a href="#" data-toggle="modal" data-target="#ReportAnIssue"><i class="fas fa-box-tissue"></i></a>
      </div>
     </div>
-    </div>   
+    </div>    
+    <!-- Modal ReportAnIssue --> 
+    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="Issuereport_label">Report An Issue</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body text-center">
+        <form class="form-inline">
+            <input type="text" name="FirstName" class="form-control" placeholder="Enter First Name" id="first_name" required>
+            <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
+        </form>
+        <form>
+            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id"required>
+        <label class="Issuereport_label" for="Issuereport">Type of Issue  </label>
+        <select class="custom-select" id="Issuereport" required>
+            <option selected disabled value="">Apartment</option>
+            <option>Loundary</option>
+            <option>Storage</option>
+            <option>Neighbours</option>
+            <option>Invoice</option>
+            <option>Complaints</option>
+        </select>
+        <textarea row="10" name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
+    </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn report_buttom">Save changes</button>
+        </div>
+        </div>
+    </div>
+    </div> 
 </header>
 <section class="Main_content">
     <div class="container">
@@ -65,7 +101,7 @@
         </div>
         <div class="col-md-12 col-lg-6 upper_section_right">
         <p class=" text-center mt-4">Our tenants are our priority. Our aim is to offer apartments where you can feel at home. In our building you can find everything you need for the everyday life. Of course you have access to laundry and storage room. Our building is located close to the city in a quiet neigbourhood. On the island you find everything from supermarket to bakery. The local bus leaves frequently and it is easy to park in the neighbourhood. We beleive our strenght is that we care for our costumer. </p>
-        <p class="text-center"> You are most welcome to <a href="#">Contact us <i class="fas fa-phone"></i></a> or  <a href="#">Report an Issue <i class="fas fa-box-tissue"></i></a>. We priorities your call will do our best to solve your issue. </p>
+        <p class="text-center"> You are most welcome to <a href="Contactpage.html">Contact us <i class="fas fa-phone"></i></a> or  <a href="#" data-toggle="modal" data-target="#ReportAnIssue">Report an Issue <i class="fas fa-box-tissue"></i></a>. We priorities your call will do our best to solve your issue. </p>
         </div>
         </div>  
     </div>
@@ -106,17 +142,18 @@
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonFooter1">
     <a class="dropdown-item" href="Livinghere.html">Living Here</a>
     <a class="dropdown-item" href="Guidelines.html">Guidelines</a>
-    <a class="dropdown-item" href="Forms.html">Forms</a>
+    <a class="dropdown-item" href="Forms">Forms</a>
   </div>
  </div>
   <div class="dropdown_footer_neighbourhood">
          <div class="col-12 text-center">
-         Neighbourhood<br/><br/> <a href="Neighbourhood.html"> <i class="fas fa-city"></i></a>
+        <p class="d-none d-md-block"> Neighbourhood </p><a href="Neighbourhood.html"> <i class="fas fa-city"></i></a>
  </div>
+ 
  </div>
   <div class="dropdown_footer_partners">
          <div class="col-12 text-center">
-         Partners<br/><br/> <a href="Partners.html"> <i class="far fa-handshake"></i></a>
+         <p class="d-none d-md-block"> Partners </p><a href="Partners.html"> <i class="far fa-handshake"></i></a>
  </div>
  </div>
  <div class="dropdown_footer_contact dropleft">
@@ -125,8 +162,8 @@
  </button>
   <div class="dropdown-menu contact_footer_box" aria-labelledby="dropdownMenuButtonFooter4">
     <a class="dropdown-item" href="Contactpage.html">Contact</a>
-    <a class="dropdown-item" href="ReportAnIssue.html">Report an Issue</a>
-    <a class="dropdown-item" href="#" >Cancel Contract</a>
+    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#ReportAnIssue">Report an Issue</a>
+    <a class="dropdown-item" href="assets/document/CancelContract.pdf" >Cancel Contract</a>
   </div>
  </div>
     </nav>
