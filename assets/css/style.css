@@ -5,10 +5,6 @@
 
 /*---------------------------------Header*/
 
-header{
-    margin: 0px 0px 0px 0px;
-}
-
 .Logo_picture{
     background-image: url("../img/Logo_background2.png");
        background-size: 100% 100%;
@@ -24,7 +20,7 @@ color: #77293a;
     text-shadow: 1.5px 1.5px black;
 text-align: right;
 font-weight: 600;
-font-size: 46px;
+font-size: 52px;
 }
 
 .logo:hover{
@@ -35,7 +31,7 @@ color:white;
  .navbar_header li a{
      font-family: "Oswald", sans-serif;
      font-weight: 500;
-     font-size: 18px;
+     font-size: 22px;
      padding: 0px 6px 0px 6px;
      color: #020202;
     text-shadow: 1.5px 1.5px #aaaaaa;
@@ -90,63 +86,34 @@ color:rgb(180, 206, 129);
     margin: 20px 0px 20px 0px;
 }
 
-.Title_section{
-      margin: 12px 0px 40px 0px;
+.Title_section h4{
+      margin: 12px 0px 20px 0px;
     font-family: "Oswald", sans-serif;
+    font-size: 32px;
     color:black;
     text-shadow: 0.5px 0.5px #987e6a;
      font-weight: 500;
      margin-top:40px;
 }
 
-.Title_section_contactpage{
-      margin: 0px 0px 0px 0px;
-    font-family: "Oswald", sans-serif;
+.Title_section p {
+    font-family: "Roboto", sans-serif;
+    font-size:20px;
     color:black;
-    text-shadow: 0.5px 0.5px #987e6a;
      font-weight: 500;
-     margin-top:40px;
+
 }
 
-
-.upper_section_left_index{
-    height: 300px;
-    background-image: url("../img/GeneralInfo3.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-}
-
-.upper_section_left_aboutthebuilding{
-    height: 300px;
-    background-image: url("../img/vision1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.middle_section_right__aboutthebuilding{   
-    height: 300px;
-    background-image: url("../img/history.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.Livinghere_main_section{
-    margin: 0 0 20px 0;   
-    color:#6a380d;
-    text-shadow: 0.8px 0.8px black;
-    font-family: "Oswald", sans-serif;
-}
-
-.Neighbourhood_main_section,.Partners_section, .Form_main_section{
-    font-family: "Oswald", sans-serif;
-    color:black;
-    font-weight: 400;
+.upper_section_right_index p, .lower_section_left_index p, .board_text, .vision_section p, .history_section_left p, .Guidelines_main_section, .Neighbourhood_main_section,.Partners_section, .Form_main_section, .Livinghere_main_section, .Guidelines_main_section, .Neighbourhood_main_section,.Partners_section, .Form_main_section, .Livinghere_main_section , .news_section_left p, .upper_section_contactpage p {
+    color:#494444;
+    font-size:18px;
+    font-family: "Roboto", sans-serif;
+      font-weight: 400;
 }
 
 
 .Partner_title1a {
-    margin: 0px 0 0 0;
-    font-size:18px;
+    font-size:22px;
     font-family: "Oswald", sans-serif;
     color:black;
      font-weight: 600;
@@ -155,7 +122,7 @@ color:rgb(180, 206, 129);
 
 .Partner_title1 {
     margin: 40px 0 0 0;
-    font-size:18px;
+    font-size:22px;
     font-family: "Oswald", sans-serif;
     color:black;
      font-weight: 600;
@@ -164,91 +131,73 @@ color:rgb(180, 206, 129);
 
 .Partner_title2 {
     font-family: "Oswald", sans-serif;
+    font-size:20px;
     color:black;
      font-weight: 500;
 }
 
 
-.Partners_section a, #infoelectricity a, #infogas a, #infotele a, #infotele a, #infoinsurance a, #infotransport a, #infokid a, #infohealth a, #inforestaurants a, #infosupermarket a, #infoother a, #infomovingin a, #infomovingout a, #infosublet a, #infocancel a, #inforelocate a{   
+.Guidelines_main_section a, .upper_section_index a, .upper_section_right_contactpage a, .Partners_section a, #infoelectricity a, #infogas a, #infotele a, #infotele a, #infoinsurance a, #infotransport a, #infokid a, #infohealth a, #inforestaurants a, #infosupermarket a, #infoother a, #infomovingin a, #infomovingout a, #infosublet a, #infocancel a, #inforelocate a{   
     color:darkblue;
     font-family: "Oswald", sans-serif;
-}
-
-.Neighbourhood_main_section button{¨
-    font-weight: 500;}
-
-.Livinghere_main_section button{
-      color:black;
-}
-
-.Livinghere_main_section button:hover, .Neighbourhood_main_section button:hover{
-     color:darkblue;
 }
 
 .board{
  color:#111111;   
 }
 
-.board_title, .board_pic{
+.board_title{
  font-family: "Oswald", sans-serif;
      font-weight: 500;
-     font-size: 24px;
+     font-size: 22px;
 }
 
 .board_text1{
  font-family: "Oswald", sans-serif;
-     font-weight: 400;
-     font-size: 18px;
-}
-.board_text ,.livinghere_text{
- font-family: "Roboto", sans-serif;
- color:#6a380d;
-     font-weight: 400;
+     font-weight: 500;
+     font-size: 20px;
 }
 
-.upper_section, .lower_section, .upper_section_contactpage{
-    font-family: "Roboto", sans-serif;
-    color:#6a380d;
-     font-weight: 400;
-     vertical-align: middle;
+.upper_section_left_index{
+    height: 300px;
+    background-image: url("../img/GeneralInfo3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
-.upper_section a, .lower_section a {
-    font-family: "Roboto", sans-serif;
-    color:red;
+
+.Guidelines_main_section button, .Livinghere_main_section button, .Neighbourhood_main_section button, .Form_main_section button {
+    margin:20px 0 0 0;
+    font-size:20px;
+    font-family: "Oswald", sans-serif;
+    color:black;
      font-weight: 600;
 }
 
-
-.upper_section_left, .lower_section_right{
-   text-align: center;
+.Guidelines_main_section button:hover, .Livinghere_main_section button:hover, .Neighbourhood_main_section button:hover, .Form_main_section button:hover {
+     color:darkblue;
 }
 
-.upper_section_right_contactpage {
-    margin: 0 0 0 0;
-    padding: 100px 0px 0px 20px;
-    text-align:left;
-     font-family: "Roboto", sans-serif;
-    color:black;
-     font-weight: 400;
+.board_pic{
+     font-size: 42px;
+
 }
 
-.upper_section_right_contactpage a {
-    font-weight: 500;
-     color:#77293a; 
+.vision_section_left{
+    height: 300px;
+    background-image: url("../img/vision1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.upper_section_right_contactpage a:hover {
-    font-weight: 500;
-     color:red; 
+.history_section_right{   
+    height: 300px;
+    background-image: url("../img/history.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.upper_section_left_contactpage{
-    margin:0 0 0 0;
-}
-
-.lower_section_right_index, .upper_section_left_profilepage{
-       
+.news_section_right{  
     margin: 0 0 20px 0;    
     height: 300px;
     background-image: url("../img/News2.JPG");
@@ -264,10 +213,19 @@ color:rgb(180, 206, 129);
     background-repeat: no-repeat;  
 }
 
+.upper_section_right_contactpage {
+    padding: 100px 0px 0px 40px;
+    text-align:left;
+}
+
+.board{
+    margin: 50px 0 0 0;
+}
+
 /*---------------------------------Sub Section*/
 
 .links{
-     background-color: #111111;
+    background-color:black;
      }
 
 .dropdown_footer_info, .dropdown_footer_neighbourhood, .dropdown_footer_partners,.dropdown_footer_contact {
@@ -392,22 +350,18 @@ color:rgb(180, 206, 129);
     color:black;
 }
 
-/*---------------------------------Profile page form buttom*/
-
 /*---------------------------------Media query*/
-
-
-
 
 @media screen and (max-width: 992px){
 
     .logo{
-        font-size: 28px;
+        font-size: 34px;
         }
+
     .navbar_header li a{
      font-family: "Oswald", sans-serif;
      font-weight: 500;
-     font-size: 14px;
+     font-size: 18px;
      }
 
      .link_icon_header a{
