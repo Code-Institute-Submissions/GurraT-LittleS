@@ -62,7 +62,8 @@ color: #77293a;
 }
 
 .link_icon_header a:hover{
-color:rgb(180, 206, 129); 
+  color: #020202;
+    text-shadow: 1.5px 1.5px #aaaaaa; 
 }
 
 .dropdown_header_smd{
@@ -152,12 +153,6 @@ color:rgb(180, 206, 129);
      font-size: 22px;
 }
 
-.board_text1{
- font-family: "Oswald", sans-serif;
-     font-weight: 500;
-     font-size: 20px;
-}
-
 .upper_section_left_index{
     height: 300px;
     background-image: url("../img/GeneralInfo3.jpg");
@@ -222,15 +217,138 @@ color:rgb(180, 206, 129);
     margin: 50px 0 0 0;
 }
 
+/* Ticker Vision section*/
+
+/* OUTER CONTAINER */
+.tcontainer {
+    margin:20px 0 0 20px;
+  width: 100%;
+  overflow: hidden; /* Hide scroll bar */
+}
+
+/* MIDDLE CONTAINER */
+.ticker-wrap {
+  width: 100%;
+  padding-left: 100%; /* Push contents to right side of screen */
+}
+
+/* INNER CONTAINER */
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+
+.ticker-move {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 28s;
+}
+
+/* ITEMS */
+.ticker-item{
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0 2rem;
+  color:#494444;
+  font-size:22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; 
+}
+
+/* Ticker Boardmember section*/
+
+.tickerv1-wrap1 {
+    margin:20px 0 0 20px;
+  box-sizing: content-box;
+  height: 20px; 
+  overflow: hidden; 
+  padding: 10px;
+} 
+
+@keyframes tickerv1 {
+  0%   {margin-top: 0;}
+  25%  {margin-top: -22px;} 
+  50%  {margin-top: -44px;} 
+  75%  {margin-top: -66px;} 
+  100% {margin-top: -88px;} 
+}
+
+/* ITEMS */
+.tickerv1-wrap1 ul li {
+  color:#494444;
+  font-size:22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; 
+}
+
+.tickerv1-wrap1 ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  animation-name: tickerv1; /* Loop through items */
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, .5, 0);
+}
+.tickerv1-wrap1 ul:hover {
+  animation-play-state: paused;
+}
+
+/* Ticker History section*/
+
+.tickerv-wrap {
+    margin:20px 0 0 20px;
+  box-sizing: content-box;
+  height: 200px; 
+  overflow: hidden; 
+  padding: 10px;
+} 
+
+@keyframes tickerv {
+  0%   {margin-top: 0;}
+  25%  {margin-top: -125px;} 
+  50%  {margin-top: -250px;} 
+  75%  {margin-top: -375px;} 
+  100% {margin-top: -500px;} 
+}
+
+/* ITEMS */
+.tickerv-wrap ul li {
+  color:#494444;
+  font-size:18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; 
+}
+
+.tickerv-wrap ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  animation-name: tickerv; /* Loop through items */
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, .5, 0);
+}
+.tickerv-wrap ul:hover {
+  animation-play-state: paused;
+}
+
+
 /*---------------------------------Sub Section*/
 
 .links{
-    background-color:black;
+   background-image: url("../img/footer.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;  
      }
 
 .dropdown_footer_info, .dropdown_footer_neighbourhood, .dropdown_footer_partners,.dropdown_footer_contact {
     font-family: "Oswald", sans-serif;
       color:white;
+      text-shadow:black 1px solid;
       font-size: 18px;
 }
 
@@ -243,7 +361,8 @@ color:rgb(180, 206, 129);
 .dropdown_footer_neighbourhood a:hover, .dropdown_footer_partners a:hover{
        font-family: "Oswald", sans-serif;
        font-weight: 400;
-     color:#77293a;
+     color: lightgray;
+    text-shadow: 1.5px 1.5px #aaaaaa; 
 }
 
 .dropdown_footer_info button, .dropdown_footer_neighbourhood button, .dropdown_footer_partners button,.dropdown_footer_contact button {
@@ -256,7 +375,8 @@ color:rgb(180, 206, 129);
 .dropdown_footer_info button:hover, .dropdown_footer_neighbourhood button:hover, .dropdown_footer_partners button:hover,.dropdown_footer_contact button:hover{
        font-family: "Oswald", sans-serif;
        font-weight: 400;
-     color:#77293a;
+     color: lightgray;
+    text-shadow: 1.5px 1.5px #aaaaaa; 
 }
 
 
@@ -273,7 +393,7 @@ color:rgb(180, 206, 129);
     font-family: "Oswald", sans-serif;
     color:#77293a;
      font-weight: 500;
-     font-size: 16px; 
+     font-size: 18px; 
 }
 
 .contactfooter a{
@@ -281,7 +401,7 @@ color:rgb(180, 206, 129);
     font-family: "Oswald", sans-serif;
     color:black;
      font-weight: 500;
-     font-size: 16px; 
+     font-size: 18px;
 }
 
 /*--------------------------------- Modal*/
@@ -389,11 +509,4 @@ color:rgb(180, 206, 129);
       font-size: 18px;
 }
 
-.contactfooter{
-      margin: 10px 0px 0px 0px;;
-    font-family: "Oswald", sans-serif;
-    color:#77293a;
-     font-weight: 500;
-     font-size: 12px; 
-}
 }
