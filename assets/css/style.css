@@ -83,12 +83,19 @@ color: #77293a;
 
 /*---------------------------------Main Section*/
 
-.Main_content{
+ .Main_content{
     margin: 20px 0px 20px 0px;
 }
 
+.Guidelines_main_section, .news_section_left, .history_section_left, .news_section_right, .upper_section_contactpage, .Livinghere_main_section, .Form_main_section, .Neighbourhood_main_section, .Partner_main_section{
+        margin: 0px 0px 40px 0px;
+}
+
+.Title_section, .news_section_mypage{
+    margin: 20px 0px 30px 0px;
+}
+
 .Title_section h4{
-      margin: 12px 0px 20px 0px;
     font-family: "Oswald", sans-serif;
     font-size: 32px;
     color:black;
@@ -106,7 +113,7 @@ color: #77293a;
 }
 
 .upper_section_right_index p, .lower_section_left_index p, .board_text, .vision_section p, .history_section_left p, .Guidelines_main_section, .Neighbourhood_main_section,.Partners_section, .Form_main_section, .Livinghere_main_section, .Guidelines_main_section, .Neighbourhood_main_section,.Partners_section, .Form_main_section, .Livinghere_main_section , .news_section_left p, .upper_section_contactpage p {
-    color:#494444;
+    color: #494444;
     font-size:18px;
     font-family: "Roboto", sans-serif;
       font-weight: 400;
@@ -155,8 +162,9 @@ color: #77293a;
 
 .upper_section_left_index{
     height: 300px;
-    background-image: url("../img/GeneralInfo3.jpg");
-    background-size:cover;
+    background-image: url("../img/GeneralInfo.jpg");
+    background-size:60% 100%;
+   background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -187,7 +195,7 @@ color: #77293a;
 
 .history_section_right{   
     height: 300px;
-    background-image: url("../img/history.png");
+    background-image: url("../img/historyL.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -195,8 +203,9 @@ color: #77293a;
 .news_section_right{  
     margin: 0 0 20px 0;    
     height: 300px;
-    background-image: url("../img/News2.JPG");
-    background-size: 100% 100%;
+    background-image: url("../img/news.png");
+    background-size: 60% 100%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -217,7 +226,7 @@ color: #77293a;
     margin: 50px 0 0 0;
 }
 
-/* Ticker Vision section*/
+/* Ticker Vision section, General info , news section*/
 
 /* OUTER CONTAINER */
 .tcontainer {
@@ -245,10 +254,8 @@ color: #77293a;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;
-  animation-duration: 28s;
+  animation-duration: 40s;
 }
-
-/* ITEMS */
 .ticker-item{
   display: inline-block; /* Lay items in a horizontal line */
   padding: 0 2rem;
@@ -258,43 +265,43 @@ color: #77293a;
   font-weight: 500; 
 }
 
-/* Ticker Boardmember section*/
-
-.tickerv1-wrap1 {
-    margin:20px 0 0 20px;
-  box-sizing: content-box;
-  height: 20px; 
-  overflow: hidden; 
-  padding: 10px;
-} 
-
-@keyframes tickerv1 {
-  0%   {margin-top: 0;}
-  25%  {margin-top: -22px;} 
-  50%  {margin-top: -44px;} 
-  75%  {margin-top: -66px;} 
-  100% {margin-top: -88px;} 
+.mticker-wrap {
+  width: 100%;
+  padding-right: 100%; /* Push contents to left side of screen */
+}
+@keyframes mticker {
+  0% { transform: translate3d(-100%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
 }
 
-/* ITEMS */
-.tickerv1-wrap1 ul li {
+.mticker-move {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: mticker;
+  animation-duration: 70s;
+}
+
+.mticker-item{
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0 2rem;
   color:#494444;
   font-size:22px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400; 
+  font-weight: 500; 
 }
 
-.tickerv1-wrap1 ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  animation-name: tickerv1; /* Loop through items */
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(1, 0, .5, 0);
-}
-.tickerv1-wrap1 ul:hover {
-  animation-play-state: paused;
+/* ITEMS */
+
+.mticker-item{
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0 2rem;
+  color:#494444;
+  font-size:22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; 
 }
 
 /* Ticker History section*/
@@ -330,7 +337,7 @@ color: #77293a;
   animation-name: tickerv; /* Loop through items */
   animation-duration: 20s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(1, 0, .5, 0);
+  animation-timing-function: ease-out;
 }
 .tickerv-wrap ul:hover {
   animation-play-state: paused;
@@ -340,21 +347,24 @@ color: #77293a;
 /*---------------------------------Sub Section*/
 
 .links{
-   background-image: url("../img/footer.png");
-    background-size:100% 100%;
+   background-image: url("../img/foot.png");
+   height:150px;
+    background-size:cover;
     background-repeat: no-repeat;  
      }
 
 .dropdown_footer_info, .dropdown_footer_neighbourhood, .dropdown_footer_partners,.dropdown_footer_contact {
     font-family: "Oswald", sans-serif;
-      color:white;
-      text-shadow:black 1px solid;
+      color:#77293a;
+      font-weight:500;
+      text-shadow: white 2px 2px;
       font-size: 18px;
 }
 
-.dropdown_footer_neighbourhood a, .dropdown_footer_partners a{
+.dropdown_footer_info a, .dropdown_footer_neighbourhood a, .dropdown_footer_partners a,.dropdown_footer_contact a{
     font-family: "Oswald", sans-serif;
-      color:white;
+      color:#77293a;
+      font-weight:400;
       font-size: 18px;
 }
 
@@ -367,8 +377,9 @@ color: #77293a;
 
 .dropdown_footer_info button, .dropdown_footer_neighbourhood button, .dropdown_footer_partners button,.dropdown_footer_contact button {
        font-family: "Oswald", sans-serif;
-       font-weight: 400;
-     color:white;
+        color:#77293a;
+      font-weight:500;
+      text-shadow: white 2px 2px;
       font-size: 18px;
 }
 
