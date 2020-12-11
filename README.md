@@ -1,6 +1,6 @@
 # Lomsten
 
-![Lomsten](assets/img/Homepage.png "Main page large devices")
+![Lomsten](assets/img/Lomsten.png "Main page large devices")
 
 #### The aim of this website is to in an easy and intuitive way present useful and crucial information to people living or working in a building owned by Lomsten. 
 
