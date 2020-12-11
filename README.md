@@ -11,7 +11,7 @@
 ### User story
 #### We expect this website to be used by the following personas 
 - tenants: these are the people living in the building owned by Lomsten
-- the caretaker: this is the people taking care about the building
+- the caretaker: this is the people taking care About us
 - the other contractors: these are the people involved in other activities connected to the building 
 
 The personas main goal is to find information about building so that they know how they should relate, locate and act within the building. Their agespan is supposted to be between 25 and 45 years old.
@@ -68,55 +68,51 @@ Sum |22 |18
 
 Features|   Content |Difficulty level
 --------|-----------|----------------|
-Framework| Main page, About the building page, Living Here page, Guidelines page, Profile page, Contact Info page, The neighbourhood page, Partner Page, Forms (Report an issue, Login), Linkbuttom to pdf-file (Cancel contract, Contract, Invoice, Blueprint) |2
+Framework| Main page, About us, Living Here page, Guidelines page, Profile page, Contact Info page, The neighbourhood page, Partner Page, Forms (Report an issue, Login), Linkbuttom to pdf-file (Cancel contract, Contract, Invoice, Blueprint) |2
 Simple, clean, intuative design| Header with Logo + link buttom, + nav bar, Section with main text-content, SubSection with links, Footer with contact info| 1
 |||
 Head | Title and content| 1
-Main page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
+Main page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
 Main page: Section| Div with General information, Div with News|2
-Main page: SubSection | Links to About the living, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
+Main page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
 Main page: Footer|Contact information|1
+||| About us: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1 About us: Section| Div with Vision, Div with History, Div with Board of Management and Executive Committee|2 About us: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2 About us: Footer|Contact information|1
 |||
-About the Building page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
-About the Building page: Section| Div with Vision, Div with History, Div with Board of Management and Executive Committee|2
-About the Building page: SubSection | Links to About the living, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
-About the Building page: Footer|Contact information|1
-|||
-Living Here page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
-Living Here page: Section| Div with About the Building with list with information on water, electricity, laundary etc..|2
-Living Here page: SubSection | Links to About the living, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
+Living Here page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
+Living Here page: Section| Div with About us with list with information on water, electricity, laundary etc..|2
+Living Here page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
 Living Here page: Footer|Contact information|1
 |||
-Guidelines page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
+Guidelines page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
 Guidelines page: Section| Div with For your comfort Guidelines, Div with worth to know before implementing|2
-Guidelines page: SubSection | Links to About the living, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
+Guidelines page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
 Guidelines page: Footer|Contact information|1
 |||
-Profile page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact, Contract, Invoice, Blueprint, Report an Issue), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
+Profile page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact, Contract, Invoice, Blueprint, Report an Issue), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
 Profile page: Section| Div with News|2
-Profile page: SubSection | Links to About the living, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
+Profile page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
 Profile page: Footer|Contact information|1
 |||
 Form: LogiN| With Redirection to Profile site|4
 |||
 Form: Report an Issue | to send in an Issue to a database | 4
 |||
-Contact Info page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
+Contact Info page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
 Contact Info page: Section| Div with Contact Info|2
-Contact Info page: SubSection | Links to About the living, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
+Contact Info page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
 Contact Info page: Footer|Contact information|1
 |||
-Form page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
+Form page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
 Form page: Section| Div with Contact Info|2
 Form page: SubSection | List with links to forms|2
 Form page: Footer|Contact information|1
 |||
-Neighbourhood page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
+Neighbourhood page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
 Neighbourhood page: Section| Div with a list with information about the neighboorhood|2
 Neighbourhood page: SubSection | List with links to forms|2
 Neighbourhood page: Footer|Contact information|1
 |||
-Partner page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About the building, About the living, Guidelines, My pages, Contact Information) |1
+Partner page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
 Partner page: Section| Div with a contact information to constructor and people involved in the maintance of the building|2
 Partner page: SubSection | List with links to forms|2
 Partner page: Footer|Contact information|1
@@ -130,12 +126,12 @@ Partner page: Footer|Contact information|1
 3. Click on the Contact field in the SubSection (applicable for all pages)
 
 - To report an Issue there is following options to open Form to report an Issue
-1. Click on the Report an Issue buttom(wrench icon) in the Header (applicable for all pages)
+1. Click on the Report an Issue buttom(paperfiling icon) in the Header (applicable for all pages)
 2. Click on the Report an Issue field in the SubSection (applicable for all pages)
 
 - To get information about what is included in the rent and where to find assets such as laundary there is following options to open Living Here pages 
-1. Click on the About the living field in the Navbar (applicable for all pages)
-2. Click on the About the living field in the SubSection (applicable for all pages)
+1. Click on the Living Here field in the Navbar (applicable for all pages)
+2. Click on the Living Here field in the SubSection (applicable for all pages)
 
 - To get information about rules and guidelines there is following options to open Guidelines page
 1. Click on the Guidelines field in the Navbar (applicable for all pages)
@@ -170,9 +166,9 @@ In order to use this web-page on small media device follow action has/should bee
 
 1. Construct a Main page-template readable in small media and large media devices. -Check
 2. Test and validate the design through google inspection tool & lighthouse -Check 
-3. When satisfied with the design of the Main page use this template to construct the rest of the pages on the website
-4. Test and validate the design through google inspection tool & lighthouse
-5. Construct a form for login to profile page 
+3. When satisfied with the design of the Main page use this template to construct the rest of the pages on the website-check
+4. Test and validate the design through google inspection tool & lighthouse -check
+5. Construct a form for login to profile page -check
 6. Test and validate the form through google inspection tool & lighthouse
 5. Construct a form for report an issue -check
 7. Test and validate the form through google inspection tool & lighthouse -check
@@ -191,7 +187,7 @@ In order to use this web-page on small media device follow action has/should bee
 ---
 ## Technologies that has been used
 
-#### HTML, CSS, Bootstrap, Font awesome, Google Fonts, Google Inspection Tool, Light House, Image Resizer, 
+#### HTML, CSS, Bootstrap, Font awesome, Google Fonts, Google Inspection Tool, Light House, Microsoft Paint, Microsoft powerpoint, FreeCAD, Image Resizer, 
 ---
 ---
 ## Testing
@@ -264,7 +260,8 @@ In order to use this web-page on small media device follow action has/should bee
 6. [Deployed webpage](gurrat.github.io/LittleS/index.html) was sent out through Messenger to 5 selected Beta-tester for comments (see Acknowledgement)
 7. The deployed webpage was then opened on following browser Microsoft Explorer, Microsoft Edge, Samsung Internet
 8. Finally the code was tested using LightHouse in Google Inspection tool (see fixed Bugs and Open Questions)
-- Remains to Validate code by using CSS3/HTML-validator and send code to Mentor for comments
+9. Validated code by using CSS3/HTML-validator (see fixed bugs)
+10. Send code to Mentor for comments (see fixed bugs)
 
 ### Step 3. Implementing code for ReportAnIssue-form
 #### Implementing code for the ReportAnIssue.html, linked it with style.css, Bootstrap, FontAwesome and Google Fonts and tested
@@ -304,7 +301,7 @@ In order to use this web-page on small media device follow action has/should bee
     - Kept as the template
 
 ### Step 6. Implementing code for Aboutthebuilding.html using index.html as template
-#### Following change was done on the template to create profilepage.html
+#### Following change was done on the template to create Aboutthebuilding.html
 1. Head
     - Changed text-content in Title
 
@@ -327,11 +324,11 @@ In order to use this web-page on small media device follow action has/should bee
 ### Step 7. Testing Design and Responsiveness of Profile.html and Aboutthebuilding.html
 #### Followed same procedure as Step 2. (Testing Design and Responsiveness of index.html)
 
-    - Adjusted alignment of Header Icon 
-    - Adjusted the margin between text and image contents
-    - Set underlines to Title_section
-    - Adjusted colortheme
-    - Sat meta tags to Header
+- Adjusted alignment of Header Icon 
+- Adjusted the margin between text and image contents
+- Set underlines to Title_section
+- Adjusted colortheme
+- Sat meta tags to Header
 
 ### Step 8. Run Html-validation on index.html code
 #### 
@@ -345,6 +342,153 @@ In order to use this web-page on small media device follow action has/should bee
 
 ### Step 12. Pushed code to GITHUB to see if validation work
 
+### Step 13. Implementing code for Contactpage.html using index.html as template
+#### Following change was done on the template to create Contactpage.html
+1. Head
+    - Changed text-content in Title
+
+2. Header
+    - Kept as the template
+
+3. Main Section
+    - Removed all section div except the upper_section-Div and renamed it to Upper_section_contactpage
+    - Divided Upper_section_contactpage in to a left and a right container
+    - In left container I added a backgroundimage using CSS-stylesheet
+    - In right container I added text-content with interactive links to email and telephonenumber
+
+4. Sub Section
+    - Kept as the template
+
+5. Footer
+    - Kept as the template
+
+
+### Step 14. Implementing code for Livinghere.html using index.html as template
+#### Following change was done on the template to create Livinghere.html
+1. Head
+    - Changed text-content in Title
+
+2. Header
+    - Kept as the template
+
+3. Main Section
+    - Removed all section div except one title div
+    - Under title div I added a div with class col-12 and named it Livinghere_main_section
+    - In Livinghere_main_section I added a Buttom-list with information about the living
+    - Added intuative icon from Fontawesome to the buttom titles
+    - In the options I added links to useful informations
+
+4. Sub Section
+    - Kept as the template
+
+5. Footer
+    - Kept as the template
+
+### Step 15. Implementing code for Guidelines.html using Livinghere.html as template
+#### Following change was done on the template to create Guidelines.html
+1. Head
+    - Changed text-content in Title
+
+2. Header
+    - Kept as the template
+
+3. Main Section
+    - Renamed Livinghere_main_section to Guidelines_main_section
+    - Updated buttom-titles, icons and option content to suite this page
+    - In the options I added links to useful informations (see Acknowledgement)
+
+4. Sub Section
+    - Kept as the template
+
+5. Footer
+    - Kept as the template
+
+### Step 16. Implementing code for Neighbourhood.html using Livinghere.html as template
+#### Following change was done on the template to create Neighbourhood.html
+1. Head
+    - Changed text-content in Title
+
+2. Header
+    - Kept as the template
+
+3. Main Section
+    - Renamed Livinghere_main_section to Neighbourhood_main_section
+    - Updated buttom-titles, icons and option content to suite this page 
+    - In the options I added links to useful informations (see Acknowledgement)
+
+4. Sub Section
+    - Kept as the template
+
+5. Footer
+    - Kept as the template
+
+### Step 17. Implementing code for MovingIn Checklist form
+#### Implementing code for the MovingIn.html, linked it with style.css, Bootstrap, FontAwesome and Google Fonts and tested
+
+#### Form
+   - Created main structure for form with a main Title followed by rows with text, radiobuttom and label
+   - Adjusted colortheme on Title, text and label
+
+### Step 18. Implementing code for MovingOut Checklist form using MovingIn Checklist form as template
+#### Implementing code for the MovingOut. html, linked it with style.css, Bootstrap, FontAwesome and Google Fonts and tested
+
+#### Form
+   - Adjusted class-name, title, text and labels to match the purpose of this form
+
+### Step 19. Created mockups for Cancel Contract and Changing Apartment using excel and convert the template to PDF-files
+
+
+#### Form
+   - Adjusted class-name, title, text and labels to match the purpose of this form
+
+### Step 20. Implementing code for Forms.html using Livinghere.html as template
+#### Following change was done on the template to create Forms.html
+1. Head
+    - Changed text-content in Title
+
+2. Header
+    - Kept as the template
+
+3. Main Section
+    - Renamed Livinghere_main_section to Form_main_section
+    - Updated buttom-titles, icons and option content to suite this page 
+    - In the options I added links to useful informations, to MovingIn and MovingOut Checklist as well as links to Changing Apartment and Cancel contract mockups (see Acknowledgement)
+
+4. Sub Section
+    - Kept as the template
+
+5. Footer
+    - Kept as the template
+
+### Step 21. Implementing code for Contactpage.html using Livinghere.html as template
+#### Following change was done on the template to create Contactpage.html
+1. Head
+    - Changed text-content in Title
+
+2. Header
+    - Kept as the template
+
+3. Main Section
+ - Removed all content execpt Title-section
+ - Under Title Section I added a section called Partners_section with class = text-center plus col-12
+ - Filled the Partners_section with div each containing a title, companyname and links to phonenumber and emails
+ - Added intuative icons to the titles
+ - 
+4. Sub Section
+    - Kept as the template
+
+5. Footer
+    - Kept as the template
+
+### Step 22. Rebuilt ReportAnIssue.html to be integrated as modal in the header-section the index-page and removed the ReportAnIssue.html (see Credit-section)
+
+### Step 23. Link all underlying pages, forms and modal to respectivly link section in index.html
+
+### Step 24. Copy Header/SubSection/Footer from index.html to all underlying pages
+
+### Step 25. Rebuilt MovingIn.html and MovingOut.html to be integrated as modal in the main-section of the forms-page, and removed the respectivly html-template (see Credit-section)
+
+### Step 26. Tested the Design, navigation and responsiveness on GitPods port:8000 using by running following command in the Gitpod terminal "python3 -m http.server" (see fixed bugs)
 
 
 <!--
@@ -385,6 +529,8 @@ Connect to ReportAnIssue.html
 
 - Locked the size of the text-area following comments from Simon on Stack Overflow adding following code
     * #DescriptionOfIssue {resize: none;}
+
+-
 
 ### Known Bugs
 
@@ -458,10 +604,60 @@ Connect to ReportAnIssue.html
 - #DescriptionOfIssue {resize: none;}
 ---
 
+#### Orginal code 
+- [input type="radio" id="male" name="gender" value="male"](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio) ,example from w3school
+#### Implemented code
+- input type="radio" id="adress" name="adress" value="adress"
+---
+#### Orginal code 
+- [div class="modal" tabindex="-1" id="signUpModal"](https://github.com/GurraT/Newproject/blob/master/index.html) ,code exemple from Code Institute building a Whiskey page 
+#### Implemented code (in header in all html-pages)
+- div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true"
+#### Implemented code (in header in forms-pages)
+- div class="modal fade" id="MovingIn" tabindex="-1" role="dialog" aria-labelledby="MovingIN" aria-hidden="true"
+- div class="modal fade" id="MovingOut" tabindex="-1" role="dialog" aria-labelledby="MovingOut" aria-hidden="true"
+---
 
 ### Media
  - Used my own images but optimized their size using [Imageresizer](https://imageresizer.com/) 
 
+### Links
+- I have extracted informations or linked to following pages to provide the personas using my pages with useful information
+* [hembygd.se](https://www.hembygd.se/essingeoarna/page/10205)
+* [Skatteverket.se](https://skatteverket.se/privat/folkbokforing.4.18e1b10334ebe8bc800039.html)
+* [SvenskAdressändring.se](https://www.adressandring.se/)
+* [Lagen.nu](https://lagen.nu/)
+* [Riksdagen.se](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-20071150-om-tillsyn-over-hundar-och_sfs-2007-115)
+* [Elskling.se](https://www.elskling.se)
+* [GasnätetStockholm.se](https://www.gasnatetstockholm.se/gaskund/privatkund/om-jag-inte-valjer-gasleverantor/)
+* [Telekomguiden.se](https://www.telekomguiden.se/telefoni/")
+* [sl.se](https://mitt.sl.se/reseplanering/tidtabeller#/TimeTableSearch/GetStationTimeTables/Lilla%20Essingen%20(Buss)%20(Stockholm)/1275/NULL/NULL/35/NULL)
+* [Stockholms parkering](https://parkering.stockholm/)
+* [Stockholm Förskola](https://forskola.stockholm/hitta-forskola/forskola/forskolan-luxviken/)
+* [Barnstugan-halsingegatan.se](https://www.barnstugan-halsingegatan.se/)
+* [Vardcentraler.sll.se](https://vardcentraler.sll.se/hitta-vardcentral/essinge/)
+* [BroApoteket](https://sv-se.facebook.com/BroApoteket/)
+* [Essinge Tanvård](http://www.essingetdv.se/)
+* [Lilla Mamsens Bageri](https://sv-se.facebook.com/Lilla-Mamsens-Bageri-228165660654648/)
+* [Dessert och Choklad](https://www.yelp.com/biz/dessert-and-choklad-stockholm-stockholm) 
+* [Essingen Thai wok och Grill](https://www.facebook.com/pages/Essinge-Thai-Wok-Grill/138040666253647)
+* [Pizzeria Ibolina](https://www.facebook.com/Pizzeria-Lilla-Essingen-Ibolina-265390290475856/)
+* [Riannas Krog]("http://www.rianns.se/)
+* [Essinge Tapas](https://essingetapas.se/)
+* [LuxDagförDag](http://www.luxdagfordag.se/)
+* [Arigato Sushi](https://arigato.se/)
+* [Pappas Deli](https://www.pappasdeli.se/)
+* [Grazie Trattoria](https://grazie.nu/)
+* [ICA](https://www.ica.se/butiker/nara/stockholm/essingen-1223/butikserbjudanden/)
+* [Tempo](https://sv-se.facebook.com/tempo.lillaessingen/)
+* [Bostads Portalen](https://bostadsportal.se/info/wp-content/uploads/sites/6/2020/11/Hyreskontrakt-fo%CC%88r-fo%CC%88rstahandsuthyrning-BostadsPortal.pdf)
+* [Word Mallar](https://www.word-mallar.com/wp-content/uploads/2017/03/Mall-hyresavi.jpg)
+
+
 ### Acknowledgements
 
-- will be added continuously
+- I am grateful for the feedback i got from my mentor Narender Singh at Code Institute e.g. to make my webpage more interactive using tickers and modals
+#### I also want to thanks following people
+- Philip Magnusson who with his insight in the field and with his feedback given me vaulable information on how to take the website to the next level
+- Carl-Johan Svenlin, Tobias Thomsson, Fredrik Thomsson for beta-testing my webpage and given me constructive feedback on the layout
+- The support I got from tutors and student care at Code institute
