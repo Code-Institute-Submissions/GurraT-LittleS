@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,400;0,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
 /*---------------------------------Header*/
 
 .Logo_picture{
-    background-image: url("../img/Logo_background2.png");
+    background-image: url("../img/Logo_background2RS.png");
        background-size: 100% 100%;
 }
 
@@ -57,7 +57,7 @@ color:white;
 
 .link_icon_header a{
     font-weight: 500;
-font-size: 18px; 
+font-size: 22px; 
 color: #77293a;
 }
 
@@ -76,7 +76,7 @@ color: #77293a;
 
 .dropdown_header_smd a{
     font-family: "Oswald", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
      color:#77293a;
 }
 
@@ -97,7 +97,7 @@ color: #77293a;
 
 .Title_section h4{
     font-family: "Oswald", sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     color:black;
     text-shadow: 0.5px 0.5px #987e6a;
      font-weight: 500;
@@ -112,7 +112,7 @@ color: #77293a;
 
 }
 
-.upper_section_right_index p, .lower_section_left_index p, .board_text, .vision_section p, .history_section_left p, .Guidelines_main_section, .Neighbourhood_main_section,.Partners_section, .Form_main_section, .Livinghere_main_section, .Guidelines_main_section, .Neighbourhood_main_section,.Partners_section, .Form_main_section, .Livinghere_main_section , .news_section_left p, .upper_section_contactpage p {
+.upper_section_right_index p, .lower_section_left_index p, .board_text, .vision_section p, .history_section_left p, .Guidelines_main_section, .Neighbourhood_main_section,.Partners_section, .Form_main_section, .Livinghere_main_section, .Guidelines_main_section, .Neighbourhood_main_section,.Partners_section, .Form_main_section, .Livinghere_main_section , .news_section_left p {
     color: #494444;
     font-size:18px;
     font-family: "Roboto", sans-serif;
@@ -137,7 +137,7 @@ color: #77293a;
      text-decoration:underline;
 }
 
-.Partner_title2 {
+.Partner_title2, .upper_section_contactpage p {
     font-family: "Oswald", sans-serif;
     font-size:20px;
     color:black;
@@ -162,7 +162,7 @@ color: #77293a;
 
 .upper_section_left_index{
     height: 300px;
-    background-image: url("../img/GeneralInfo.jpg");
+    background-image: url("../img/GeneralInfoRS.jpg");
     background-size:60% 100%;
    background-position: center;
     background-repeat: no-repeat;
@@ -186,16 +186,9 @@ color: #77293a;
 
 }
 
-.vision_section_left{
-    height: 300px;
-    background-image: url("../img/vision1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .history_section_right{   
     height: 300px;
-    background-image: url("../img/historyL.png");
+    background-image: url("../img/historyLRS.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -203,7 +196,7 @@ color: #77293a;
 .news_section_right{  
     margin: 0 0 20px 0;    
     height: 300px;
-    background-image: url("../img/news.png");
+    background-image: url("../img/newsRS.png");
     background-size: 60% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -212,7 +205,7 @@ color: #77293a;
 .upper_section_left_contactpage{
       margin: 0 0 20px 0;    
     height: 300px;
-    background-image: url("../img/contactpage.jpg");
+    background-image: url("../img/contactpageRS.jpg");
     background-size:cover;
     background-repeat: no-repeat;  
 }
@@ -316,10 +309,10 @@ color: #77293a;
 
 @keyframes tickerv {
   0%   {margin-top: 0;}
-  25%  {margin-top: -125px;} 
-  50%  {margin-top: -250px;} 
-  75%  {margin-top: -375px;} 
-  100% {margin-top: -500px;} 
+  25%  {margin-top: -130px;} 
+  50%  {margin-top: -260px;} 
+  75%  {margin-top: -390px;} 
+  100% {margin-top: -520px;} 
 }
 
 /* ITEMS */
@@ -335,7 +328,7 @@ color: #77293a;
   margin: 0;
   list-style-type: none;
   animation-name: tickerv; /* Loop through items */
-  animation-duration: 20s;
+  animation-duration: 25s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
 }
@@ -347,21 +340,21 @@ color: #77293a;
 /*---------------------------------Sub Section*/
 
 .links{
-   background-image: url("../img/foot.png");
+   background-image: url("../img/footRS.png");
    height:150px;
     background-size:cover;
     background-repeat: no-repeat;  
      }
 
-.dropdown_footer_info, .dropdown_footer_neighbourhood, .dropdown_footer_partners,.dropdown_footer_contact {
+.dropdown_footer_info, .dropdown_footer_neighbourhood a, .dropdown_footer_partners a, .dropdown_footer_neighbourhood, .dropdown_footer_partners,.dropdown_footer_contact{
     font-family: "Oswald", sans-serif;
       color:#77293a;
       font-weight:500;
-      text-shadow: white 2px 2px;
-      font-size: 18px;
+      text-shadow: white 1px 1px;
+      font-size: 22px;
 }
 
-.dropdown_footer_info a, .dropdown_footer_neighbourhood a, .dropdown_footer_partners a,.dropdown_footer_contact a{
+.dropdown_footer_info a,.dropdown_footer_contact a{
     font-family: "Oswald", sans-serif;
       color:#77293a;
       font-weight:400;
@@ -371,16 +364,15 @@ color: #77293a;
 .dropdown_footer_neighbourhood a:hover, .dropdown_footer_partners a:hover{
        font-family: "Oswald", sans-serif;
        font-weight: 400;
-     color: lightgray;
-    text-shadow: 1.5px 1.5px #aaaaaa; 
+     color: lightgray; 
 }
 
 .dropdown_footer_info button, .dropdown_footer_neighbourhood button, .dropdown_footer_partners button,.dropdown_footer_contact button {
        font-family: "Oswald", sans-serif;
         color:#77293a;
       font-weight:500;
-      text-shadow: white 2px 2px;
-      font-size: 18px;
+      text-shadow: white 1px 1px;
+      font-size: 22px;
 }
 
 .dropdown_footer_info button:hover, .dropdown_footer_neighbourhood button:hover, .dropdown_footer_partners button:hover,.dropdown_footer_contact button:hover{
@@ -391,16 +383,10 @@ color: #77293a;
 }
 
 
-.links_sub_section li a:hover{
-      color:#de9957;
-  text-decoration:none;
-
-}
-
 /*---------------------------------Footer*/
 
 .contactfooter{
-      margin: 10px 0px 0px 0px;;
+      margin: 10px 0px 0px 0px;
     font-family: "Oswald", sans-serif;
     color:#77293a;
      font-weight: 500;
@@ -452,6 +438,10 @@ color: #77293a;
      font-size: 20px;   
 }
 
+#Issuereport option{
+       font-size: 16px;   
+}
+
 
 #apartment_id{
         margin:0 0px 20px 30%;
@@ -495,10 +485,22 @@ color: #77293a;
      font-size: 18px;
      }
 
-     .link_icon_header a{
-    font-weight: 500;
-    font-size: 18px; 
-     }
+     .Title_section h4{
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    color:black;
+}
+.board_text
+{ font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    color:black;}
+
+     .upper_section_left_index{
+    background-size:100% 100%;
+}
+.news_section_right{  
+    background-size: 100% 100%;
+}
 
      .upper_section_right_contactpage {
     padding: 10px 0px 0px 0px;
@@ -515,8 +517,6 @@ color: #77293a;
 
 .dropdown_footer_info button, .dropdown_footer_neighbourhood button, .dropdown_footer_partners button,.dropdown_footer_contact button {
        font-family: "Oswald", sans-serif;
-       font-weight: 400;
-     color:white;
       font-size: 18px;
 }
 

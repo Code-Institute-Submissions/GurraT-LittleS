@@ -489,8 +489,28 @@ In order to use this web-page on small media device follow action has/should bee
 ### Step 25. Rebuilt MovingIn.html and MovingOut.html to be integrated as modal in the main-section of the forms-page, and removed the respectivly html-template (see Credit-section)
 
 ### Step 26. Tested the Design, navigation and responsiveness on GitPods port:8000 using by running following command in the Gitpod terminal "python3 -m http.server" (see fixed bugs)
+#### After testing following step was taken in to action
+    - Link to Logo was updated with right link "index.html"
+    - Changed background-color in subsection to appropriate background-image
+    - Adjusted color-theme and fontsize on buttom and link-icon in subsection
+    - Adjusted margin on Title-section
+    - Adjusted buttom-margin of main-section
+    - Adjusted fontsize of linkicon in Header-section
+    - Changed spacing between row in guidelines, forms, livinghere page and structure my css-file
+    - Changed colortheme for background images to black and white picture for all pages except for Contactpage
+    - Adjusted fontsize in Issuereport option in ReportAnIssue modal
+    - Removed Title-section in index.html and presented text-content in tickers and presented div above eachother instead of side-by-side (see fixed bugs)
+    - Removed Title-section for "Vision" and "History" in "About us"-page and presented text-content in Vision-section in a ticker spanning right-to-left above "BOARD OF MANAGEMENT AND EXECUTIVE COMMITTEE"-section plus presented text in History-section in a ticker running horisontally below the background image for the same section (see fixed bugs) 
+    - Removed Title-section in Mypage-page and presented text-content above the background images in a ticker spanning right-to-left (see fixed bugs)
+    - Adjusted font-size and font-weight of text-content in Contactpages
+    - Removed css-code not in use 
 
-
+### Step 27. Inspected code in Google inspection tool and through LightHouse in Google Inspection tool
+#### Following information was extracted from the test
+    - Result from Google inspection tool showed that the code was responsive with exception to Galaxy fold devices
+    - Result from LightHouse showed that the code follow good practise, had high accessibility and well adjusted to search engine (score around and above 90 %) but low responsivness (score around 50%)
+    - The responsiveness was affect mainly by image-sizes and loading JS (see fixed bugs)
+    - LightHouse also pointed out that images did not have descriptable name, that anchor with classname was not crawlable and that the page did not support apple-touch-icon (see fixed bugs)
 <!--
 1. At early stage lighthouse and google inspections tool will be used, to assure for good and stable design -check
 2. After assuring stable visual appealing design the commited code will be deployed through GITHUB masterbranch, -check
@@ -530,7 +550,7 @@ Connect to ReportAnIssue.html
 - Locked the size of the text-area following comments from Simon on Stack Overflow adding following code
     * #DescriptionOfIssue {resize: none;}
 
--
+- Remove unnessecary code, images and files plus optimised size of images
 
 ### Known Bugs
 
@@ -642,7 +662,7 @@ Connect to ReportAnIssue.html
 * [Dessert och Choklad](https://www.yelp.com/biz/dessert-and-choklad-stockholm-stockholm) 
 * [Essingen Thai wok och Grill](https://www.facebook.com/pages/Essinge-Thai-Wok-Grill/138040666253647)
 * [Pizzeria Ibolina](https://www.facebook.com/Pizzeria-Lilla-Essingen-Ibolina-265390290475856/)
-* [Riannas Krog]("http://www.rianns.se/)
+* [Riannas Krog](http://www.rianns.se/)
 * [Essinge Tapas](https://essingetapas.se/)
 * [LuxDagförDag](http://www.luxdagfordag.se/)
 * [Arigato Sushi](https://arigato.se/)
