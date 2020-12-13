@@ -11,7 +11,7 @@
 ### User story
 #### We expect this website to be used by the following personas 
 - tenants: these are the people living in the building owned by Lomsten
-- the caretaker: this is the people taking care About us
+- the caretaker: this is the people taking care about the building
 - the other contractors: these are the people involved in other activities connected to the building 
 
 The personas main goal is to find information about building so that they know how they should relate, locate and act within the building. Their agespan is supposted to be between 25 and 45 years old.
@@ -76,7 +76,11 @@ Main page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), 
 Main page: Section| Div with General information, Div with News|2
 Main page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
 Main page: Footer|Contact information|1
-||| About us: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1 About us: Section| Div with Vision, Div with History, Div with Board of Management and Executive Committee|2 About us: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2 About us: Footer|Contact information|1
+|||
+About us: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1 
+About us: Section| Div with Vision, Div with History, Div with Board of Management and Executive Committee|2 
+About us: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2 
+About us: Footer|Contact information|1
 |||
 Living Here page: Header|Logo, Buttom-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
 Living Here page: Section| Div with About us with list with information on water, electricity, laundary etc..|2
@@ -309,7 +313,7 @@ In order to use this web-page on small media device follow action has/should bee
     - Kept as the template
 
 3. Main Section
-    - Added a Section Dic called board_section in top of this section 
+    - Added a Section Div called board_section in top of this section 
     - Added the text-content "Board of Management and Executive Committee" to board_section
     - Added a table with information of the Boardmember below the text-content mentoined above
     - Changed column-size for the div in the upper-section so image was presented above text-content at all devices types
@@ -490,36 +494,35 @@ In order to use this web-page on small media device follow action has/should bee
 
 ### Step 26. Tested the Design, navigation and responsiveness on GitPods port:8000 using by running following command in the Gitpod terminal "python3 -m http.server" (see fixed bugs)
 #### After testing following step was taken in to action
-    - Link to Logo was updated with right link "index.html"
-    - Changed background-color in subsection to appropriate background-image
-    - Adjusted color-theme and fontsize on buttom and link-icon in subsection
-    - Adjusted margin on Title-section
-    - Adjusted buttom-margin of main-section
-    - Adjusted fontsize of linkicon in Header-section
-    - Changed spacing between row in guidelines, forms, livinghere page and structure my css-file
-    - Changed colortheme for background images to black and white picture for all pages except for Contactpage
-    - Adjusted fontsize in Issuereport option in ReportAnIssue modal
-    - Removed Title-section in index.html and presented text-content in tickers and presented div above eachother instead of side-by-side (see fixed bugs)
-    - Removed Title-section for "Vision" and "History" in "About us"-page and presented text-content in Vision-section in a ticker spanning right-to-left above "BOARD OF MANAGEMENT AND EXECUTIVE COMMITTEE"-section plus presented text in History-section in a ticker running horisontally below the background image for the same section (see fixed bugs) 
-    - Removed Title-section in Mypage-page and presented text-content above the background images in a ticker spanning right-to-left (see fixed bugs)
-    - Adjusted font-size and font-weight of text-content in Contactpages
-    - Removed css-code not in use 
+  - Link to Logo was updated with right link "index.html"
+  - Changed background-color in subsection to appropriate background-image    
+  - Adjusted color-theme and fontsize on buttom and link-icon in subsection
+  - Adjusted margin on Title-section
+  - Adjusted buttom-margin of main-section
+  - Adjusted fontsize of linkicon in Header-section
+  - Changed spacing between row in guidelines, forms, livinghere page and structure my css-file
+  - Changed colortheme for background images to black and white picture for all pages except for Contactpage
+  - Adjusted fontsize in Issuereport option in ReportAnIssue modal
+  - Removed Title-section in index.html and presented text-content in tickers and presented div above eachother instead of side-by-side (see fixed bugs)
+  - Removed Title-section for "Vision" and "History" in "About us"-page and presented text-content in Vision-section in a ticker spanning right-to-left above "BOARD OF MANAGEMENT AND EXECUTIVE COMMITTEE"-section plus presented text in History-section in a ticker running horisontally below the background image for the same section (see fixed bugs) 
+  - Removed Title-section in Mypage-page and presented text-content above the background images in a ticker spanning right-to-left (see fixed bugs)
+  - Adjusted font-size and font-weight of text-content in Contactpages
+  - Removed css-code not in use 
 
 ### Step 27. Inspected code in Google inspection tool and through LightHouse in Google Inspection tool
 #### Following information was extracted from the test
-    - Result from Google inspection tool showed that the code was responsive with exception to Galaxy fold devices
-    - Result from LightHouse showed that the code follow good practise, had high accessibility and well adjusted to search engine (score around and above 90 %) but low responsivness (score around 50%)
-    - The responsiveness was affect mainly by image-sizes and loading JS (see fixed bugs)
-    - LightHouse also pointed out that images did not have descriptable name, that anchor with classname was not crawlable and that the page did not support apple-touch-icon (see fixed bugs)
-<!--
-1. At early stage lighthouse and google inspections tool will be used, to assure for good and stable design -check
-2. After assuring stable visual appealing design the commited code will be deployed through GITHUB masterbranch, -check
-the deployed site will be sent out to beta-tester for feedback -check
-3. The platform will be update in accordance with feedback from beta-tester -check
-4. The updated site would once more be tested via google inspection tool and lighthouse -check
-5. When the design is considered to forfill all requirements from above inspection tools, the code will be validated via CSS3/HTML-validation tool !!!
-6. After assuring a good and stable code the project will be deployed and sent to mentor for comments !!!
---->
+ - Result from Google inspection tool showed that the code was responsive with exception to Galaxy fold devices
+ - Result from LightHouse showed that the code follow good practise, had high accessibility and well adjusted to search engine (score around and above 90 %) but low responsivness (score around 50%)
+ - The responsiveness was affect mainly by image-sizes and loading JS (see fixed bugs)
+ - LightHouse also pointed out that images did not have descriptable name, that anchor with classname was not crawlable and that the page did not support apple-touch-icon (see fixed bugs)
+
+### Step 28. Tested the Design, navigation and responsiveness on GitPods port:8000 using by running following command in the Gitpod terminal "python3 -m http.server" (see fixed bugs)
+#### After testing following step was taken in to action
+ - Changed colortheme of background images from black and white to colored theme
+ - Removed footer beacuse of redudant information
+ - Change color of text-content to match new logo and footer background-images
+ - Changed fontsize of board-text 
+
 ---
 ### Fixed Bugs
 #### I have encountered and fixed following bugs 
@@ -552,21 +555,27 @@ Connect to ReportAnIssue.html
 
 - Remove unnessecary code, images and files plus optimised size of images
 
+- Integrated ReportAnIssue, MovingIN and MovingOut checklist as modals (see Credit-section) 
+
+- Integrated textcontent in index-pages, AboutUs-pages and profile-pages as tickers (see Credit-section)
+
+- Removed unused font-size and optimised images-sizes using Image resizer
+
+- Changed colortheme of background images and text-color of Logo and Footer text-content
+
+
 ### Known Bugs
 
-- Text in right dropdown menu in Footer partially visible
-- Image size to large
 - Unused CSS and Html code
-- Texts and Images could be aligned better
+- Forms not activated
 
 ### Open questions
 - How should i handle sending, receiving and store info connected to Login, Report an Issue and open inovoices etc
 - How do I use Light house and interpret results generated in the reports
 - How important is the responsiveness to splash screen
-- How important is it that the icon is aplle-touch-compatible
+- How important is it that the icon is apple-touch-compatible
 - Aria-label whats the best manufacturing practise
 - How should i label bgimage in css
-- How to center image vertically -align with text
 
 ## Deployment
 
@@ -636,6 +645,15 @@ Connect to ReportAnIssue.html
 #### Implemented code (in header in forms-pages)
 - div class="modal fade" id="MovingIn" tabindex="-1" role="dialog" aria-labelledby="MovingIN" aria-hidden="true"
 - div class="modal fade" id="MovingOut" tabindex="-1" role="dialog" aria-labelledby="MovingOut" aria-hidden="true"
+---
+#### Orginal code 
+- [class="tcontainer"><div class="ticker-wrap"><div class="ticker-move"](https://code-boxx.com/html-css-news-ticker-horizontal-vertical/) , code exemple on how to make horizontal ticker from code-boxx.com
+ - [div class="tickerv-wrap"](https://code-boxx.com/html-css-news-ticker-horizontal-vertical/) , code exemple on how to make vertical ticker from code-boxx.com
+   
+
+#### Implemented code
+- div class="tcontainer" div class="mticker-wrap" div class="mticker-move" , implemented for hosisontal design of text-content in index.pages
+- div class="tcontainer" div class="ticker-wrap" div class="ticker-move",, implemented for vertical design in aboutUs-pages
 ---
 
 ### Media
