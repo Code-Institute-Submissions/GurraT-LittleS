@@ -6,7 +6,7 @@
 /*---------------------------------Header*/
 
 .Logo_picture{
-    background-image: url("../img/Logo_background2RS.png");
+    background-image: url("../img/test7.png");
        background-size: 100% 100%;
 }
 
@@ -16,8 +16,8 @@ nav{
 
 .logo{
 font-family: "Monserrat", sans-serif;
-color: #77293a;
-    text-shadow: 1.5px 1.5px black;
+color: #a2131a;
+    text-shadow: 1.5px 1.5px white;
 text-align: right;
 font-weight: 600;
 font-size: 52px;
@@ -33,8 +33,8 @@ color:white;
      font-weight: 500;
      font-size: 22px;
      padding: 0px 6px 0px 6px;
-     color: #020202;
-    text-shadow: 1.5px 1.5px #aaaaaa;
+     color: #ffffff;
+    text-shadow: 2px 2px black;
     transition: all 0.35s ease-in-out;
      -moz-transition: all 0.35s ease-in-out;
      -webkit-transition: all 0.35s ease-in-out;
@@ -43,8 +43,8 @@ color:white;
 
 
 .navbar_header li a:hover{
-    color:white;
-    text-shadow: 1.5px 1.5px black;
+    color:#a2131a;
+    text-shadow: 1.5px 1.5px white;
     text-decoration:none;
 
 }
@@ -68,11 +68,15 @@ color: #77293a;
 
 .dropdown_header_smd{
    margin: 0px 0 0px 0;
-    border: 2px black solid;
+    background-color: white;
+    border:black 1px solid;
     border-radius: 20%;
      font-weight: 200;
      font-size: 8px;
 }
+
+.dropdown_header_smd button{
+color:black;}
 
 .dropdown_header_smd a{
     font-family: "Oswald", sans-serif;
@@ -157,12 +161,19 @@ color: #77293a;
 .board_title{
  font-family: "Oswald", sans-serif;
      font-weight: 500;
-     font-size: 22px;
+     font-size: 20px;
+}
+
+.board_title_name{
+ font-family: "Oswald", sans-serif;
+     font-weight: 500;
+     font-size: 24px;
 }
 
 .upper_section_left_index{
+    margin:50px 0 0 0;
     height: 300px;
-    background-image: url("../img/GeneralInfoRS.jpg");
+    background-image: url("../img/test16.png");
     background-size:60% 100%;
    background-position: center;
     background-repeat: no-repeat;
@@ -188,7 +199,7 @@ color: #77293a;
 
 .history_section_right{   
     height: 300px;
-    background-image: url("../img/historyLRS.png");
+    background-image: url("../img/test10.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -196,7 +207,7 @@ color: #77293a;
 .news_section_right{  
     margin: 0 0 20px 0;    
     height: 300px;
-    background-image: url("../img/newsRS.png");
+    background-image: url("../img/test15.png");
     background-size: 60% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -205,13 +216,14 @@ color: #77293a;
 .upper_section_left_contactpage{
       margin: 0 0 20px 0;    
     height: 300px;
-    background-image: url("../img/contactpageRS.jpg");
-    background-size:cover;
+    background-image: url("../img/test12.png");
+    background-size:70% 100%;
+    background-position: center;
     background-repeat: no-repeat;  
 }
 
 .upper_section_right_contactpage {
-    padding: 100px 0px 0px 40px;
+    padding: 0px 0px 0px 40px;
     text-align:left;
 }
 
@@ -340,15 +352,15 @@ color: #77293a;
 /*---------------------------------Sub Section*/
 
 .links{
-   background-image: url("../img/footRS.png");
-   height:150px;
+   background-image: url("../img/test14.png");
+   height:100px;
     background-size:cover;
     background-repeat: no-repeat;  
      }
 
 .dropdown_footer_info, .dropdown_footer_neighbourhood a, .dropdown_footer_partners a, .dropdown_footer_neighbourhood, .dropdown_footer_partners,.dropdown_footer_contact{
     font-family: "Oswald", sans-serif;
-      color:#77293a;
+      color:black;
       font-weight:500;
       text-shadow: white 1px 1px;
       font-size: 22px;
@@ -356,7 +368,7 @@ color: #77293a;
 
 .dropdown_footer_info a,.dropdown_footer_contact a{
     font-family: "Oswald", sans-serif;
-      color:#77293a;
+      color:black;
       font-weight:400;
       font-size: 18px;
 }
@@ -364,12 +376,12 @@ color: #77293a;
 .dropdown_footer_neighbourhood a:hover, .dropdown_footer_partners a:hover{
        font-family: "Oswald", sans-serif;
        font-weight: 400;
-     color: lightgray; 
+     color: #77293a; 
 }
 
 .dropdown_footer_info button, .dropdown_footer_neighbourhood button, .dropdown_footer_partners button,.dropdown_footer_contact button {
        font-family: "Oswald", sans-serif;
-        color:#77293a;
+        color:black;
       font-weight:500;
       text-shadow: white 1px 1px;
       font-size: 22px;
@@ -388,7 +400,7 @@ color: #77293a;
 .contactfooter{
       margin: 10px 0px 0px 0px;
     font-family: "Oswald", sans-serif;
-    color:#77293a;
+    color:#a2131a;
      font-weight: 500;
      font-size: 18px; 
 }
@@ -506,6 +518,9 @@ color: #77293a;
     padding: 10px 0px 0px 0px;
     text-align: center;
  
+}
+.links{
+    height:50px;
 }
 
  .contactfooter{
