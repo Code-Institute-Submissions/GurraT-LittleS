@@ -2,6 +2,287 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,400;0,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+/*-----------------------------New Layout Header*/
+
+.Logo_image{
+        background-image: url("../img/logoimage.jpg");
+       background-size: 100% 100%;
+       height:700px;}
+
+.navbar{
+     padding-top: 160px;
+   padding-left: 80%;  
+}
+
+.menu_header{
+   margin: 0px 0 0px 0;
+    background-color: #DADBE9;
+    border: white 1px solid;
+    border-radius: 20%;
+}
+
+.menu_header button{
+color:black;
+     font-size: 24px;
+         font-weight: 200;}
+
+ .dropdown-menu a{
+     font-family: "Oswald", sans-serif;
+     font-weight: 500;
+     font-size: 22px;
+     color:#a2131a;
+     }
+
+
+     .Logo a{
+     font-family: "Montserrat", sans-serif;
+     font-weight: 600;
+     font-size: 48px;
+     color: black;
+    text-shadow: 2px 2px #DADBE9;
+    text-decoration: none;
+}
+
+     .Logo a:hover{
+     color: #DADBE9;
+    text-shadow: 2px 2px black;
+
+}
+
+     .Logo p{
+    font-family: "Montserrat", sans-serif; 
+     color: #1f2c36;
+       font-weight: 400;
+     font-size: 28px;
+
+}
+
+/*-----------------------------New Layout Main Section*/
+
+.section1, .section3{
+    margin: 80px 0 0 0;
+}
+
+.aboutthebuilding_img{
+    height:240px;
+    width:240px;
+    background-position: center;
+    background-image: url("../img/test16.png");
+    background-size:cover;
+    border-radius: 50%;
+    border: #545760 1px solid;
+   background-position: center;
+    background-repeat: no-repeat;
+}
+
+.abouthebuilding_text, .news_text{
+    padding:60px 0px 0px 30px;
+        color: #494444;
+    font-size:22px;
+    font-family: "Roboto", sans-serif;
+      font-weight: 400;
+}
+
+.profile_text,.question_text,.neighbourhood_text{
+    padding:60px 0px 0px 0px;
+        color: #494444;
+    font-size:18px;
+    font-family: "Roboto", sans-serif;
+      font-weight: 400;
+}
+
+.profile_title,.question_title,.neighbourhood_title{
+    padding:0px 0px 20px 0px;
+        color: black;
+    font-size:28px;
+    font-family: "Roboto", sans-serif;
+      font-weight: 500;
+}
+
+.section1{
+    height:300px;
+}
+
+.section2{
+    margin:80px 0px 0px 0px;
+    height:400px;
+    background-image: url("../img/sectiondivider.png");
+    background-size:cover;
+}
+
+.section2_content{
+padding: 80px 0 0 0;
+}
+
+.news_img{
+     height:240px;
+     width:240px;
+    background-image: url("../img/news.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: #545760 1px solid;
+   background-position: center;
+    background-repeat: no-repeat;}
+
+.neighbourhood_img{ 
+    height:240px;
+    width:240px;
+    background-image: url("../img/neighbourhood.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: #545760 1px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.profile_img{
+     height:240px;
+     width:240px;
+     align-items: center;
+    background-image: url("../img/profile.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: #545760 1px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.question_img{
+     height:240px;
+     width:240px;
+     align-items: center;
+    background-image: url("../img/question.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: #545760 1px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.buttom{
+    height:50px;
+     width:50px; 
+}
+
+/*-----------------------------New Layout Header*/
+.borderline{
+border-top: #7d8276 3px solid;
+}
+
+.footerlinks{
+    margin: 40px 0 0 0;
+    justify-content:center;
+}
+
+.footerlinks a {
+margin: 0 20px 0px 20px;
+	    font-size:34px;
+    font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      color:#7d8276;
+}
+
+.footerlinks a:hover {
+      color:#92afb3;
+}
+
+/*---------------------------------New Layout Modal*/
+
+.modal-header h5{
+    text-align:center;
+    width:100%;
+    color:#77293a;
+    font-weight: 600;
+     font-size: 20px; 
+}
+
+.Movin_form p, .Movout_form p{
+    color:black;
+         font-weight: 500;
+     font-size: 18px; 
+     text-decoration:underline;
+}
+
+.Movin_form label, .Movout_form label{
+    color:#77293a;
+         font-weight: 400;
+     font-size: 16px; 
+}
+
+#Issuereport{
+    margin:0 0 20px 0;
+   width: 30%;
+}
+
+#Issuereport_label, #MovingIN_label{
+     font-family: "Oswald", sans-serif;
+     margin:0px 0 0 0;
+      color:#77293a;
+  text-align: center;
+     font-weight: 600;
+     font-size: 20px;   
+}
+
+#Issuereport option{
+       font-size: 16px;   
+}
+
+
+#apartment_id{
+        margin:0 0px 20px 30%;
+      width: 40%;
+}
+
+#first_name, #last_name{
+    margin: 0px 0 20px 0;
+    width:50%;
+    align-content: center;
+    font-family: "Oswald", sans-serif;
+}
+
+#DescriptionOfIssue {
+   resize: none;
+   width: 100%;
+   height: 20%;
+}
+
+.report_buttom{
+    background-color: #77293a;
+    color:white;
+}
+
+.report_buttom:hover{
+    background-color: lightgray;
+    color:black;
+}
+
+/*---------------------------------New Layout Media query*/
+
+@media screen and (max-width: 700px){
+     .section1{
+         height:100%;
+     }
+    }
+
+@media screen and (max-width: 992px){
+    .abouthebuilding_text, .news_text{
+        font-size:18px;
+    }
+
+    .aboutthebuilding_img{
+    background-position: center;
+    background-image: url("../img/test16.png");
+    background-size:cover;
+    border-radius: 0%;
+    border: none;
+   background-position: center;
+    background-repeat: no-repeat;
+}
+
+}
 
 /*---------------------------------Header*/
 
