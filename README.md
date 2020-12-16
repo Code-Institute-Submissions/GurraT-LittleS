@@ -658,6 +658,8 @@ Connect to ReportAnIssue.html
 
 ### Media
  - Used my own images but optimized their size using [Imageresizer](https://imageresizer.com/) 
+ -Photo by Hannah Nelson from Pexels
+
 
 ### Links
 - I have extracted informations or linked to following pages to provide the personas using my pages with useful information
