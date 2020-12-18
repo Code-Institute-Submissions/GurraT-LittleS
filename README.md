@@ -656,9 +656,13 @@ Connect to ReportAnIssue.html
 - div class="tcontainer" div class="ticker-wrap" div class="ticker-move",, implemented for vertical design in aboutUs-pages
 ---
 
+- https://webdevtrick.com/html-css-faq-design/  ... jquery!!!
+
 ### Media
  - Used my own images but optimized their size using [Imageresizer](https://imageresizer.com/) 
  -Photo by Hannah Nelson from Pexels
+
+
 
 
 ### Links

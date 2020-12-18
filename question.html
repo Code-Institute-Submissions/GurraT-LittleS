@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Apartment at Lilla Essingen">
+    <meta name="keywords" content="Lilla Essingen, apartment, rent, living, Lomsten">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+   <!-- fontawesome CSS icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Font google fonts Oswald, Roboto, Montserrat -->
+      <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css"/>
+    <title>Lomsten - Home</title>
+</head>
+<body>
+<header>
+    <div class="Logo_image">
+    <div class="navbar">
+        <div class="dropdown dropleft menu_header">
+            <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Menu">
+                <i class="fas fa-grip-lines"></i>
+            </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="index.html">My pages</a>
+                    <a class="dropdown-item" href="#">Frequently Asked Questions</a>
+                    <a class="dropdown-item" href="#">The Neighbourhood</a>
+                </div>
+            </div>
+        </div>
+        <div class="Logo text-center">
+            <a href="template.html">LOMSTEN</a>
+            <p>Apartments where you feel at home</p>
+        </div>
+    </div>   
+    <!-- Modal ReportAnIssue --> 
+    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="Issuereport_label">Report An Issue</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body text-center">
+        <form class="form-inline">
+            <input type="text" name="FirstName" class="form-control" placeholder="Enter First Name" id="first_name" required>
+            <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
+        </form>
+        <form>
+            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id"required>
+        <label class="Issuereport_label" for="Issuereport">Type of Issue  </label>
+        <select class="custom-select" id="Issuereport" required>
+            <option selected disabled value="">Apartment</option>
+            <option>Loundary</option>
+            <option>Storage</option>
+            <option>Neighbours</option>
+            <option>Invoice</option>
+            <option>Complaints</option>
+        </select>
+        <textarea row="10" name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
+    </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn report_buttom">Save changes</button>
+        </div>
+        </div>
+    </div>
+    </div> 
+</header>
+<section class="Main_content">
+<div class="container">
+      <h2 class="text-center">Below you find Frequently Ask Question by Sections </br></br> Guidelines</h2>
+ <div class="row">
+    <div class="col-4 profile_img_section1"></div>
+        <div class="col-8">
+        <div class="accordion">
+    <div class="accordion_item">
+      <h3> When should i turn-off the turn off the music ?? </h3>
+    <div class="accordion_content">
+        <p> We recommend that you turn-off the music after 22 pm, regarding the sound environment see <a href="https://lagen.nu/1970:994#K3" target="_blank"> Jordabalken § 3:1 </a></p>
+    </div>
+    </div>
+    <div class="accordion_item">
+      <h3> I am allowed to have pets in the Apartment ?? </h3>
+     <div class="accordion_content">
+        <p> You are allowed to have pets in the apartment but make sure to prevent damage on the apartment and provide an adequate environment for your pets, for more information see <a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-20071150-om-tillsyn-over-hundar-och_sfs-2007-1150" target="_blank">Lag (2007:1150) om tillsyn över hundar och katter </a></p>
+    </div>
+    </div>
+    <div class="accordion_item">
+      <h3> What should i think of when it comes to Fire regulation  ??</h3>
+    <div class="accordion_content">
+       <p>All apartements are equiped with Smoke detectors, make sure to not block stairways and common spaces with items, for more information see <a href="https://www.elskling.se" target="_blank">Boverkets overview of fireregulations </a></p>
+    </div>
+    </div>
+    <div class="accordion_item">
+      <h3>Is smoking allowed within the building ?? </h3>
+    <div class="accordion_content">
+        <p>  As stated within your contract it is not allowed to smoke inside the apartment, for more information see <a href="https://lagen.nu/1970:994" target="_blank">Jordabalken 12 kap 24§</a></p>
+    </div>
+    </div>
+     <div class="accordion_item">
+      <h3> Is it allowed to make barbeque on the balcony ?? </h3>
+      <div class="accordion_content">
+        <p> For fire safety reason it is not allowed to make barbeque on the balcony      </p>
+      </div>
+      </div>
+             <div class="accordion_item">
+      <h3> Where do I through my Garbage ?? </h3>
+      <div class="accordion_content">
+        <p>  A Garbage room for ordinary waste is found in the basement, for more detailed sorting of garbage such as plastic, papper and metals a collection point is found outside Essingbrogata 37 </p>
+      </div>
+     </div>
+             <div class="accordion_item">
+      <h3> Where can I store the items i do not use ?? </h3>
+      <div class="accordion_content">
+        <p>  Storageroom is found in the attic, be aware of fire regulations and make sure not to occupy common space in the attic </p>
+      </div>
+    <div class="accordion_item">
+      <h3> Does the building have a common Laundary ?? </h3>
+      <div class="accordion_content">
+        <p> Laundary is found in the attic, table for booking washing time is found outside the laundary room, everyone got their own key to specific lock on the booking table</p>
+      </div>
+    </div>
+    </div>
+        </div>
+        </div>
+    <div class="container">
+         <h2 class="text-center">General Information</h2>
+    <div class="row">
+        <div class="col-8">
+        <div class="accordion">
+    <div class="accordion_item">
+      <h3> Is Water included in the rent ?? </h3>
+    <div class="accordion_content">
+        <p> Cold and Hot water is included in the rent</p>
+    </div>
+    </div>
+    <div class="accordion_item">
+      <h3> Is Electricity included in the rent ?? </h3>
+     <div class="accordion_content">
+        <p>Electricity is not included in the rent, see link to compare <a href="https://www.elskling.se" target="_blank">electricity company </a></p>
+    </div>
+    </div>
+    <div class="accordion_item">
+      <h3> Is gas for the owen included in the rent  ??</h3>
+    <div class="accordion_content">
+       <p>Gas is not included in the rent, see link for more information regarding <a href="https://www.gasnatetstockholm.se/gaskund/privatkund/om-jag-inte-valjer-gasleverantor/" target="_blank">gas suppliers </a> </p>
+    </div>
+    </div>
+    <div class="accordion_item">
+      <h3>Where do I find Information about Television/Broadband/Telephony  ?? </h3>
+    <div class="accordion_content">
+        <p> Television/Broadband/Telephony is not included in the rent, see link for more information regarding <a href="https://www.telekomguiden.se/telefoni/" target="_blank">Television/Broadband/Telephony </a></p>
+    </div>
+    </div>
+     <div class="accordion_item">
+      <h3> What happens if I loose my key ?? </h3>
+      <div class="accordion_content">
+        <p> When moving in you will receive 3 keys to your apartment, 2 keys to the booking table outside the laundary room and two keys to the attic and basement, lost keys will be charge and withdrawn from the next invoice </p>
+      </div>
+      </div>
+             <div class="accordion_item">
+      <h3> Is my apartment insured by default ?? </h3>
+      <div class="accordion_content">
+        <p> he tenants are responsible to arrange with their own Home insurance, see link for more information regarding <a href="https://www.konsument.se/hemforsakring/"> Home insurances </a> </p>
+      </div>
+     </div>
+             <div class="accordion_item">
+      <h3> Where can I store the items i do not use ?? </h3>
+      <div class="accordion_content">
+        <p>  Storageroom is found in the attic, be aware of fire regulations and make sure not to occupy common space in the attic </p>
+      </div>
+    </div>
+        </div>
+        </div>
+    <div class="col-4 profile_img_section2"></div>
+    </div>
+    </div>
+
+    <div class="container">
+      <h2 class="text-center">Contact</h2>
+ <div class="row">
+    <div class="col-4 profile_img_section1"></div>
+        <div class="col-8">
+        <div class="accordion">
+    <div class="accordion_item">
+      <h3> Information about the Board </h3>
+    <div class="accordion_content">
+        <p class="Partner_title2"> The Building is owned and runned by Magnus von Platon </a></p>
+        <p>Telephone: <a href="tel:00468XXXXXX"> 0046(0)8-XXXXXX <i class="fas fa-phone"></i></a> 
+        <br> Email: <a href="mailto:info@abforvaltning.se"> info@lomsten.se <i class="far fa-envelope"></i></a> 
+        <p>
+    </div>
+    </div>
+    <div class="accordion_item">
+      <h3> Information about the Constructor </h3>
+    <div class="accordion_content">
+        <p class="Partner_title2"> Ab Förvaltning entrepenad </a></p>
+        <p>Telephone: <a href="tel:00468XXXXXX"> 0046(0)8-XXXXXX <i class="fas fa-phone"></i></a> 
+        <br> Email: <a href="mailto:info@abforvaltning.se"> info@abforvaltning.se <i class="far fa-envelope"></i></a> 
+        <p>
+    </div>
+    </div>
+    <div class="accordion_item">
+      <h3> Information about the Carpenter </h3>
+     <div class="accordion_content">
+         <p class="Partner_title2"> Ab Carpentery </a></p>
+      <p>Telephone: <a href="tel:00468XXXXXX"> 0046(0)8-XXXXXX <i class="fas fa-phone"></i></a> 
+        <br> Email: <a href="mailto:info@abforvaltning.se"> info@abcarpentery.se <i class="far fa-envelope"></i></a> 
+        <p></div>
+    </div>
+    <div class="accordion_item">
+      <h3> Information about Painter </h3>
+    <div class="accordion_content">
+        <p class="Partner_title2"> Ab Paintery </a></p>
+        <p>Telephone: <a href="tel:00468XXXXXX"> 0046(0)8-XXXXXX <i class="fas fa-phone"></i></a> 
+        <br> Email: <a href="mailto:info@abforvaltning.se"> info@abpaintery.se <i class="far fa-envelope"></i></a> 
+    </div>
+    </div>
+    <div class="accordion_item">
+      <h3>Information about the Cleaner </h3>
+    <div class="accordion_content">
+         <p class="Partner_title2"> Ab Cleanery </a></p>
+        <p>Telephone: <a href="tel:00468XXXXXX"> 0046(0)8-XXXXXX <i class="fas fa-phone"></i></a> 
+        <br> Email: <a href="mailto:info@abforvaltning.se"> info@abcleanery.se <i class="far fa-envelope"></i></a> 
+        <p>  </div>
+    </div>
+    </div>
+    </div>
+        </div>
+        </div>
+ </section> 
+ <footer>
+     <div class= "borderline">
+     <div class="container">
+         <div class="row footerlinks">
+                <a href="index.html"><i class="fas fa-home"></i></a>
+                <a href="tel:00468XXXXXX"><i class="fas fa-phone"></i></a>
+              <a href="#" data-toggle="modal" data-target="#ReportAnIssue"><i class="fas fa-tools"></i></a>
+         </div>
+     </div>
+      <!-- Modal ReportAnIssue --> 
+    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="Issuereport_label">Report An Issue</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body text-center">
+        <form class="form-inline">
+            <input type="text" name="FirstName" class="form-control" placeholder="Enter First Name" id="first_name" required>
+            <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
+        </form>
+        <form>
+            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id"required>
+        <label class="Issuereport_label" for="Issuereport">Type of Issue  </label>
+        <select class="custom-select" id="Issuereport" required>
+            <option selected disabled value="">Apartment</option>
+            <option>Loundary</option>
+            <option>Storage</option>
+            <option>Neighbours</option>
+            <option>Invoice</option>
+            <option>Complaints</option>
+        </select>
+        <textarea row="10" name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
+    </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn report_buttom">Save changes</button>
+        </div>
+        </div>
+    </div>
+    </div> 
+    </div>
+ </footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script  src="function.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    </html>  

@@ -59,6 +59,8 @@ color:black;
 
 /*-----------------------------New Layout Main Section*/
 
+
+
 .section1 {
     margin: 80px 0 0px 0;
 }
@@ -165,6 +167,24 @@ padding: 80px 0 0 0;
    
 }
 
+.profile_img_section1{
+     align-items: center;
+    background-image: url("../img/profile.jpg");
+    background-size:80% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.profile_img_section2{
+     align-items: center;
+    background-image: url("../img/news.jpg");
+    background-size:80% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
 .question_img{
      height:240px;
      width:240px;
@@ -182,6 +202,123 @@ padding: 80px 0 0 0;
     height:50px;
      width:50px; 
 }
+
+.contract_buttom,.invoices_buttom,.blueprint_buttom,.info_buttoms{
+    padding: 50px 0 0 0;
+}
+
+.info_buttoms p{
+           font-family: "Oswald", sans-serif;
+      font-weight: 500;
+    font-size:30px;
+}
+
+.contract_buttom p,.invoices_buttom p,.blueprint_buttom p{
+        font-family: "Roboto", sans-serif;
+      font-weight: 500;
+    font-size:40px;
+}
+
+/*--- List of items in Neighbourhood and Frequently asked question pages -*/
+
+h2{
+    margin: 30px 0 0 0;
+         font-family: "Roboto", sans-serif;
+      font-weight: 500;
+    font-size:32px;   
+}
+
+.accordion{
+   margin: 0px 0 30px 0;
+}
+
+.accordion h3{
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion h3:hover,
+.accordion h3:hover::after {
+  cursor: pointer;
+  color: #3a4a5d;
+}
+
+.accordion h3:hover::after {
+  border: 1px solid #3a4a5d;
+}
+.accordion h3.active {
+  color: #3a4a5d;
+  border-bottom: 1px solid #3a4a5d;
+}
+
+.accordion h3::after {
+  font-family: 'Ionicons';
+  content: '\f218';
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 1rem;
+  color: #7288a2;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #7288a2;
+  text-align: center;
+}
+
+.accordion h3.active::after {
+  font-family: 'Ionicons';
+  content: '\f209';
+  color: #3a4a5d;
+  border: 1px solid #3a4a5d;
+}
+
+.accordion .accordion_content{
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+
+.accordion .accordion_content p{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.accordion .accordion_content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+}
+
+
+
+
 
 /*-----------------------------New Layout Header*/
 .borderline{

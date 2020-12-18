@@ -14,45 +14,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css"/>
     <title>Lomsten - Home</title>
 </head>
 <body>
 <header>
-    <div class="container Logo_picture">
-    <nav class="navbar navbar-expand-sm">
-        <a href="template.html" class="navbar-brand logo">Lomsten</a>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav navbar_header mx-auto">
-            <li class="active nav-item mr-2 d-none d-md-block"><a class="nav-link" href="Aboutthebuilding.html">ABOUT US</a></li>
-            <li class="active nav-item mr-2 d-none d-md-block"><a class="nav-link" href="Livinghere.html">LIVING HERE</a></li>
-            <li class="active nav-item mr-2 d-none d-md-block"><a class="nav-link" href="Guidelines.html">GUIDELINES</a></li>
-            <li class="active nav-item mr-2 d-none d-md-block"><a class="nav-link" href="Profilepage.html">MY PAGE</a></li>
-            <li class="active nav-item mr-2 d-none d-md-block"><a class="nav-link" href="Contactpage.html">CONTACT INFO</a></li>
-            </ul>
-         </div>
-        <div class="dropdown dropleft d-block d-md-none d-lg-none dropdown_header_smd">
+    <div class="Logo_image">
+    <div class="navbar">
+        <div class="dropdown dropleft menu_header">
             <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Menu">
                 <i class="fas fa-grip-lines"></i>
             </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="Aboutthebuilding.html">About us</a>
-                    <a class="dropdown-item" href="Livinghere.html">Living Here</a>
-                    <a class="dropdown-item" href="Guidelines.html">Guidelines</a>
-                    <a class="dropdown-item" href="Profilepage.html">My page</a>
-                    <a class="dropdown-item" href="Contactpage.html">Contact information</a>
+                    <a class="dropdown-item" href="template_profile.html">My pages</a>
+                    <a class="dropdown-item" href="template_question.html">Frequently Asked Questions</a>
+                    <a class="dropdown-item" href="template_neighbourhood.html">The Neighbourhood</a>
                 </div>
             </div>
-    </nav>
- <div class="container">
-            <div class="col-12 link_icon_header">
-                 <a href="index.html"><i class="fas fa-home"></i></a>
-                 <a href="Profilepage.html"><i class="fas fa-user"></i></a>
-                 <a href="Contactpage.html"><i class="fas fa-phone"></i></a>
-                 <a href="#" data-toggle="modal" data-target="#ReportAnIssue"><i class="fas fa-box-tissue"></i></a>
-     </div>
-    </div>
-    </div>    
+        </div>
+        <div class="Logo text-center">
+            <a href="template.html">LOMSTEN</a>
+            <p>Apartments where you feel at home</p>
+        </div>
+    </div>   
     <!-- Modal ReportAnIssue --> 
     <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -91,82 +75,185 @@
     </div> 
 </header>
 <section class="Main_content">
-    <div class="container">
-           <div class="col-12">
-          <div class="tcontainer"><div class="ticker-wrap"><div class="ticker-move">
-          <div class="ticker-item">Apartments where you can feel at home</div>
-          <div class="ticker-item">Everything you need for the everyday life</div>
-          <div class="ticker-item">Close to the city in a quiet neigbourhood</div>
-           <div class="ticker-item">Everything from supermarket to bakery in close distance</div>
-            <div class="ticker-item">Easy to park and buses to the city leaves frequently</div>
-            <div class="ticker-item">We care about our costumer!!</div>
-        </div></div></div>
-        <div>
-        <div class="upper_section_index container">
-        <div class="row">
-        <div class="col-12 text-center upper_section_left_index">
-        </div>
-        <!--- <div class="col-12 upper_section_right_index">
-         <p class="text-center"> Please <a href="Contactpage.html">Contact us <i class="fas fa-phone"></i></a> or  <a href="#" data-toggle="modal" data-target="#ReportAnIssue">Report an Issue <i class="fas fa-box-tissue"></i></a>. <br/>We priorities your call. </p>
-        </div>--->
- 
+    <section class="Main_content">
+  <div class="section1 d-none d-md-block">
+          <div class="container">
+   <div class="row">
+    <div class=" col-3 aboutthebuilding_img">
+    </div>
+    <div class="col-12 col-md-9 abouthebuilding_text">
+       <p>The apartment house was built in 1958 by Tessin the older. 
+          <br/> It is located in a quiet neighbourhood near to the city, shopping and restaurants.
+           The building is refurbushed to modern standard and we offer you all you need for a everyday life.
+           Feel free to contact us if you want to more about our apartments.
+     </p>
+    </div>
+  </div>
+          </div>
+  </div>
+   <div class="section1 d-block d-md-none">
+       <div class="container">
+          <div class="col-12 aboutthebuilding_img">
+    </div>
+    <div class="col-12 abouthebuilding_text">
+       <p>The apartment house was built in 1958 by Tessin the older. 
+          <br/> It is located in a quiet neighbourhood near to the city, shopping and restaurants.
+           The building is refurbushed to modern standard and we offer you all you need for a everyday life.
+           Feel free to contact us if you want to more about our apartments.
+     </p>
+    </div>
        </div>
-        </div>  
+   </div>
+  <div class="section2 d-none d-md-block">
+         <div class="section2_content">
+<div class="container">
+  <div class="row">
+    <div class="col-9 news_text">
+               <p>The apartment house was built in 1958 by Tessin the older. 
+          <br/> It is located in a quiet neighbourhood near to the city, shopping and restaurants.
+           The building is refurbushed to modern standard and we offer you all you need for a everyday life.
+           Feel free to contact us if you want to more about our apartments.
+     </p>
     </div>
-    <div class="col-md-12 col-lg-6 d-block d-md-none lower_section_right_index">
+    <div class="col-3 news_img">
     </div>
-     <div class="lower_section_index container">
-             <div class="row">
-        <div class="col-12 mt-4 news_section_left">
-                  <div class="tcontainer"><div class="mticker-wrap"><div class="mticker-move">
-          <div class="mticker-item">2020-12-13 : Gluewine party - In the garden (max 8 persons)</div>
-          <div class="mticker-item">2020-12-21 : Course in picking christmastree - Guided tour on the Island (max 8 persons)</div>
-          <div class="mticker-item">2020-12-23 : Voulenteer aid action - Help the Neighbourhood (max 8 persons)</div>
-           <div class="mticker-item"> 2020-12-24: Santa in Town - Chrismas dinner with the neighbour (max 8 persons)</div>
-        </div></div></div>
+  </div>
+</div>
+</div>
+  </div>
+   <div class="section2 d-block d-md-none">
+       <div class="container">
+           <div class="section2_content">
+          <div class="col-12 news_img">
+    </div>
+    <div class="col-12 news_text">
+       <p>The apartment house was built in 1958 by Tessin the older. 
+          <br/> It is located in a quiet neighbourhood near to the city, shopping and restaurants.
+           The building is refurbushed to modern standard and we offer you all you need for a everyday life.
+           Feel free to contact us if you want to more about our apartments.
+     </p>
+    </div>
+       </div>
+   </div>
+</div>  
+  <div class="section3 d-none d-md-block">
+  <div class="container section3_content">
+  <div class="row">
+    <div class="col-1">
+    </div>
+      <div class="col-3 text-center">
+        <div class="neighbourhood_title">
+            <p>Neighbourhood</p>
         </div>
-        </div> 
-     </div>
- </div>   
- </section>
-<section class="Link">
-    <div class="container links">
-    <nav class="navbar">
- <div class="dropdown dropright dropdown_footer_info">
-   <p class="d-none d-md-block"> General Info </p> <i class="fas fa-book-open"></i>
-  <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButtonFooter1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="General Info">
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonFooter1">
-    <a class="dropdown-item" href="Livinghere.html">Living Here</a>
-    <a class="dropdown-item" href="Guidelines.html">Guidelines</a>
-    <a class="dropdown-item" href="Forms.html">Forms</a>
-  </div>
- </div>
-  <div class="dropdown_footer_neighbourhood">
-         <div class="col-12 text-center">
-        <p class="d-none d-md-block"> Neighbourhood </p><a href="Neighbourhood.html"> <i class="fas fa-city"></i></a>
- </div>
- 
- </div>
-  <div class="dropdown_footer_partners">
-         <div class="col-12 text-center">
-         <p class="d-none d-md-block"> Partners </p><a href="Partners.html"> <i class="far fa-handshake"></i></a>
- </div>
- </div>
- <div class="dropdown_footer_contact dropleft">
-     <p class="d-none d-md-block">Contact Us </p><i class="fas fa-phone"></i>
-  <button class=" btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButtonFooter4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Contact">
- </button>
-  <div class="dropdown-menu contact_footer_box" aria-labelledby="dropdownMenuButtonFooter4">
-    <a class="dropdown-item" href="Contactpage.html">Contact</a>
-    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#ReportAnIssue">Report an Issue</a>
-    <a class="dropdown-item" href="assets/document/CancelContract.pdf" >Cancel Contract</a>
-  </div>
- </div>
-    </nav>
+        <div class="neighbourhood_img"></div>
+            <div class=neighbourhood_text>
+        <p>Press the buttom below to learn more about what the Island can offer you.  <br/>  <br/> </p> </div>
+      <a class="buttom" href="index.html" target="_blank"> <button class="btn btn-dark">Find Out More</button></a>     
     </div>
-</section> 
+       <div class="col-1">
+    </div>
+    <div class="col-3 text-center">
+             <div class="profile_title">
+            <p>My pages</p>
+        </div>  
+        <div class="profile_img"></div>
+         <div class="profile_text text-center"> <p>Press the buttom below to go to your profile page with information such as contract, invoices and blueprints.<br/> </p></div>
+         <a class="buttom" href="template_profile.html" target="_blank"> <button class="btn btn-dark">Find Out More</button></a>
+        </div>
+        <div class="col-1">
+    </div>
+    <div class="col-3 text-center">
+             <div class="question_title text-center">
+            <p>Questions</p>
+        </div>
+        <div class="question_img"></div>
+        <div class="question_text text-center">
+            <p>  Press the buttom below to get in contact with us our find out answers to frequently asked question??  </p> </div>
+         <a class="buttom" href="index.html" target="_blank"> <button class="btn btn-dark">Find Out More</button></a>
+    </div>
+    <div class="col-1">
+    </div>
+    </div>
+  </div>
+  </div> 
+    <div class="section3 d-block d-md-none">
+  <div class="container section3_content">
+      <div class="text-center">
+        <div class="neighbourhood_title">
+            <p>Neighbourhood</p>
+        </div>
+        <div class="neighbourhood_img"></div>
+            <div class="neighbourhood_text">
+      <a class="buttom" href="index.html" target="_blank"> <button class="btn btn-dark">Find Out More</button></a>     
+    </div>
+    <div class="text-center">
+             <div class="profile_title">
+            <p>My pages</p>
+        </div>  
+        <div class="profile_img"></div>
+         <div class="profile_text">
+        <a class="buttom" href="template_profile.html" target="_blank"> <button class="btn btn-dark">Find Out More</button></a>
+        </div>
+    <div class="text-center">
+             <div class="question_title text-center">
+            <p>Questions</p>
+        </div>
+        <div class="question_img"></div>
+        <div class="question_text text-center">
+     <a class="buttom" href="index.html" target="_blank"> <button class="btn btn-dark">Find Out More</button></a>
+    </div>
+    </div>
+  </div>
+  </div> 
+ </section> 
+ <footer>
+     <div class= "borderline">
+     <div class="container">
+         <div class="row footerlinks">
+                <a href="index.html"><i class="fas fa-home"></i></a>
+                <a href="tel:00468XXXXXX"><i class="fas fa-phone"></i></a>
+              <a href="#" data-toggle="modal" data-target="#ReportAnIssue"><i class="fas fa-tools"></i></a>
+         </div>
+     </div>
+      <!-- Modal ReportAnIssue --> 
+    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="Issuereport_label">Report An Issue</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body text-center">
+        <form class="form-inline">
+            <input type="text" name="FirstName" class="form-control" placeholder="Enter First Name" id="first_name" required>
+            <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
+        </form>
+        <form>
+            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id"required>
+        <label class="Issuereport_label" for="Issuereport">Type of Issue  </label>
+        <select class="custom-select" id="Issuereport" required>
+            <option selected disabled value="">Apartment</option>
+            <option>Loundary</option>
+            <option>Storage</option>
+            <option>Neighbours</option>
+            <option>Invoice</option>
+            <option>Complaints</option>
+        </select>
+        <textarea row="10" name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
+    </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn report_buttom">Save changes</button>
+        </div>
+        </div>
+    </div>
+    </div> 
+    </div>
+ </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
-    </html>    
+    </html>  
