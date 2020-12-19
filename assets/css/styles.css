@@ -19,23 +19,17 @@
    padding-left: 90%;  
 }
 
-.menu_header
-
+.menu_header{
     background-color: white;
     border: black 1px solid;
  }
 
 
-.menu_#1f2c36der button{
-color:red;
-font-size: 18px;
- font-weight: 200;}
-
  .dropdown-menu a{
      font-family: "Oswald", sans-serif;
      font-weight: 300;
-     font-size: 18px;
-     c     }
+     font-size: 18px;   
+     }
 
 
      .Logo a{
@@ -47,23 +41,17 @@ font-size: 18px;
     text-decoration: none;
 }
 
-     .Logo a#DADBE9
-     color: #DADBE9;
-blackwhite    text-shadow: 1px 1px black;
-
-}
-
      .Logo p{
     font-family: "Montserrat", sans-serif; 
      color: white;
      text-shadow:black 2px 2px;
-       font-weig28: 400;
+       font-weight: 400;
      font-size: 28px;
 
 }
 
 /*-----------------------------New Layout Main Section*/
-sectionsection{
+body{
      background-color:#ececec;
 }
 
