@@ -4,76 +4,85 @@
 
 /*-----------------------------New Layout Header*/
 
+  #dropdownMenuButton{
+         background-color: white;
+         border-radius: 20%;
+     }
+
 .Logo_image{
-        background-image: url("../img/logoimage.jpg");
+        background-image: url("../img/pexels-adrien-olichon-2387674.jpg");
        background-size: 100% 100%;
        height:700px;}
 
 .navbar{
-     padding-top: 160px;
-   padding-left: 80%;  
+     padding-top: 100px;
+   padding-left: 90%;  
 }
 
-.menu_header{
-   margin: 0px 0 0px 0;
-    background-color: #DADBE9;
-    border: white 1px solid;
-    border-radius: 20%;
-}
+.menu_header
 
-.menu_header button{
-color:black;
-     font-size: 24px;
-         font-weight: 200;}
+    background-color: white;
+    border: black 1px solid;
+ }
+
+
+.menu_#1f2c36der button{
+color:red;
+font-size: 18px;
+ font-weight: 200;}
 
  .dropdown-menu a{
      font-family: "Oswald", sans-serif;
-     font-weight: 500;
-     font-size: 22px;
-     color:#a2131a;
-     }
+     font-weight: 300;
+     font-size: 18px;
+     c     }
 
 
      .Logo a{
      font-family: "Montserrat", sans-serif;
      font-weight: 600;
      font-size: 48px;
-     color: black;
-    text-shadow: 2px 2px #DADBE9;
+  color: white;
+     text-shadow:black 2px 2px;
     text-decoration: none;
 }
 
-     .Logo a:hover{
+     .Logo a#DADBE9
      color: #DADBE9;
-    text-shadow: 2px 2px black;
+blackwhite    text-shadow: 1px 1px black;
 
 }
 
      .Logo p{
     font-family: "Montserrat", sans-serif; 
-     color: #1f2c36;
-       font-weight: 400;
+     color: white;
+     text-shadow:black 2px 2px;
+       font-weig28: 400;
      font-size: 28px;
 
 }
 
 /*-----------------------------New Layout Main Section*/
-
-
-
-.section1 {
-    margin: 80px 0 0px 0;
+sectionsection{
+     background-color:#ececec;
 }
 
-.section3{
-     margin: 80px 0 40px 0;
+h2{
+    padding: 30px 0 30px 0;
+
 }
+
+
+.section3,.nbgh_frame, .question_frame {
+     background-color: white;
+}
+
 
 .aboutthebuilding_img{
     height:240px;
     width:240px;
     background-position: center;
-    background-image: url("../img/test16.png");
+    background-image: url("../img/pexels-serinuscanaria-5602170.jpg");
     background-size:cover;
     border-radius: 50%;
     border: #545760 1px solid;
@@ -108,23 +117,47 @@ color:black;
       font-weight: 400;
 }
 
-.profile_title,.question_title,.neighbourhood_title{
-    padding:0px 0px 20px 0px;
+.profile_title,.question_title,.neighbourhood_title, .profile_title_section1 {
+    padding:30px 0px 10px 0px;
+        color: black;
+    font-size:24px;
+    font-family: "Roboto", sans-serif;
+      font-weight: 500;
+}
+
+.info_buttoms p, .contract_buttom p,.invoices_buttom p,.blueprint_buttom p{
+     padding:0px 0px 20px 0px;
         color: black;
     font-size:28px;
     font-family: "Roboto", sans-serif;
-      font-weight: 500;
+      font-weight: 500;   
+}
+
+a {
+    color:darkblue;
+    font-weight: 600;
+}
+
+a:hover {
+    color:#7288a2;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .section1{
     height:300px;
 }
 
-.section2{
+.section2, .section2_profile{
     margin:80px 0px 0px 0px;
     height:400px;
-    background-image: url("../img/sectiondivider.png");
+   background-color: #fdffef;
     background-size:cover;
+}
+
+.section3_content, .question_frame{
+    padding-bottom: 40px;
+
 }
 
 .section2_content{
@@ -145,7 +178,7 @@ padding: 80px 0 0 0;
 .neighbourhood_img{ 
     height:240px;
     width:240px;
-    background-image: url("../img/neighbourhood.jpg");
+    background-image: url("../img/pexels-daria-shevtsova-1070945.jpg");
     background-size:cover;
     border-radius: 50%;
     border: #545760 1px solid;
@@ -158,7 +191,7 @@ padding: 80px 0 0 0;
      height:240px;
      width:240px;
      align-items: center;
-    background-image: url("../img/profile.jpg");
+    background-image: url("../img/pexels-emre-can-2079249.jpg");
     background-size:cover;
     border-radius: 50%;
     border: #545760 1px solid;
@@ -169,16 +202,17 @@ padding: 80px 0 0 0;
 
 .profile_img_section1{
      align-items: center;
-    background-image: url("../img/profile.jpg");
+    background-color:black;
     background-size:80% 60%;
     background-position: center;
     background-repeat: no-repeat;
    
 }
 
+
 .profile_img_section2{
      align-items: center;
-    background-image: url("../img/news.jpg");
+    background-color:black;
     background-size:80% 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -189,7 +223,7 @@ padding: 80px 0 0 0;
      height:240px;
      width:240px;
      align-items: center;
-    background-image: url("../img/question.jpg");
+    background-image: url("../img/pexels-luca-nardone-3651820.jpg");
     background-size:cover;
     border-radius: 50%;
     border: #545760 1px solid;
@@ -207,30 +241,84 @@ padding: 80px 0 0 0;
     padding: 50px 0 0 0;
 }
 
-.info_buttoms p{
-           font-family: "Oswald", sans-serif;
-      font-weight: 500;
-    font-size:30px;
-}
 
-.contract_buttom p,.invoices_buttom p,.blueprint_buttom p{
-        font-family: "Roboto", sans-serif;
-      font-weight: 500;
-    font-size:40px;
+/* Ticker  news section*/
+/* OUTER CONTAINER */
+.tcontainer {
+    margin:20px 0 0 20px;
+  width: 100%;
+  overflow: hidden; /* Hide scroll bar */
 }
-
+/* MIDDLE CONTAINER */
+.ticker-wrap {
+  width: 100%;
+  padding-left: 100%; /* Push contents to right side of screen */
+}
+/* INNER CONTAINER */
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+.ticker-move {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 40s;
+}
+.ticker-item{
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0 2rem;
+  color:#494444;
+  font-size:22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; 
+}
+.mticker-wrap {
+  width: 100%;
+  padding-right: 100%; /* Push contents to left side of screen */
+}
+@keyframes mticker {
+  0% { transform: translate3d(-100%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.mticker-move {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: mticker;
+  animation-duration: 70s;
+}
+.mticker-item{
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0 2rem;
+  color:#494444;
+  font-size:22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; 
+}
+/* ITEMS */
+.mticker-item{
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0 2rem;
+  color:#494444;
+  font-size:22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; 
+}
 /*--- List of items in Neighbourhood and Frequently asked question pages -*/
 
 h2{
-    margin: 30px 0 0 0;
-         font-family: "Roboto", sans-serif;
-      font-weight: 500;
-    font-size:32px;   
+        color: black;
+    font-size:28px;
+    font-family: "Roboto", sans-serif;
+      font-weight: 500;  
 }
 
-.accordion{
-   margin: 0px 0 30px 0;
-}
 
 .accordion h3{
   position: relative;
@@ -416,10 +504,19 @@ margin: 0 20px 0px 20px;
 
 
 @media screen and (max-width: 992px){
+
+    .Logo_image{
+        background-image: url("../img/pexels-adrien-olichon-2387674.jpg");
+       background-size: 100% 100%;
+       height:400px;}
+
 .section1{
     height:450px;
 }
 
+.section2_profile{
+    height:380px;
+}
 .section2{
     height:600px;
 }
@@ -431,7 +528,7 @@ margin: 0 20px 0px 20px;
     .aboutthebuilding_img{
     width:100%;
      background-position: center;
-    background-image: url("../img/test16.png");
+    background-image: url("../img/pexels-serinuscanaria-5602170.jpg");
     background-size: cover;
     border:none;
     border-radius:0%;
@@ -452,7 +549,7 @@ margin: 0 20px 0px 20px;
      position: relative;
      left: 25%;
     background-position: center;
-    background-image: url("../img/neighbourhood.jpg");
+    background-image: url("../img/pexels-daria-shevtsova-1070945.jpg");
     }
 
     .profile_img{
@@ -460,7 +557,7 @@ margin: 0 20px 0px 20px;
      position: relative;
      left: 25%;
     background-position: center;
-    background-image: url("../img/profile.jpg");
+    background-image: url("../img/pexels-emre-can-2079249.jpg");
     }
     
     .question_img{
@@ -468,7 +565,7 @@ margin: 0 20px 0px 20px;
      position: relative;
      left: 25%;
     background-position: center;
-    background-image: url("../img/question.jpg");
+    background-image: url("../img/pexels-luca-nardone-3651820.jpg");
     }
 
     .section3{
