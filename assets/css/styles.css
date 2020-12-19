@@ -69,7 +69,6 @@ h2{
 .aboutthebuilding_img{
     height:240px;
     width:240px;
-    background-position: center;
     background-image: url("../img/pexels-serinuscanaria-5602170.jpg");
     background-size:cover;
     border-radius: 50%;
@@ -78,16 +77,13 @@ h2{
     background-repeat: no-repeat;
 }
  .gratitude_img{
-    width:220px;
-      height:220px;
-       background-size:cover;
+   vertical-align:middle;
+   height:240px;
     background-image: url("../img/pexels-hannah-nelson-1456951.jpg");
-    border-radius: 50%;
-       position: relative;
-     left: 40%;
-    border: #545760 1px solid;
-    background-repeat: no-repeat;
- }
+    background-size:20% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;}
+
 
 .abouthebuilding_text, .news_text{
     padding:60px 0px 0px 30px;
@@ -133,8 +129,13 @@ a:hover {
 }
 
 .section1, .section1_profile{
-    height:300px;
+    height:360px;
 }
+
+.section1_profile{
+padding: 0 0 30px 0;
+}
+
 
 .section2, .section2_profile{
     margin:80px 0px 0px 0px;
@@ -188,21 +189,14 @@ padding: 80px 0 0 0;
    
 }
 
-
-
-.profile_img_section3 p, .profile_img_section1 p, .profile_img_section2 p{
-        color: black;
-    font-size:120px;
-    font-family: "Roboto", sans-serif;
-      font-weight: 500;
+.question_frame1, .question_frame3{
+   background-color: white;   
 }
 
-.question_frame1,.question_frame3{
-background-color: white;
-padding: 0 0 30px 0;
-}
-.question_frame1{
-padding: 0 0 30px 0;    
+.question_frame2{
+   border-bottom: #3a4a5d 2px solid;
+   border-top: #3a4a5d 2px solid; 
+   background-color: #ececec;   
 }
 
 .question_img{
@@ -572,16 +566,17 @@ margin: 0 20px 0px 20px;
         padding: 30px 0 30px 0;
     }
 
-    .gratitude_img{
-        position: relative;
-        left:28%;
-    }
-
     .profile_img_section3 p, .profile_img_section1 p, .profile_img_section2 p{
         color: black;
     font-size:80px;
     font-family: "Roboto", sans-serif;
       font-weight: 500;
 }
+ .gratitude_img{
+   vertical-align:middle;
+   height:240px;
+    background-image: url("../img/pexels-hannah-nelson-1456951.jpg");
+    background-size:40% 100%;}
+
 }
 
