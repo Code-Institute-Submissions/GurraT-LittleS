@@ -55,11 +55,6 @@ body{
      background-color:#ececec;
 }
 
-h2{
-    padding: 30px 0 30px 0;
-
-}
-
 
 .section3,.nbgh_frame {
      background-color: white;
@@ -85,10 +80,10 @@ h2{
     background-repeat: no-repeat;}
 
 
-.abouthebuilding_text, .news_text{
+.abouthebuilding_text{
     padding:60px 0px 0px 30px;
         color: #494444;
-    font-size:22px;
+    font-size:20px;
     font-family: "Roboto", sans-serif;
       font-weight: 400;
 }
@@ -101,7 +96,7 @@ h2{
       font-weight: 400;
 }
 
-.profile_title,.question_title,.neighbourhood_title, .profile_title_section1 {
+ .profile_title,.question_title,.neighbourhood_title, .profile_title_section1, h2 {
     padding:30px 0px 10px 0px;
         color: black;
     font-size:24px;
@@ -110,16 +105,15 @@ h2{
 }
 
 .info_buttoms p, .contract_buttom p,.invoices_buttom p,.blueprint_buttom p{
-     padding:0px 0px 20px 0px;
         color: black;
-    font-size:28px;
+    font-size:24px;
     font-family: "Roboto", sans-serif;
-      font-weight: 500;   
+      font-weight: 500;
 }
 
 a {
-    color:darkblue;
-    font-weight: 600;
+    color:black;
+    font-weight: 700;
 }
 
 a:hover {
@@ -129,18 +123,18 @@ a:hover {
 }
 
 .section1, .section1_profile{
-    height:360px;
+    height:420px;
 }
 
 .section1_index{
     height:360px;
 }
 .section1_profile{
-padding: 0 0 30px 0;
+padding: 0 0 10px 0;
 }
 
 
-.section2, .section2_profile{
+.section2{
     margin:80px 0px 0px 0px;
     height:400px;
    background-color: white;
@@ -156,6 +150,14 @@ padding: 0 0 30px 0;
 padding: 80px 0 0 0;
 }
 
+.section2_profile {
+    padding: 0 0 30px 0;
+    background-color: white;
+    color: black;
+    font-size:24px;
+    font-family: "Roboto", sans-serif;
+      font-weight: 500;
+}
 
 
 .neighbourhood_img{ 
@@ -250,7 +252,7 @@ padding: 80px 0 0 0;
 .ticker-item{
   display: inline-block; /* Lay items in a horizontal line */
   padding: 0 2rem;
-  color:#494444;
+    color: black;
     font-size:18px;
     font-family: "Roboto", sans-serif;
       font-weight: 400;
@@ -291,12 +293,6 @@ padding: 80px 0 0 0;
 }
 /*--- List of items in Neighbourhood and Frequently asked question pages -*/
 
-h2{
-        color: black;
-    font-size:28px;
-    font-family: "Roboto", sans-serif;
-      font-weight: 500;  
-}
 
 
 .accordion h3{
@@ -502,10 +498,6 @@ margin: 0 20px 0px 20px;
 }
 
 
-
-.section2_profile{
-    height:380px;
-}
 .section2{
     height:600px;
 }
@@ -550,7 +542,9 @@ margin: 0 20px 0px 20px;
 
     .section3{
      margin: 40px 0 0px 0;
+
 }
+
     .profile_title, .question_title{
         padding: 10px 0 0 0;
         margin:40px 0 0 0;
