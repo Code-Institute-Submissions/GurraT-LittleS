@@ -10,7 +10,7 @@
      }
 
 .Logo_image{
-        background-image: url("../img/pexels-adrien-olichon-2387674.jpg");
+        background-image: url("../img/pexels-adrien-olichon-2387674opt.jpg");
        background-size: 100% 100%;
        height:700px;}
 
@@ -69,7 +69,7 @@ h2{
 .aboutthebuilding_img{
     height:240px;
     width:240px;
-    background-image: url("../img/pexels-serinuscanaria-5602170.jpg");
+    background-image: url("../img/pexels-serinuscanaria-5602170opt.jpg");
     background-size:cover;
     border-radius: 50%;
     border: #545760 1px solid;
@@ -79,7 +79,7 @@ h2{
  .gratitude_img{
    vertical-align:middle;
    height:240px;
-    background-image: url("../img/pexels-hannah-nelson-1456951.jpg");
+    background-image: url("../img/pexels-hannah-nelson-1456951opt.jpg");
     background-size:20% 100%;
     background-position: center center;
     background-repeat: no-repeat;}
@@ -161,7 +161,7 @@ padding: 80px 0 0 0;
 .neighbourhood_img{ 
     height:240px;
     width:240px;
-    background-image: url("../img/pexels-daria-shevtsova-1070945.jpg");
+    background-image: url("../img/pexels-daria-shevtsova-1070945opt.jpg");
     background-size:cover;
     border-radius: 50%;
     border: #545760 1px solid;
@@ -174,7 +174,7 @@ padding: 80px 0 0 0;
      height:240px;
      width:240px;
      align-items: center;
-    background-image: url("../img/pexels-emre-can-2079249.jpg");
+    background-image: url("../img/pexels-emre-can-2079249opt.jpg");
     background-size:cover;
     border-radius: 50%;
     border: #545760 1px solid;
@@ -197,7 +197,7 @@ padding: 80px 0 0 0;
      height:240px;
      width:240px;
      align-items: center;
-    background-image: url("../img/pexels-luca-nardone-3651820.jpg");
+    background-image: url("../img/pexels-luca-nardone-3651820opt.jpg");
     background-size:cover;
     border-radius: 50%;
     border: #545760 1px solid;
@@ -209,6 +209,7 @@ padding: 80px 0 0 0;
 .buttom{
     height:50px;
      width:50px; 
+     color:white;
 }
 
 .contract_buttom,.invoices_buttom,.blueprint_buttom,.info_buttoms{
@@ -489,7 +490,7 @@ margin: 0 20px 0px 20px;
 @media screen and (max-width: 992px){
 
     .Logo_image{
-        background-image: url("../img/pexels-adrien-olichon-2387674.jpg");
+        background-image: url("../img/pexels-adrien-olichon-2387674opt.jpg");
        background-size: 100% 100%;
        height:400px;}
 
@@ -516,7 +517,7 @@ margin: 0 20px 0px 20px;
     .aboutthebuilding_img{
     width:100%;
      background-position: center;
-    background-image: url("../img/pexels-serinuscanaria-5602170.jpg");
+    background-image: url("../img/pexels-serinuscanaria-5602170opt.jpg");
     background-size: cover;
     border:none;
     border-radius:0%;
@@ -528,7 +529,7 @@ margin: 0 20px 0px 20px;
      position: relative;
      left: 25%;
     background-position: center;
-    background-image: url("../img/pexels-daria-shevtsova-1070945.jpg");
+    background-image: url("../img/pexels-daria-shevtsova-1070945opt.jpg");
     }
 
     .profile_img{
@@ -536,7 +537,7 @@ margin: 0 20px 0px 20px;
      position: relative;
      left: 25%;
     background-position: center;
-    background-image: url("../img/pexels-emre-can-2079249.jpg");
+    background-image: url("../img/pexels-emre-can-2079249opt.jpg");
     }
     
     .question_img{
@@ -544,7 +545,7 @@ margin: 0 20px 0px 20px;
      position: relative;
      left: 25%;
     background-position: center;
-    background-image: url("../img/pexels-luca-nardone-3651820.jpg");
+    background-image: url("../img/pexels-luca-nardone-3651820opt.jpg");
     }
 
     .section3{
@@ -569,7 +570,7 @@ margin: 0 20px 0px 20px;
  .gratitude_img{
    vertical-align:middle;
    height:240px;
-    background-image: url("../img/pexels-hannah-nelson-1456951.jpg");
+    background-image: url("../img/pexels-hannah-nelson-1456951opt.jpg");
     background-size:40% 100%;}
 
 }

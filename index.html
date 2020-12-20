@@ -38,7 +38,7 @@
         </div>
     </div>   
     <!-- Modal ReportAnIssue --> 
-    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
+    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="Issuereport_label" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
         <div class="modal-header">
@@ -53,7 +53,7 @@
             <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
         </form>
         <form>
-            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id"required>
+            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id" required>
         <label class="Issuereport_label" for="Issuereport">Type of Issue  </label>
         <select class="custom-select" id="Issuereport" required>
             <option selected disabled value="">Apartment</option>
@@ -63,7 +63,7 @@
             <option>Invoice</option>
             <option>Complaints</option>
         </select>
-        <textarea row="10" name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
+        <textarea name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
     </form>
         </div>
         <div class="modal-footer">
@@ -75,8 +75,7 @@
     </div> 
 </header>
 <section class="Main_content">
-    <section class="Main_content">
-            <div class="col-12 news_section_mypage">
+<div class="col-12 news_section_mypage">
                   <div class="tcontainer"><div class="ticker-wrap"><div class="ticker-move">
           <div class="ticker-item">2020-12-13 : Gluewine party - In the garden (max 8 persons)</div>
           <div class="ticker-item">2020-12-21 : Course in picking christmastree - Guided tour on the Island (max 8 persons)</div>
@@ -113,7 +112,6 @@
     </div>
        </div>
    </div>
-</div>
   <div class="section3 d-none d-md-block">
   <div class="container section3_content">
   <div class="row">
@@ -126,7 +124,7 @@
         <div class="neighbourhood_img"></div>
             <div class=neighbourhood_text>
         <p>Press the buttom below to learn more about what the Island can offer you.  <br/>  <br/> </p> </div>
-      <a class="buttom" href="index.html" target="_blank"> <button class="btn btn-dark">Find Out More</button></a>     
+      <button class="btn btn-dark"> <a class="buttom" href="index.html" target="_blank">Find Out More </a></button>     
     </div>
        <div class="col-1">
     </div>
@@ -136,7 +134,7 @@
         </div>  
         <div class="profile_img"></div>
          <div class="profile_text text-center"> <p>Press the buttom below to go to your profile page with information such as contract, invoices and blueprints.<br/> </p></div>
-         <a class="buttom" href="profile.html" target="_blank"> <button class="btn btn-dark">Find Out More</button></a>
+         <button class="btn btn-dark"> <a class="buttom" href="profile.html" target="_blank">Find Out More</a></button>
         </div>
         <div class="col-1">
     </div>
@@ -147,7 +145,7 @@
         <div class="question_img"></div>
         <div class="question_text text-center">
             <p>  Press the buttom below to get in contact with us our find out answers to frequently asked question??  </p> </div>
-         <a class="buttom" href="question.html" target="_blank"> <button class="btn btn-dark">Find Out More</button></a>
+        <button class="btn btn-dark"> <a class="buttom" href="question.html" target="_blank"> Find Out More</a></button>
     </div>
     <div class="col-1">
     </div>
@@ -162,7 +160,7 @@
         </div>
         <div class="neighbourhood_img"></div>
             <div class="neighbourhood_text">
-      <a class="buttom" href="neighbourhood.html"> <button class="btn btn-dark">Find Out More</button></a>     
+    <button class="btn btn-dark">  <a class="buttom" href="neighbourhood.html">Find Out More </a></button>     
     </div>
     <div class="text-center">
              <div class="profile_title">
@@ -170,7 +168,7 @@
         </div>  
         <div class="profile_img"></div>
          <div class="profile_text">
-        <a class="buttom" href="profile.html"> <button class="btn btn-dark">Find Out More</button></a>
+        <button class="btn btn-dark">  <a class="buttom" href="profile.html">Find Out More </a></button>
         </div>
     <div class="text-center">
              <div class="question_title text-center">
@@ -178,11 +176,13 @@
         </div>
         <div class="question_img"></div>
         <div class="question_text text-center">
-     <a class="buttom" href="question.html"> <button class="btn btn-dark">Find Out More</button></a>
+     <button class="btn btn-dark"><a class="buttom" href="question.html">Find Out More</a></button>
     </div>
     </div>
   </div>
+  </div>
   </div> 
+  </div>
  </section> 
  <footer>
      <div class= "borderline">
@@ -193,45 +193,9 @@
               <a href="#" data-toggle="modal" data-target="#ReportAnIssue"><i class="fas fa-tools"></i></a>
          </div>
      </div>
-      <!-- Modal ReportAnIssue --> 
-    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="Issuereport_label">Report An Issue</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body text-center">
-        <form class="form-inline">
-            <input type="text" name="FirstName" class="form-control" placeholder="Enter First Name" id="first_name" required>
-            <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
-        </form>
-        <form>
-            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id"required>
-        <label class="Issuereport_label" for="Issuereport">Type of Issue  </label>
-        <select class="custom-select" id="Issuereport" required>
-            <option selected disabled value="">Apartment</option>
-            <option>Loundary</option>
-            <option>Storage</option>
-            <option>Neighbours</option>
-            <option>Invoice</option>
-            <option>Complaints</option>
-        </select>
-        <textarea row="10" name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
-    </form>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn report_buttom">Save changes</button>
-        </div>
-        </div>
     </div>
-    </div> 
-    </div>
- </footer>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
     </html>  

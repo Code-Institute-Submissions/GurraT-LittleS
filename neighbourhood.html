@@ -39,7 +39,7 @@
         </div>
     </div>   
     <!-- Modal ReportAnIssue --> 
-    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
+    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="Issuereport_label" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
         <div class="modal-header">
@@ -54,7 +54,7 @@
             <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
         </form>
         <form>
-            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id"required>
+            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id" required>
         <label class="Issuereport_label" for="Issuereport">Type of Issue  </label>
         <select class="custom-select" id="Issuereport" required>
             <option selected disabled value="">Apartment</option>
@@ -64,7 +64,7 @@
             <option>Invoice</option>
             <option>Complaints</option>
         </select>
-        <textarea row="10" name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
+        <textarea name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
     </form>
         </div>
         <div class="modal-footer">
@@ -85,21 +85,24 @@
       <div class="accordion_content">
         <p> There are three bus lines that leaves frequently from the Island<a href="https://mitt.sl.se/reseplanering/tidtabeller#/TimeTableSearch/GetStationTimeTables/Lilla%20Essingen%20(Buss)%20(Stockholm)/1275/NULL/NULL/35/NULL" target="_blank"> Bus #1, Bus #91 and Bus #56 </a>  The parking is owned by Stockholm Stad and <a href="https://parkering.stockholm/"> Tariff 3 </a> is used </p>
       </div>
+       </div>
              <div class="accordion_item">
       <h3> Preschool/Kindergaarten </h3>
       <div class="accordion_content">
         <p>  There are three kindergaarten on the Island: </br> <a href="https://forskola.stockholm/hitta-forskola/forskola/forskolan-luxviken/" target="_blank"> Luxviken </a> 
                </br> <a href="https://forskola.stockholm/hitta-forskola/forskola/forskolan-vita-villan/" target="_blank"> Vita Villan </a>
              </br> <a href="https://www.barnstugan-halsingegatan.se/" target="_blank"> Barnstugan Hälsingegatan </a></p>
-      </div>
+       </div>
+       </div>
              <div class="accordion_item">
       <h3> Healthcare/Pharmacy </h3>
       <div class="accordion_content">
-       There is one clinic at the Island, <a href="https://vardcentraler.sll.se/hitta-vardcentral/essinge/" target="_blank">Essinge vårdcentral</a>
+      <p> There is one clinic at the Island, <a href="https://vardcentraler.sll.se/hitta-vardcentral/essinge/" target="_blank">Essinge vårdcentral</a>
         </br> one Pharmacy  <a href="https://sv-se.facebook.com/BroApoteket/" target="_blank"> BroApoteket </a>
         </br> one Dentist <a href="http://www.essingetdv.se/" target="_blank"> Essinge Tandvård </a>
-        </br>
-      </div>
+        </br> </p>
+   </div>
+       </div>
                <div class="accordion_item">
       <h3> Café/Restaurants </h3>
       <div class="accordion_content">
@@ -116,7 +119,8 @@
             <br/> <a href="https://www.pappasdeli.se/" target="_blank"> Pappas Deli</a>
              <br/> <a href="https://grazie.nu/" target="_blank"> Grazie Trattoria</a>
              <br/></p>
-      </div>
+         </div>
+       </div>
             <div class="accordion_item">
       <h3> Supermarket </h3>
       <div class="accordion_content">
@@ -124,14 +128,8 @@
                 <br/> <a href="https://www.ica.se/butiker/nara/stockholm/essingen-1223/butikserbjudanden/" target="_blank"> ICA Nära </a>
                 <br/> <a href="https://sv-se.facebook.com/tempo.lillaessingen/" target="_blank"> Tempo </a>
                 <br/>    </p>
-      </div>
-    <div class="accordion_content">
-        <p>    Other
-       <br/> There is one tailor at Lilla Essingen
-            <br/> Modern Skrädderi located at Essinge Brogata 8
-            <br/><br/>
-      </p>
-      </div>
+     </div>
+       </div>
              <div class="accordion_item">
       <h3> Other </h3>
       <div class="accordion_content">
@@ -152,42 +150,6 @@
               <a href="#" data-toggle="modal" data-target="#ReportAnIssue"><i class="fas fa-tools"></i></a>
          </div>
      </div>
-      <!-- Modal ReportAnIssue --> 
-    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="Issuereport_label">Report An Issue</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body text-center">
-        <form class="form-inline">
-            <input type="text" name="FirstName" class="form-control" placeholder="Enter First Name" id="first_name" required>
-            <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
-        </form>
-        <form>
-            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id"required>
-        <label class="Issuereport_label" for="Issuereport">Type of Issue  </label>
-        <select class="custom-select" id="Issuereport" required>
-            <option selected disabled value="">Apartment</option>
-            <option>Loundary</option>
-            <option>Storage</option>
-            <option>Neighbours</option>
-            <option>Invoice</option>
-            <option>Complaints</option>
-        </select>
-        <textarea row="10" name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
-    </form>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn report_buttom">Save changes</button>
-        </div>
-        </div>
-    </div>
-    </div> 
     </div>
  </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
