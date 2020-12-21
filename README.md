@@ -1,6 +1,6 @@
 # Lomsten
 
-![Lomsten](assets/img/Lomsten.png "Main page large devices")
+![Lomsten](assets/img/Design.png "Main page large devices")
 
 #### The aim of this website is to in an easy and intuitive way present useful and crucial information to people living or working in a building owned by Lomsten. 
 
@@ -642,7 +642,8 @@ In order to use this web-page on small media device follow action has/should bee
 - unused code was removed
 - div was closed were they were opened
 - extra closing divs was removed
-- anchor-tab was arrange in accordance with recommendation from the validation
+- anchor-tab was arrange in accordance with recommendation from the validation (e.g. not inside button)
+
 
 
 
@@ -799,6 +800,7 @@ Connect to ReportAnIssue.html
  * Emre Can from Pexels
  * Luca Nardone from Pexels
  * Serinus Canaria from Pexels
+ * Adrien Olichon from Pexels
 
 ### Links
 - I have extracted information or linked to following pages to provide the personas using my pages with useful information
