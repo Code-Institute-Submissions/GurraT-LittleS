@@ -21,9 +21,19 @@
 <body>
 <header>
     <div class="Logo_image">
-    <div class="navbar">
-        <div class="dropdown dropleft menu_header">
-            <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Menu">
+         <div class="linkmenu d-none d-md-block">
+             <div class="container">
+                 <div class="row">
+                    <div class="col-4 text-left"><a href="profile.html">My pages</a></div>
+                    <div class="col-4 text-center"><a href="question.html">Frequently Asked Questions</a></div>
+                    <div class="col-4 text-right"><a href="neighbourhood.html">The Neighbourhood</a></div>
+             </div>
+             </div>
+             </div>
+        <div class="dropdown menu_header d-block d-md-none">
+            <div class="container">
+                <div class="text-right dropleft">
+            <button class="btn btn-sm btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Menu">
                 <i class="fas fa-grip-lines"></i>
             </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -33,13 +43,15 @@
                 </div>
             </div>
         </div>
+        </div>
         <div class="Logo text-center">
             <a href="index.html">LOMSTEN</a>
             <p>Apartments where you feel at home</p>
         </div>
-    </div>   
+    </div>  
+</div> 
     <!-- Modal ReportAnIssue --> 
-    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssue" aria-hidden="true">
+    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="Issuereport_label" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
         <div class="modal-header">
@@ -246,7 +258,85 @@
     </div>
  </section> 
  <footer>
-     <div class= "borderline">
+<div class="Footer_main">
+    <div class="container">
+    <div class="Footer_upper_section d-none d-md-block">
+        <div class="container">
+        <div class="row">
+    <div class="col-6">
+        <div class="Footer_about_title"><p>About</p></div>
+        <div class="Footer_about_text"><p>Lomsten has a long tradition of managing rental apartments and are proud to offering living in the middle of Stockholm. Our building is located in a quiet neighbourhood near to the city, shopping and restaurants. Feel free to contact us if you want to more about our apartments. </p></div>
+    </div>
+        <div class="col-2"></div>
+    <div class="col-4">
+          <div class="Footer_link_title"><p>Quick Links</p></div>
+        <div class="Footer_link_text">
+                    <a href="index.html">Home</a><br>
+                    <a href="profile.html">My pages</a><br>
+                    <a href="question.html">Frequently Asked Questions</a><br>
+                    <a href="neighbourhood.html">The Neighbourhood</a>
+        </div>
+        </div>
+    </div>
+    </div>  
+    </div>
+       <div class="Footer_upper_section d-block d-md-none">
+        <div class="container">
+        <div class="row">
+    <div class="col-6">
+        <div class="Footer_about_title"><p>About</p></div>
+        <div class="Footer_about_text"><p>Lomsten has a long tradition of managing rental apartments and are proud to offering living in the middle of Stockholm. Feel free to contact us. </p></div>
+    </div>
+        <div class="col-2"></div>
+    <div class="col-4">
+          <div class="Footer_link_title"><p>Quick Links</p></div>
+        <div class="Footer_link_text">
+                    <a href="index.html">Home</a><br>
+                    <a href="profile.html">My pages</a><br>
+                    <a href="question.html">Questions</a><br>
+                    <a href="neighbourhood.html">Neighbourhood</a>
+        </div>
+        </div>
+    </div>
+    </div>  
+    </div>
+<div class="Footer_lower_section d-none d-md-block">
+    <div class="container">
+    <div class="row">
+    <div class="col-3 text-left"><p>Lomsten</p></div>
+    <div class="col-3 text-center"><a href="mailto:xxx@lomsten.se"> xxx@lomsten.se</a></div>
+    <div class="col-3 text-center"><a href="tel:00468XXXXXX"> 0046(8)XXXXXX </a></div> 
+    <div class="col-3 text-right social-links">
+         <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+            </ul>
+         </div>
+    </div>
+</div>
+</div>
+<div class="Footer_lower_section d-block d-md-none">
+    <div class="container">
+    <div class="row">
+    <div class="col-6 text-left"><p>Lomsten</p></div> 
+    <div class="col-6 text-center social-links">
+         <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+            </ul>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+   <!---  <div class= "borderline_profile">
      <div class="container">
          <div class="row footerlinks">
                 <a href="index.html"><i class="fas fa-home"></i></a>
@@ -254,10 +344,11 @@
               <a href="#" data-toggle="modal" data-target="#ReportAnIssue"><i class="fas fa-tools"></i></a>
          </div>
      </div>
-    </div>
+    </div>--->
  </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script  src="function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
     </html>  

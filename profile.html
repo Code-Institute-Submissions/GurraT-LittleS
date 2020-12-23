@@ -21,9 +21,19 @@
 <body>
 <header>
     <div class="Logo_image">
-    <div class="navbar">
-        <div class="dropdown dropleft menu_header">
-            <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Menu">
+         <div class="linkmenu d-none d-md-block">
+             <div class="container">
+                 <div class="row">
+                    <div class="col-4 text-left"><a href="profile.html">My pages</a></div>
+                    <div class="col-4 text-center"><a href="question.html">Frequently Asked Questions</a></div>
+                    <div class="col-4 text-right"><a href="neighbourhood.html">The Neighbourhood</a></div>
+             </div>
+             </div>
+             </div>
+        <div class="dropdown menu_header d-block d-md-none">
+            <div class="container">
+                <div class="text-right dropleft">
+            <button class="btn btn-sm btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Menu">
                 <i class="fas fa-grip-lines"></i>
             </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -33,13 +43,15 @@
                 </div>
             </div>
         </div>
+        </div>
         <div class="Logo text-center">
             <a href="index.html">LOMSTEN</a>
             <p>Apartments where you feel at home</p>
         </div>
-    </div>   
+    </div>  
+</div> 
     <!-- Modal ReportAnIssue --> 
-    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssue" aria-hidden="true">
+    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="Issuereport_label" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
         <div class="modal-header">
@@ -76,27 +88,9 @@
     </div> 
 </header>
 <section class="Main_content">
-   <div class="section1_profile">
-       <div class="container"></div>
         <div class="text-center">
     <p class="profile_title_section1">Welcome Home !</p>
         </div>
-     <div class="gratitude_img"> </div>
-     <div class="text-center">
-    <p><br/> <a href="mailto:xxx@lomsten.se"> Contact us <i class="far fa-envelope"></i> </a> or <a href="#" data-toggle="modal" data-target="#ReportAnIssue"> ask us for help <i class="fas fa-tools"></i></a>
-   </p>
-    </div>
-</div>
-  <div class="section2_profile">
-   <div class="container">
-       <div class="text-center info_buttoms"> <p>In the sections below you find information about</p></div>
-         <div class="text-center">
-                <div class="contract_buttom col-12"><a href="https://bostadsportal.se/info/wp-content/uploads/sites/6/2020/11/Hyreskontrakt-fo%CC%88r-fo%CC%88rstahandsuthyrning-BostadsPortal.pdf" target="_blank"><p><i class="fas fa-file-signature"></i><br/>Contract</p></a></div>
-                <div class="invoices_buttom col-12"><a href="https://www.word-mallar.com/wp-content/uploads/2017/03/Mall-hyresavi.jpg" target="_blank"><p><i class="fas fa-file-invoice-dollar"></i><br/>Invoice</p></a></div>
-              <div class="blueprint_buttom col-12"><a href="assets/document/Blueprint_Mockup_MP1.pdf" target="_blank"><p><i class="fas fa-cube"></i><br/>Blueprint</p></a></div>
-            </div>
-     </div> 
-</div>
 <div class="question_frame">
 <div class="container text-center">
     <h2>Different situation requires different approach <br>
@@ -136,6 +130,67 @@
                 </div>
     </div>
     </div>
+</div>
+<div class="section3_profile">
+    <div class="container">
+             <div class="row">
+     <div class="col-6 gratitude_img text-center"> 
+        <div class="Postal_field">
+            <p><i class="fas fa-map-marker-alt"></i>Address</p>
+            <a> Furukviststigen 1 <br>S 17432 Lilla Essingen </a>
+        </div>
+    <div class="Contact_field">
+            <p><i class="fas fa-phone-alt"></i>Lets Talk</p>
+           <a href="tel:00468XXXXXX"> 0046(8)XXXXXX </a>
+        </div>
+     <div class="Email_field">
+            <p><i class="fas fa-envelope"></i>General Support</p>
+            <a href="mailto:xxx@lomsten.se"> xxx@lomsten.se</a>
+        </div>
+     </div>
+     <div class="col-6 text-center">
+         <form class="contact_form">
+            <div class="contact_form_title">Send Us a Message</div>
+             <label>Tell Us Your Name</label>
+            <div class="text-center contact_name">
+                <div class="container">
+                <div class="row">
+             <input type="text" name="FirstName" class="form-control" placeholder="Enter First Name" id="first_name" required>
+            <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
+        </div>    
+        </div>
+        </div>
+            <label>Enter Email</label>
+            <div>
+                <input type="email" class="form-control" id="email_adress" placeholder="name@example.se">
+            </div>
+             <label>Enter Phone#</label>
+            <div>
+                <input type="text" class="form-control" id="phone_number" placeholder="0046-(0)8-xxxxxxx">
+            </div>
+            <label for="message_contact">Message</label>
+            <div>
+             <textarea name="DescriptionOfIssue" id="message_contact" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
+            </div>
+                <div class="button_contact">
+            <button type="button" class="btn btn-secondary text-center">Send Messages</button>
+        </div>
+         </form>
+    </div>
+</div>
+    </div>
+</div>
+  <div class="section2_profile">
+   <div class="container">
+       <div class="text-center info_buttoms"> <p>In the sections below you find information about</p></div>
+         <div class="text-center">
+            <div class="row">
+                <div class="contract_buttom col-4"><a href="https://bostadsportal.se/info/wp-content/uploads/sites/6/2020/11/Hyreskontrakt-fo%CC%88r-fo%CC%88rstahandsuthyrning-BostadsPortal.pdf" target="_blank"><p><i class="fas fa-file-signature"></i><br/>Contract</p></a></div>
+                <div class="invoices_buttom col-4"><a href="https://www.word-mallar.com/wp-content/uploads/2017/03/Mall-hyresavi.jpg" target="_blank"><p><i class="fas fa-file-invoice-dollar"></i><br/>Invoice</p></a></div>
+              <div class="blueprint_buttom col-4"><a href="assets/document/Blueprint_Mockup_MP1.pdf" target="_blank"><p><i class="fas fa-cube"></i><br/>Blueprint</p></a></div>
+            </div>
+            </div>
+     </div> 
 </div>
 </div>  
 <!-- Modal MovingIn-checklist -->
@@ -231,7 +286,85 @@
 </div> 
  </section> 
  <footer>
-     <div class= "borderline_profile">
+<div class="Footer_main">
+    <div class="container">
+    <div class="Footer_upper_section d-none d-md-block">
+        <div class="container">
+        <div class="row">
+    <div class="col-6">
+        <div class="Footer_about_title"><p>About</p></div>
+        <div class="Footer_about_text"><p>Lomsten has a long tradition of managing rental apartments and are proud to offering living in the middle of Stockholm. Our building is located in a quiet neighbourhood near to the city, shopping and restaurants. Feel free to contact us if you want to more about our apartments. </p></div>
+    </div>
+        <div class="col-2"></div>
+    <div class="col-4">
+          <div class="Footer_link_title"><p>Quick Links</p></div>
+        <div class="Footer_link_text">
+                    <a href="index.html">Home</a><br>
+                    <a href="profile.html">My pages</a><br>
+                    <a href="question.html">Frequently Asked Questions</a><br>
+                    <a href="neighbourhood.html">The Neighbourhood</a>
+        </div>
+        </div>
+    </div>
+    </div>  
+    </div>
+       <div class="Footer_upper_section d-block d-md-none">
+        <div class="container">
+        <div class="row">
+    <div class="col-6">
+        <div class="Footer_about_title"><p>About</p></div>
+        <div class="Footer_about_text"><p>Lomsten has a long tradition of managing rental apartments and are proud to offering living in the middle of Stockholm. Feel free to contact us. </p></div>
+    </div>
+        <div class="col-2"></div>
+    <div class="col-4">
+          <div class="Footer_link_title"><p>Quick Links</p></div>
+        <div class="Footer_link_text">
+                    <a href="index.html">Home</a><br>
+                    <a href="profile.html">My pages</a><br>
+                    <a href="question.html">Questions</a><br>
+                    <a href="neighbourhood.html">Neighbourhood</a>
+        </div>
+        </div>
+    </div>
+    </div>  
+    </div>
+<div class="Footer_lower_section d-none d-md-block">
+    <div class="container">
+    <div class="row">
+    <div class="col-3 text-left"><p>Lomsten</p></div>
+    <div class="col-3 text-center"><a href="mailto:xxx@lomsten.se"> xxx@lomsten.se</a></div>
+    <div class="col-3 text-center"><a href="tel:00468XXXXXX"> 0046(8)XXXXXX </a></div> 
+    <div class="col-3 text-right social-links">
+         <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+            </ul>
+         </div>
+    </div>
+</div>
+</div>
+<div class="Footer_lower_section d-block d-md-none">
+    <div class="container">
+    <div class="row">
+    <div class="col-6 text-left"><p>Lomsten</p></div> 
+    <div class="col-6 text-center social-links">
+         <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+            </ul>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+   <!---  <div class= "borderline_profile">
      <div class="container">
          <div class="row footerlinks">
                 <a href="index.html"><i class="fas fa-home"></i></a>
@@ -239,10 +372,11 @@
               <a href="#" data-toggle="modal" data-target="#ReportAnIssue"><i class="fas fa-tools"></i></a>
          </div>
      </div>
-    </div>
+    </div>--->
  </footer>
 <script  src="function.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
     </html>  
