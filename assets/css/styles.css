@@ -2,12 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,400;0,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-/*-----------------------------New Layout Header*/
-
- /*--- #dropdownMenuButton{
-         background-color: white;
-         border-radius: 20%;
-     } ---*/
+/*-----------------------------Header*/
 
 .Logo_image{
         background-image: url("../img/pexels-adrien-olichon-2387674opt.jpg");
@@ -21,11 +16,6 @@
        height:800px;
     opacity: 65% ;
 }
-
-/*---.navbar{
-     padding-top: 100px;
-   padding-left: 80%;  
-}---*/
 
 .linkmenu .container{
     padding: 40px 0 20px 0;
@@ -73,34 +63,14 @@ padding: 20px 0 0 0;
 
 }
 
-/*-----------------------------New Layout Main Section*/
+/*-----------------------------Main Section*/
+
 
 
 
 .section3,.nbgh_frame {
      background-color: white;
 }
-
-
-
-/*--.aboutthebuilding_img{
-    height:240px;
-    width:240px;
-    background-image: url("../img/pexels-serinuscanaria-5602170opt.jpg");
-    background-size:cover;
-    border-radius: 50%;
-    border: #545760 1px solid;
-   background-position: center;
-    background-repeat: no-repeat;
-}--*/
- /*---.gratitude_img{
-   vertical-align:middle;
-   height:240px;
-    background-image: url("../img/pexels-hannah-nelson-1456951opt.jpg");
-    background-size:20% 100%;
-    background-position: center center;
-    background-repeat: no-repeat;}---*/
-
 
 .abouthebuilding_text{
     padding:60px 0px 0px 30px;
@@ -186,19 +156,6 @@ height:300px;
 width:300px;
 }
 
-
-/*---.neighbourhood_img{ 
-    height:240px;
-    width:240px;
-    background-image: url("../img/pexels-daria-shevtsova-1070945opt.jpg");
-    background-size:180px 180px;
-    border-radius: 50%;
-    border: #545760 1px solid;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}---*/
-
 .neighbourhood_img img, .profile_img img, .question_img img{ 
     height:240px;
     width:240px;
@@ -219,20 +176,6 @@ width:300px;
     background-repeat: no-repeat;
 }
 
-
-/*---.profile_img{
-     height:240px;
-     width:240px;
-     align-items: center;
-    background-image: url("../img/pexels-emre-can-2079249opt.jpg");
-    background-size:cover;
-    border-radius: 50%;
-    border: #545760 1px solid;
-    background-position: center;
-    background-repeat: no-repeat;
-   
-}--*/
-
 .question_frame1, .question_frame3{
    background-color: white;   
 }
@@ -242,18 +185,6 @@ width:300px;
    border-top: #3a4a5d 2px solid; 
    background-color: #ececec;   
 }
-
-/*---.question_img{
-     height:240px;
-     width:240px;
-     align-items: center;
-    background-image: url("../img/pexels-luca-nardone-3651820opt.jpg");
-    background-size:cover;
-    border-radius: 50%;
-    border: #545760 1px solid;
-    background-position: center;
-    background-repeat: no-repeat;  
-}--*/
 
 .buttom{
     height:50px;
@@ -276,7 +207,7 @@ width:300px;
     padding: 50px 0 0 0;
 }
 
-.gratitude_img p{
+ .Postal_field_title, .Contact_field_title, .Email_field_title{
     padding: 10px 0 10px 0;
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -284,7 +215,7 @@ width:300px;
       font-size: 22px;
 }
 
-.gratitude_img a, .Postal_field a{
+.gratitude_img a, .Postal_field_content{
     padding: 10px 0 10px 0;
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -408,8 +339,6 @@ width:300px;
 
 /*--- List of items in Neighbourhood and Frequently asked question pages -*/
 
-
-
 .accordion h3{
   position: relative;
   display: -webkit-box;
@@ -495,9 +424,6 @@ width:300px;
 }
 
 
-
-
-
 /*-----------------------------New Layout Header*/
 
 .Footer_main{
@@ -563,34 +489,8 @@ color:#7e8994;
      font-weight: 600;
      font-size: 18px; 
 }
-/*---
-.borderline{
-border-top: #7d8276 3px solid;
-}
 
-
-.borderline_profile{
-    border-top: #7d8276 3px solid;
-    background-color: white;
-}
-.footerlinks{
-    margin: 40px 0 0 0;
-    justify-content:center;
-}
-
-.footerlinks a {
-margin: 0 20px 0px 20px;
-	    font-size:34px;
-    font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      color:#7d8276;
-}
-
-.footerlinks a:hover {
-      color:#92afb3;
-}---*/
-
-/*---------------------------------New Layout Modal*/
+/*--------------------------------- Modal*/
 
 .modal-header h5{
     text-align:center;
@@ -707,41 +607,10 @@ margin: 0 20px 0px 20px;
     background-repeat: no-repeat;
 } 
 
-
-   /*--- .neighbourhood_img{
-     width:50%;
-     position: relative;
-     left: 25%;
-    background-position: center;
-    background-image: url("../img/pexels-daria-shevtsova-1070945opt.jpg");
-    }--*/
-
-   /*-- .profile_img{
-     width:50%;
-     position: relative;
-     left: 25%;
-    background-position: center;
-    background-image: url("../img/pexels-emre-can-2079249opt.jpg");
-    } --*/
-    
-    /*-- .question_img{
-     width:50%;
-     position: relative;
-     left: 25%;
-    background-position: center;
-    background-image: url("../img/pexels-luca-nardone-3651820opt.jpg");
-    } --*/
-
     .section3{
      margin: 40px 0 0px 0;
 
 }
-
-   /*-- .profile_title, .question_title{
-        padding: 10px 0 0 0;
-        margin:40px 0 0 0;
-    border-top: 1px solid grey;
-    } --*/
 
     .profile_text,.question_text,.neighbourhood_text{
         padding: 30px 0 30px 0;
@@ -753,10 +622,5 @@ margin: 0 20px 0px 20px;
     font-family: "Roboto", sans-serif;
       font-weight: 500;
 }
- /*---.gratitude_img{
-   vertical-align:middle;
-   height:240px;
-    background-image: url("../img/pexels-hannah-nelson-1456951opt.jpg");
-    background-size:40% 100%;}--*/
-
+ 
 }

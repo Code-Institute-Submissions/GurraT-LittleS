@@ -50,51 +50,12 @@
         </div>
     </div>  
 </div> 
-    <!-- Modal ReportAnIssue --> 
-    <div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="Issuereport_label" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="Issuereport_label">Report An Issue</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body text-center">
-        <form class="form-inline">
-            <input type="text" name="FirstName" class="form-control" placeholder="Enter First Name" id="first_name" required>
-            <input type="text" name="LastName" class="form-control" placeholder="Enter Last Name" id="last_name" required>
-        </form>
-        <form>
-            <input type="text" name="ID" class="form-control text-center" placeholder="Enter Apartment ID" id="apartment_id" required>
-        <label class="Issuereport_label" for="Issuereport">Type of Issue  </label>
-        <select class="custom-select" id="Issuereport" required>
-            <option selected disabled value="">Apartment</option>
-            <option>Loundary</option>
-            <option>Storage</option>
-            <option>Neighbours</option>
-            <option>Invoice</option>
-            <option>Complaints</option>
-        </select>
-        <textarea name="DescriptionOfIssue" id="DescriptionOfIssue" class="form-control" placeholder="Describe the Issue and how it occured, what has been done, and what help you need"></textarea>
-    </form>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn report_buttom">Save changes</button>
-        </div>
-        </div>
-    </div>
-    </div> 
 </header>
 <section class="Main_content">
-        <div class="text-center">
-    <p class="profile_title_section1">Welcome Home !</p>
-        </div>
 <div class="question_frame">
 <div class="container text-center">
     <h2>Different situation requires different approach <br>
- find out more in the links below</h2>
+ Find out more in the links below</h2>
     <div class="accordion">
             <div class="accordion_item">
       <h3>  Moving In </h3>
@@ -136,15 +97,15 @@
              <div class="row">
      <div class="col-6 gratitude_img text-center"> 
         <div class="Postal_field">
-            <p><i class="fas fa-map-marker-alt"></i>Address</p>
-            <a> Furukviststigen 1 <br>S 17432 Lilla Essingen </a>
+            <p class="Postal_field_title"><i class="fas fa-map-marker-alt"></i>Address</p>
+            <p class="Postal_field_content"> Furukviststigen 1 <br>S 17432 Lilla Essingen </p>
         </div>
     <div class="Contact_field">
-            <p><i class="fas fa-phone-alt"></i>Lets Talk</p>
+            <p class="Contact_field_title"><i class="fas fa-phone-alt"></i>Lets Talk</p>
            <a href="tel:00468XXXXXX"> 0046(8)XXXXXX </a>
         </div>
      <div class="Email_field">
-            <p><i class="fas fa-envelope"></i>General Support</p>
+            <p class="Email_field_title"><i class="fas fa-envelope"></i>General Support</p>
             <a href="mailto:xxx@lomsten.se"> xxx@lomsten.se</a>
         </div>
      </div>
@@ -362,17 +323,6 @@
 </div>
 </div>
 </div>
-
-
-   <!---  <div class= "borderline_profile">
-     <div class="container">
-         <div class="row footerlinks">
-                <a href="index.html"><i class="fas fa-home"></i></a>
-                <a href="tel:00468XXXXXX"><i class="fas fa-phone"></i></a>
-              <a href="#" data-toggle="modal" data-target="#ReportAnIssue"><i class="fas fa-tools"></i></a>
-         </div>
-     </div>
-    </div>--->
  </footer>
 <script  src="function.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
