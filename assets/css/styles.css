@@ -8,7 +8,15 @@
         background-image: url("../img/pexels-adrien-olichon-2387674opt.jpg");
        background-size: 100% 100%;
        height:500px;
-    opacity: 85% ;}
+    border-bottom: #232020 1px solid;}
+
+    
+.Logo_image_ngbh{
+        background-image: url("../img/pexels-adrien-olichon-2387674opt.jpg");
+       background-size: 100% 100%;
+       height:500px;
+       opacity: 80%;
+    border-bottom: #232020 1px solid;}
 
 .ngbh-wrapper{
      background-image: url("../img/pexels-pixabay-221210.jpg");
@@ -16,23 +24,42 @@
        height:800px;
     opacity: 65% ;
 }
-
-.linkmenu .container{
-    padding: 40px 0 20px 0;
-  border-bottom: 3px solid white;  
+.linkmenu{
+    background-color: black;
+    opacity: 75%;
 }
 
-.linkmenu a{
+.linkmenu .container{
+    padding: 40px 0 20px 0; 
+}
+
+ .profile_logo a{
+ font-family: "Oswald", sans-serif;
+     color:white;
+     font-weight: 500;
+     font-size: 24px;}
+
+.question_logo a{
      font-family: "Oswald", sans-serif;
-     color:#232020;
-     text-shadow:white 1px 1px;
+     color:white;
      font-weight: 500;
      font-size: 24px;
 }
 
+.neighbourhood_logo a{
+    font-family: "Oswald", sans-serif;
+     color:white;
+     font-weight: 500;
+     font-size: 24px;
+    }
+
+.linkmenu a:hover, .Logo a:hover{
+color: gray;
+    }
+
 .menu_header{
     padding: 20px 0 0 0;
-    opacity: 80%;
+    opacity: 90%;
  }
 
 
@@ -56,9 +83,9 @@ padding: 20px 0 0 0;
 
      .Logo p{
     font-family: "Montserrat", sans-serif; 
-     color: black;
-     text-shadow:white 2px 2px;
-       font-weight: 400;
+     color:#33185f;
+     text-shadow: white 2px px;
+       font-weight: 600;
      font-size: 28px;
 
 }
@@ -67,9 +94,38 @@ padding: 20px 0 0 0;
 
 
 
-
 .section3,.nbgh_frame {
      background-color: white;
+}
+
+.ngbh_upper img{
+    opacity: 40%;
+    height:520px;
+    width: 50%;  
+}
+
+.ngbh_lower img{
+       opacity: 40%;
+    height:620px;
+    width: 50%;
+}
+
+.Main_content_ngbh{
+    background-image: url("../img/pexels-daria-shevtsova-1070945opt.jpg");
+     background-color: black;
+    opacity: 90%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Main_content_ngbh .container{
+     background-image: url("../img/pexels-pixabay-221210.jpg");
+     background-color: black;
+    opacity: 90%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;  
 }
 
 .abouthebuilding_text{
@@ -168,13 +224,6 @@ width:300px;
     width:320px;
 }
 
-.gratitude_img{
-    background-image: url("../img/pexels-serinuscanaria-5602170opt.jpg");
-    opacity: 80%;
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 .question_frame1, .question_frame3{
    background-color: white;   
@@ -203,8 +252,18 @@ width:300px;
 
 /*-- Contact form---*/
 
-.Postal_field{
+.Postal_field {
     padding: 50px 0 0 0;
+
+}
+
+.gratitude_img{
+    background-image: url("../img/pexels-serinuscanaria-5602170opt.jpg");
+     background-color: black;
+    opacity: 70%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
  .Postal_field_title, .Contact_field_title, .Email_field_title{
@@ -213,6 +272,7 @@ width:300px;
     font-family: "Montserrat", sans-serif;
      font-weight: 600;    
       font-size: 22px;
+      
 }
 
 .gratitude_img a, .Postal_field_content{
@@ -224,7 +284,11 @@ width:300px;
 }
 
 .section3_profile .container{
-    background-color:#dfe0e4 ;
+    background-color:#a5b6c0 ;
+}
+.gratitude_img .container{
+    background-color: black;
+    opacity:70%;
 }
 
 .contact_form_title{
@@ -317,117 +381,65 @@ width:300px;
   font-weight: 500; 
 }
 
+/*-- Accordion --*/
 
-/*--- Ticker Image---*/
+.accordion1{
+    padding: 20px 0 20px 0;
+    background-color: black;
+    opacity: 60%;
+}
 
-
-/*---- New Accordion ---*/
-
-.row_text1 p {
+.profile_accordion_title, .guidelines_title, .general_info_title, .contact_title{
+        padding:30px 0px 10px 0px;
         color: black;
-    font-size:20px;
+    font-size:24px;
     font-family: "Roboto", sans-serif;
-      font-weight: 400;}
+      font-weight: 500;
+}
 
-.row_content_text1 p {
-      color: black;
-    font-size:18px;
+.ngbh_title{       
+     padding:30px 0px 10px 0px;
+        color: white;
+    font-size:24px;
     font-family: "Roboto", sans-serif;
-      font-weight: 400;
+      font-weight: 500;}
+
+.title_profile_accordion, .title_guidelines, .title_general_info, .title_contact{
+    color:black;
+    font-family: "Roboto", sans-serif;
+     font-weight: 600;
+     font-size: 22px;
 }
 
-
-/*--- List of items in Neighbourhood and Frequently asked question pages -*/
-
-.accordion h3{
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 100%;
-  padding: 1rem 3rem 1rem 1rem;
-  color: #7288a2;
-  font-size: 1.15rem;
-  font-weight: 400;
-  border-bottom: 1px solid #e5e5e5;
+.title_ngbh{
+      color: white;
+      font-family: "Roboto", sans-serif;
+     font-weight: 600;
+     font-size: 22px; 
 }
 
-.accordion h3:hover,
-.accordion h3:hover::after {
-  cursor: pointer;
-  color: #3a4a5d;
+.text_content_profile_accordion, .text_content_guidelines, .text_content_general_info, .text_content_contact{
+       color:#4a4a4a;
+    font-family: "Oswald", sans-serif;
+     font-weight: 500;
+     font-size: 20px; 
 }
 
-.accordion h3:hover::after {
-  border: 1px solid #3a4a5d;
-}
-.accordion h3.active {
-  color: #3a4a5d;
-  border-bottom: 1px solid #3a4a5d;
-}
-
-.accordion h3::after {
-  font-family: 'Ionicons';
-  content: '\f218';
-  position: absolute;
-  float: right;
-  right: 1rem;
-  font-size: 1rem;
-  color: #7288a2;
-  padding: 5px;
-  width: 30px;
-  height: 30px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  border: 1px solid #7288a2;
-  text-align: center;
+.text_content_ngbh{
+      color: white;
+        font-family: "Oswald", sans-serif;
+     font-weight: 500;
+     font-size: 20px; 
 }
 
-.accordion h3.active::after {
-  font-family: 'Ionicons';
-  content: '\f209';
-  color: #3a4a5d;
-  border: 1px solid #3a4a5d;
+.text_content_ngbh a{
+    color:#776ff5;
 }
 
-.accordion .accordion_content{
-  opacity: 0;
-  padding: 0 1rem;
-  max-height: 0;
-  border-bottom: 1px solid #e5e5e5;
-  overflow: hidden;
-  clear: both;
-  -webkit-transition: all 0.2s ease 0.15s;
-  -o-transition: all 0.2s ease 0.15s;
-  transition: all 0.2s ease 0.15s;
-}
-
-.accordion .accordion_content p{
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.accordion .accordion_content.active {
-  opacity: 1;
-  padding: 1rem;
-  max-height: 100%;
-  -webkit-transition: all 0.35s ease 0.15s;
-  -o-transition: all 0.35s ease 0.15s;
-  transition: all 0.35s ease 0.15s;
-}
-
-
-/*-----------------------------New Layout Header*/
-
+/*-- Footer --*/
 .Footer_main{
-    background-color:#dfe0e4;}
+    background-color:#dfe0e4;
+border-top: #232020 1px solid}
 
 
 .Footer_upper_section .container{
@@ -442,7 +454,7 @@ width:300px;
 }
 
 .Footer_about_text p{
-color:#7e8994;
+color:#4a4a4a;
     font-family: "Montserrat", sans-serif;
      font-weight: 200;
      font-size: 14px;
@@ -450,7 +462,7 @@ color:#7e8994;
 
 .Footer_link_text a{
     padding: 0 0 0 0;
-    color:#7e8994;
+    color:#4a4a4a;
        font-family: "Montserrat", sans-serif;
      font-weight: 200;
      font-size: 14px;
