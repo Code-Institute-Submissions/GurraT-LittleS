@@ -84,7 +84,7 @@ The personas main goal is to find information about building so that they know h
 [Small Media Devices](assets/document/MP1ensmd3.pdf "Wireframe Lomsten small devices")
 
 ### Before decision to adapt a more modern design the webpage look as the mockup below
-![Lomsten old page](assets/img/Lomsten.png "Main page large devices")
+![Lomsten old page](assets/img/Lomsten.png "Old page before revision")
 ---
 
 ## Technologies Used
