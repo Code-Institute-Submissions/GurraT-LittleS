@@ -420,6 +420,9 @@ Connected to index.html
 
 [Urban](https://templated.co/urban)
 
+#### The Following README-file was used as an inspiration and extracting information for writing my own README-file
+[Aviation-Consultancy](https://github.com/simonjvardy/Aviation-Consultancy)
+
 ### Acknowledgements
 
 - I am grateful for the feedback i got from my mentor Narender Singh at Code Institute e.g., to make my webpage more interactive using tickers and modals
