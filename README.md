@@ -1,4 +1,4 @@
-#Lomsten
+# Lomsten
 
 ![Lomsten](assets/img/Design.png "Main page large devices")
 
@@ -6,9 +6,22 @@
 
 ---
 ---
-## UX
 
-### User story
+## UX(User Experience) ##
+
+### Project Goal ###
+#### The goal of this project is to build a website which allows the House owner Lomsten to offer information about their building to their tenants and partners
+
+#### The features on the website will:
+* Give Tenants and Partners more ways to interact with Lomsten (contact form, social media, phone, email).
+* Provide Tenants and Partners with crucial information about the building and its sourrounding (forms, links, modals)
+
+#### I achieved this by:
+* Providing contact details and social media links in the footer section of each page.
+* Providing an option to the customers to submit their contact and request details in a form under My page
+* Providing information about important dates (ticker on index-page), links with information about the living (my pages and question page), links to contact (question page) and useful information about the neighbourhood (neighbourhood page)
+
+### User Goal ###
 #### We expect this website to be used by the following personas 
 - tenants: these are the people living in the building owned by Lomsten
 - the caretaker: this is the people taking care about the building
@@ -16,7 +29,8 @@
 
 The personas main goal is to find information about building so that they know how they should relate, locate and act within the building. Their age span is supposed to be between 25 and 45 years old.
 
-### Being more specific 
+
+### User Stories ###
 #### As a tenant I want to have a website so that....
  1.  I can find information to who i can contact if i have questions or if need to solve an issue 
  2. I can see what is included in the rent
@@ -27,695 +41,184 @@ The personas main goal is to find information about building so that they know h
 7. I can find information about the neighbourhood so I know where to go if I want to shop, eat, park the car etc.
 
  #### As a constructor/contractor I want to have a website so that....
- 1.  I can find information to who I can contact if I have questions or need to solve an issue
+ 1. I can find information to who I can contact if I have questions or need to solve an issue
  2. I know where I can find assets such as storage, laundry etc.
  
+### Site Owner Goals ###
+#### As a site owner, I want to create an interactive website allowing the user to easily
+ 1. Find information about how to relate, locate and act within the building
+ 2. Find information about how to contact the House owner, contractors and partners
+ 3. Interact and give feedback about their living
+ 4. Information of guidelines to save time spent anwering these question orally
 
-### Decisions
+ ---
+ ### Design Choices ###
+ #### Typology
+![Typology](assets/document/typography.png "Typography Lomsten")
 
-Problems/Opportunities | Importance | Viability/Feasibility|
------------------------|------------|----------------------|
-Create a responsive webpage|5|4
-Update text-contents |3|3
-Create Forms |4|3
-Connect Forms and profile to a database|2|2
-Create an online presence | 4|4
-Collect feedback from users|4|2
-|||
-Sum |22 |18
+ #### Fonts
+ #### I have chosen Oswald in text and in logo in the Header section , Montserrat in the Footer and Roboto plus Oswald in the Main Section and Montserrat in Forms.
 
-#### Because the sum of Viability/Feasibility and Importance do not add up, decisions on what to implement has to be done
-#### For the first prototype following is prioritized
+ #### Colours
+ #### I focused mainly on black and white colortheme to create a clear, simple and easy to read webpage, the background color in the footer is #dfe0e4 
 
-1. The design should be clean, intuitive and responsive
-2. Language used in the first version is English (in the final version local language will be used)
-3. Forms, Profile-site and interactive part will be presented as Mockups 
-4. The final prototype should deploy on GITHUB masterbranch
----
----
-### Wireframe 
-[Large Media Devices](assets/document/MP1en2.pdf "Wireframe Lomsten")
+ #### Wireframes
+ #### The orginal idea has in dialog with my mentor been revised several of times, below you find the mockups created in Balsamiq Wireframes for the orginal idea, which after implementation was revised to meet a more modern standard
+ [Large Media Devices](assets/document/MP1en2.pdf "Wireframe Lomsten")
 
 [Small Media Devices](assets/document/MP1ensmd3.pdf "Wireframe Lomsten small devices")
 
 ---
----
 
-## Features
-
-### Prototype
-#### The first website should have a clean, simple, intuitive design with functions that are easy-to-use and covers the basal requirements of the users.  The website should first of all be optimized for larger media devices.
-
-Features|   Content |Difficulty level
---------|-----------|----------------|
-Framework| Main page, About us, Living Here page, Guidelines page, Profile page, Contact Info page, The neighbourhood page, Partner Page, Forms (Report an issue, Login), Linkbutton to pdf-file (Cancel contract, Contract, Invoice, Blueprint) |2
-Simple, clean, intuitive design| Header with Logo + link button, + nav bar, Section with main text-content, SubSection with links, Footer with contact info| 1
-|||
-Head | Title and content| 1
-Main page: Header|Logo, button-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
-Main page: Section| Div with General information, Div with News|2
-Main page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
-Main page: Footer|Contact information|1
-|||
-About us: Header|Logo, button-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1 
-About us: Section| Div with Vision, Div with History, Div with Board of Management and Executive Committee|2 
-About us: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2 
-About us: Footer|Contact information|1
-|||
-Living Here page: Header|Logo, button-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
-Living Here page: Section| Div with About us with list with information on water, electricity, laundry  etc..|2
-Living Here page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
-Living Here page: Footer|Contact information|1
-|||
-Guidelines page: Header|Logo, button-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
-Guidelines page: Section| Div with For your comfort Guidelines, Div with worth to know before implementing|2
-Guidelines page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
-Guidelines page: Footer|Contact information|1
-|||
-Profile page: Header|Logo, button-links (Home, Profile, Report an Issue, Contact, Contract, Invoice, Blueprint, Report an Issue), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
-Profile page: Section| Div with News|2
-Profile page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
-Profile page: Footer|Contact information|1
-|||
-Form: LogiN| With Redirection to Profile site|4
-|||
-Form: Report an Issue | to send in an Issue to a database | 4
-|||
-Contact Info page: Header|Logo, button-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
-Contact Info page: Section| Div with Contact Info|2
-Contact Info page: SubSection | Links to Living Here, Guidelines, Forms, Neighbourhood page, Contact Information page, Report an Issue form, Cancel contract form |2
-Contact Info page: Footer|Contact information|1
-|||
-Form page: Header|Logo, button-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
-Form page: Section| Div with Contact Info|2
-Form page: SubSection | List with links to forms|2
-Form page: Footer|Contact information|1
-|||
-Neighbourhood page: Header|Logo, button-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
-Neighbourhood page: Section| Div with a list with information about the neighbourhood|2
-Neighbourhood page: SubSection | List with links to forms|2
-Neighbourhood page: Footer|Contact information|1
-|||
-Partner page: Header|Logo, button-links (Home, Profile, Report an Issue, Contact), Navbar (About us, Living Here, Guidelines, My pages, Contact Information) |1
-Partner page: Section| Div with a contact information to constructor and people involved in the maintance of the building|2
-Partner page: SubSection | List with links to forms|2
-Partner page: Footer|Contact information|1
-|||
-
-### Navigation route for personas 
-
-- To get contact information there is following options to open Contact pages 
-1. Click on the Contact button in the Header (applicable for all pages)
-2. Click on the Contact field in the Navbar (applicable for all pages)
-3. Click on the Contact field in the SubSection (applicable for all pages)
-
-- To report an Issue there is following options to open Form to report an Issue
-1. Click on the Report an Issue button(wrench tool icon) in the Header (applicable for all pages)
-2. Click on the Report an Issue field in the SubSection (applicable for all pages)
-
-- To get information about what is included in the rent and where to find assets such as  laundry  there is following options to open Living Here pages 
-1. Click on the Living Here field in the Navbar (applicable for all pages)
-2. Click on the Living Here field in the SubSection (applicable for all pages)
-
-- To get information about rules and guidelines there is following options to open Guidelines page
-1. Click on the Guidelines field in the Navbar (applicable for all pages)
-2. Click on the Guidelines field in the SubSection (applicable for all pages)
-
-- To get latest news connected to the building there is following options 
-1. Go to main page e.g., through home button in Header and in Section there a div with News-content (applicable for all pages)
-2. Go to Profile page e.g., through login button in Header and in Section there a div with News-content (applicable for all pages)
-
-- To download form such as Blueprint, Invoice, Contract there is following options to go to the profile site and click on the download button for respectively form
-1. Click on the Profile button in the Header (applicable for all pages)
-2. Click on the My pages field in the Navbar (applicable for all pages)
-
-- To find information about the neighbourhood there is following options to go to the neighbourhood page
-1. Click on the Neighbourhood field in the SubSection (applicable for all pages)
-
-
-### Responsive Design
-
-In order to use this web-page on small media device follow action has/should been done
-- Adjust font size of logo for small/medium media devices
-- Adjust font size of Header navbar text for medium media devices
-- Remove Header navbar in  favour for a button in small media devices
-- Change size and presentation of Main section div in small and medium media devices
-- Adjust font size of Sub Section Navbar Title and text-content for small and medium media devices
-- Remove Titles for buttons in Sub Section for small media devices
-- Adjust font size of Footer text-content for small and medium media devices 
----
-### Time plan
-
-#### Part 1. Visual Design and Basal structure
-
-1. Construct a Main page-template readable in small media and large media devices.
-2. Test and validate the design through google inspection tool & lighthouse 
-3. When satisfied with the design of the Main page use this template to construct the rest of the pages on the websit
-4. Test and validate the design through google inspection tool & lighthouse
-5. Construct a form for login to profile page
-6. Test and validate the form through google inspection tool & lighthouse
-5. Construct a form for report an issue
-7. Test and validate the form through google inspection tool & lighthouse
-8. Link Contract, Blueprint, Invoice to Mockups
-11. Test and validate the whole design through google inspection tool, lighthouse and CCS3/HTML-validator
-12. Validate the code via CSS & HTML validator
-13. Push code to GITHUB
-14. Deploy repository to masterbranch
-12. Collect feedback regarding the visual design
-
-#### Part 2. Evaluate webpage
-
-1. Use google analytics to see behaviour and traffic on the homepage
-2. Adjust the platform from conclusion made
----
----
-## Technologies that have been used
-
-#### HTML, CSS, Bootstrap, Font Awesome, Google Fonts, Google Inspection Tool, Light House, Microsoft Paint, Microsoft Powerpoint, Free CAD, Image Resizer, 
----
----
-## Testing
-
-
-### Step 1. Implementing code for index.html and style.css
-#### Began with implementing code for the index.html, linked it with style.css, Bootstrap, Font Awesome and Google Fonts and tested following Sections
-
-1. Header
-
-    - Logo & Navbar
-        * Adjusted font size to correlate with rest of the page content
-        * Sat colour theme by using colour picker and choose colour from the images used in the page to create harmony between text colour and image colour theme
-        * Sat padding on Navbar so the links align in a nice way with the Logo
-        * Sat font size, tex colour (using colour picker) and adjusted behaviour of hovering function (see fixed bugs) 
-        * Adjusted the responsive design by adjusting the font size for medium sized media devices and did  hide navbar for small medium device and instead presented the links in a dropdown-menu
-        * Sat border, size and margin for dropdown 
-        * Adjusted so the dropdown list was presented to the left of the button (see fixed bugs)
-    - Link icon
-        * Choose intuitive icons from Font Awesome to represent what action to address
-        * Sat tex colour using colour picker and font size to correlate with the rest of the page
-        * Centered icons to the middle of the page
-        * Sat font size, tex colour (using colour picker) and adjusted behaviour of hovering function
-        * Added a borderline at top & bottom and adjusted the colour to rest of the page colour theme
-        * Sat some padding to adjust the space between the borderlines and icons
-        * Adjusted so the dropdown list was presented above the button 
-
-2. Main Section
-    - Title
-        * Sat font size, tex colour to correlate with the rest of the page
-        * Centered text to the middle of the page
-
-    - Upper Section Container
-        * Divided the container in two sized containers 
-        * Added an image to the left container and text-contents to the right container
-        * Adjusted size of image position of image 
-        * Sat tex colour, font size and positioning of text-contents to harmonize with the rest of the page
-        * Added a Contact Link and a Report Issue link to the text-text contents and adjusted its colour
-        * Adjusted the responsive design by chancing the size of the container for small & medium sized media device letting the container with the image be presented above the container with text content for those devices
-        * Added a bottom-border-line to divide this Upper Section Container with Containers below
-        * Adjusted margin and paddings to get some between Header, Title, contents and lower container
-    - Lower Section Container (Same Procedure as Upper Section, with exception for following points)
-        * Added text-contents to left container and image to right container
-        * Did not add a border line
-
-3. Sub Section
-    * Added a Navbar with four divs with Lists and links connected to button functions  
-    * Added Title with intuitive icons from font Awesome to respectively buttons
-    * Adjusted font size and text colour to harmonize with the rest of the page
-    * Removed points in the list (see fixed bugs)
-    * Adjusted the responsive design by chancing the size of the container for small & medium sized media device letting the container with the image be presented above the container with text content for those devices
-    * Sat border-line above Sub Section
-    * Adjusted margin of the Sub Section to get some space between this section and surrounding Sections
-    * Added padding to Navbar to get some spacing between navbar and border-lines
-    * Adjusted the responsive design by chancing the  font-size title and icons for small & medium sized media device and removing titles for small media devices
-
-4. Footer
-    * Added text-contents and adjusted the font size and text colour to harmonize with the rest of the page
-    * Adjusted the responsive design by chancing the font-size of text contents for small & medium sized media device
-
-### Step 2. Testing Design and Responsiveness of index.html
-#### In order to test the design of index.html following steps were conducted
-######
-
-1. The code from Gitpod was opened on Google Chrome by running following command in the Gitpod terminal "python3 -m http.server"
-2. In Google Chrome the design was inspected through enlarging and shrinking the web browser window
-3. Using Google Inspection tool the responsiveness for mobile devices (e.g., Iphone, Samsung Galaxy, Motorola etc..) and computer devices was inspected 
-4. The code was added, commit and push to GITHUB using following commands in the Gitpod terminal "git add ., git commit -m "", git push"
-5. In GITHUB the code was deployed to "Main Branch" through open setting and navigate to the section "GitHub pages" and under "Source" choosing "Main branch" and confirming the chose pushing "Save"
-6. [Deployed webpage](gurrat.github.io/LittleS/index.html) was sent out through Messenger to 5 selected Beta-tester for comments (see Acknowledgement)
-7. The deployed webpage was then opened on following browser Microsoft Explorer, Microsoft Edge, Samsung Internet
-8. Finally the code was tested using LightHouse in Google Inspection tool (see fixed Bugs and Open Questions)
-9. Validated code by using CSS3/HTML-validator (see fixed bugs)
-10. Send code to Mentor for comments (see fixed bugs)
-
-### Step 3. Implementing code for ReportAnIssue-form
-#### Implementing code for the ReportAnIssue.html, linked it with style.css, Bootstrap, Font Awesome and Google Fonts and tested
-
-#### Form
-   - Created main structure for the Form with inputs, select-box, input-text area and submit button
-   - Adjusted the placement of the items in the Form (see fixed bugs)
-   - Adjusted the margin of the items
-   - Sat border around items
-   - Sat font, font size, text colour, and text-alignment of the contents
-   - Locked the size of text area (see fixed bugs)
-
-
-### Step 4. Testing Design and Responsiveness of ReportAnIssue.html
-#### Followed same procedure as Step 2. (Testing Design and Responsiveness of index.html)
-
-* [The deployed code](https://gurrat.github.io/LittleS/ReportAnIssue.html) was sent out to 5 beta-tester for comments (see Acknowledgement) and tested using LightHouse
-######
-
-
-### Step 5. Implementing code for Profilepage.html using index.html as template
-#### Following change was done on the template to create profilepage.html
-1. Head
-    - Changed text-content in Title
-
-2. Header
-    - Kept as the template
-
-3. Main Section
-    - Added three buttons above first Title-section
-    - Removed upper_section div with its content
-
-4. Sub Section
-    - Kept as the template
-
-5. Footer
-    - Kept as the template
-
-### Step 6. Implementing code for Aboutthebuilding.html using index.html as template
-#### Following change was done on the template to create Aboutthebuilding.html
-1. Head
-    - Changed text-content in Title
-
-2. Header
-    - Kept as the template
-
-3. Main Section
-    - Added a Section Div called board_section in top of this section 
-    - Added the text-content "Board of Management and Executive Committee" to board_section
-    - Added a table with information of the Board member below the text-content mentioned above
-    - Changed column-size for the div in the upper-section so image was presented above text-content at all devices types
-    - Changed the positioning of image and text middle section depending on device (image right of text-content at large device and above text-content at medium and smaller devices)
-
-4. Sub Section
-    - Kept as the template
-
-5. Footer
-    - Kept as the template
-
-### Step 7. Testing Design and Responsiveness of Profile.html and Aboutthebuilding.html
-#### Followed same procedure as Step 2. (Testing Design and Responsiveness of index.html)
-
-- Adjusted alignment of Header Icon 
-- Adjusted the margin between text and image contents
-- Set underlines to Title_section
-- Adjusted colourtheme
-- Sat meta tags to Header
-
-### Step 8. Run Html-validation on index.html code
-#### 
-
-### Step 9. Run Html-revalidation on index.html code
-#### 
-
-### Step 10. Copied updated change in header, subsection and footer to aboutthebuilding.html and profilepage.html
-
-### Step 11. Run CSS-validation on style.css
-
-### Step 12. Pushed code to GITHUB to see if validation work
-
-### Step 13. Implementing code for Contact page.html using index.html as template
-#### Following change was done on the template to create Contact page.html
-1. Head
-    - Changed text-content in Title
-
-2. Header
-    - Kept as the template
-
-3. Main Section
-    - Removed all section div except the upper_section-Div and renamed it to Upper_section_contact page
-    - Divided Upper_section_contact page in to a left and a right container
-    - In left container I added a background image using CSS-stylesheet
-    - In right container I added text-content with interactive links to email and telephone number
-
-4. Sub Section
-    - Kept as the template
-
-5. Footer
-    - Kept as the template
-
-
-### Step 14. Implementing code for Livinghere.html using index.html as template
-#### Following change was done on the template to create Livinghere.html
-1. Head
-    - Changed text-content in Title
-
-2. Header
-    - Kept as the template
-
-3. Main Section
-    - Removed all section div except one title div
-    - Under title div I added a div with class col-12 and named it Livinghere_main_section
-    - In Livinghere_main_section I added a button-list with information about the living
-    - Added intuitive icon from Font Awesome to the button titles
-    - In the options I added links to useful information
-
-4. Sub Section
-    - Kept as the template
-
-5. Footer
-    - Kept as the template
-
-### Step 15. Implementing code for Guidelines.html using Livinghere.html as template
-#### Following change was done on the template to create Guidelines.html
-1. Head
-    - Changed text-content in Title
-
-2. Header
-    - Kept as the template
-
-3. Main Section
-    - Renamed Livinghere_main_section to Guidelines_main_section
-    - Updated button-titles, icons and option content to suite this page
-    - In the options I added links to useful information (see Acknowledgement)
-
-4. Sub Section
-    - Kept as the template
-
-5. Footer
-    - Kept as the template
-
-### Step 16. Implementing code for Neighbourhood.html using Livinghere.html as template
-#### Following change was done on the template to create Neighbourhood.html
-1. Head
-    - Changed text-content in Title
-
-2. Header
-    - Kept as the template
-
-3. Main Section
-    - Renamed Livinghere_main_section to Neighbourhood_main_section
-    - Updated button-titles, icons and option content to suite this page 
-    - In the options I added links to useful information (see Acknowledgement)
-
-4. Sub Section
-    - Kept as the template
-
-5. Footer
-    - Kept as the template
-
-### Step 17. Implementing code for MovingIn Checklist form
-#### Implementing code for the MovingIn.html, linked it with style.css, Bootstrap, Font Awesome and Google Fonts and tested
-
-#### Form
-   - Created main structure for form with a main Title followed by rows with text, radiobutton and label
-   - Adjusted colourtheme on Title, text and label
-
-### Step 18. Implementing code for MovingOut Checklist form using MovingIn Checklist form as template
-#### Implementing code for the MovingOut. html, linked it with style.css, Bootstrap, Font Awesome and Google Fonts and tested
-
-#### Form
-   - Adjusted class-name, title, text and labels to match the purpose of this form
-
-### Step 19. Created mockups for Cancel Contract and Changing Apartment using excel and convert the template to PDF-files
-
-
-#### Form
-   - Adjusted class-name, title, text and labels to match the purpose of this form
-
-### Step 20. Implementing code for Forms.html using Livinghere.html as template
-#### Following change was done on the template to create Forms.html
-1. Head
-    - Changed text-content in Title
-
-2. Header
-    - Kept as the template
-
-3. Main Section
-    - Renamed Livinghere_main_section to Form_main_section
-    - Updated button-titles, icons and option content to suite this page 
-    - In the options I added links to useful information, to MovingIn and MovingOut Checklist as well as links to Changing Apartment and Cancel contract mockups (see Acknowledgement)
-
-4. Sub Section
-    - Kept as the template
-
-5. Footer
-    - Kept as the template
-
-### Step 21. Implementing code for Contact page.html using Livinghere.html as template
-#### Following change was done on the template to create Contact page.html
-1. Head
-    - Changed text-content in Title
-
-2. Header
-    - Kept as the template
-
-3. Main Section
- - Removed all content except Title-section
- - Under Title Section I added a section called Partners_section with class = text-center plus col-12
- - Filled the Partners_section with div each containing a title, company name and links to phone number and emails
- - Added intuitive icons to the titles
- - 
-4. Sub Section
-    - Kept as the template
-
-5. Footer
-    - Kept as the template
-
-### Step 22. Rebuilt ReportAnIssue.html to be integrated as modal in the header-section the index-page and removed the ReportAnIssue.html (see Credit-section)
-
-### Step 23. Link all underlying pages, forms and modal to respectively link section in index.html
-
-### Step 24. Copy Header/SubSection/Footer from index.html to all underlying pages
-
-### Step 25. Rebuilt MovingIn.html and MovingOut.html to be integrated as modal in the main-section of the forms-page, and removed the respectively html-template (see Credit-section)
-
-### Step 26. Tested the Design, navigation and responsiveness on GitPods port:8000 using by running following command in the Gitpod terminal "python3 -m http.server" (see fixed bugs)
-#### After testing following step was taken in to action
-  - Link to Logo was updated with right link "index.html"
-  - Changed background colour in subsection to appropriate background-image    
-  - Adjusted colour-theme and font size on button and link-icon in subsection
-  - Adjusted margin on Title-section
-  - Adjusted button-margin of main-section
-  - Adjusted font size of link icon in Header-section
-  - Changed spacing between row in guidelines, forms, livinghere page and structure my css-file
-  - Changed colourtheme for background images to black and white picture for all pages except for Contact page
-  - Adjusted font size in Issuereport option in ReportAnIssue modal
-  - Removed Title-section in index.html and presented text-content in tickers and presented div above eachother instead of side-by-side (see fixed bugs)
-  - Removed Title-section for "Vision" and "History" in "About us"-page and presented text-content in Vision-section in a ticker spanning right-to-left above "BOARD OF MANAGEMENT AND EXECUTIVE COMMITTEE"-section plus presented text in History-section in a ticker running horizontally below the background image for the same section (see fixed bugs) 
-  - Removed Title-section in Mypage-page and presented text-content above the background images in a ticker spanning right-to-left (see fixed bugs)
-  - Adjusted font-size and font-weight of text-content in Contact pages
-  - Removed css-code not in use 
-
-### Step 27. Inspected code in Google inspection tool and through LightHouse in Google Inspection tool
-#### Following information was extracted from the test
- - Result from Google inspection tool showed that the code was responsive with exception to Galaxy fold devices
- - Result from LightHouse showed that the code follows good practise, had high accessibility and well-adjusted to search engine (score around and above 90 %) but low responsiveness (score around 50%)
- - The responsiveness was affected mainly by image-sizes and loading JS (see fixed bugs)
- - LightHouse also pointed out that images did not have descriptable name, that anchor with classname was not crawlable and that the page did not support apple-touch-icon (see fixed bugs)
-
-### Step 28. Tested the Design, navigation and responsiveness on GitPods port:8000 using by running following command in the Gitpod terminal "python3 -m http.server" (see fixed bugs)
-#### After testing following step was taken in to action
- - Changed colourtheme of background images from black and white to coloured theme
- - Removed footer because of redundant information
- - Change colour of text-content to match new logo and footer background-images
- - Changed font size of board-text 
-
-
-### Step 29. Deployed code to GITHUB and send the code to Mentor for evaulation
-#### After evaulation following step was taken in to action
-- In accordance with the recommendation the whole design was revised to hold an 2020-standard, links from Mentor was used as inspiration
-- Decision to merge the profile page and the form page into one page was made
-- Decision to merge contact page, livinghere page and guidelines page was made
-- A new html-template index pages was constructed which contained a head and a body with a Header, a Main-content-section and a footer
-- The Header contained a large background picture with the LogoTitle center above the image and a dropdown button with links to underlying pages
-- The Main-content-section was divided into three smaller section with the first one being a ticker, the second div holding an image and information about the building. The third div contained three sections with Title, picture and buttons linking to underlying pages 
-- The footer contained three icons with links to index page, telephone number and the modal for ReportAnIssue
-- Furthermore decision to present forms, guidelines, contact information and information regarding the neighbourhood as question in jquery was made 
-
-### Step 30. Implementing code for template for the new index.html page
-#### Following step was taken in to action
-
-1. Head
-    - Copied information from former index.html page
-
-2. Header
-   - Added background image spanning the whole section or 700 px in height (class=Logo_image)
-    - Copied the navbar from former index.html and removed everything except the dropdown menu
-    - Made the dropdown menu visible at all devices and changed the name of the links to "My pages", "Frequently Asked Questions" and "The Neighbourhood"
-    - Copied the Logo from former index-html page and centered it in the Header section
-    - Copied Modal ReportAnIssue from former index-html pages and included it below all other divs in the Header board_section
-
-3. Main_content Section
- - Divided this section in to three section "news_section_mypage", "section1_index" and "section3"
- - News_section_mypage was copied from earlier index-html page and contained a ticker with dates and activities
- - Section1_index contained a div (class="aboutthebuilding_img") with a image presented to the left of text-content (class="abouthebuilding_text") at devices larger than medium size, and above the text-content in devices smaller than medium size
- - Section3 contained three divs placed next to eachother in a row at devices larger than medium size and on top of eachother in devices smaller than medium size
- - Each div in section three had a Title, an image, text-content and a linkbutton to underlying pages (Neighbourhood, My page and Questions), the text-content was hidden in devices smaller than medium size
-
-4. Footer
-    - Contained a div (footerlinks) with three icon placed next to eachother in a row with links to index.html, phonenumber and ReportAnIssue-modal
-
-5. Below Footer
-    - Copied links to script from former index-html page
-
-### Step 31. Implementing code for Neighbourhood pages using template for new index pages
-#### Following step was taken in to action
-
-1. Head
-    - Kept as template but changed the title
-
-2. Header
-    - Kept as template 
-
-3. Main_content Section
-  - Removed the contents within this section and added a div called nbgh_frame
- - Within the nbgh_frame I added a jquery with information extracted from collapse buttom list in former neighbourhood pages (see fixed bugs)
-
-4. Footer
-    - Kept as template
-
-
-### Step 32. Implementing code for Question pages using template for Neighbourhood pages
-#### Following step was taken in to action
-
-1. Head
-    - Kept as template but changed the title
-
-2. Header
-    - Kept as template 
-
-3. Main_content Section
-  - Removed the contents within this section and added three section called "question_frame1", "question_frame2", "question_frame3"
-  - Used jquery from Neighbourhood as template and incoporated it in all above mentoined section
-  - In question_frame1 the jquery was filled with information from former guidelines page
-  - In question_frame2 the jquery was filled with information from former livinghere page
-  - In question_frame3 the jquery was filled with information from former contact page and partner page
-
-4. Footer
-    - Kept as template
-
-### Step 33. Implementing code for new profile page using template for new Neighbourhood page
-#### Following step was taken in to action
-
-1. Head
-    - Kept as template but changed the title
-
-2. Header
-    - Kept as template 
-
-3. Main_content Section
-  - Removed the contents within this section and added three section "section1_profile", "section2_profile" and "question_frame"
-  - Below the three section mentoined above code for MovingIn and MovingOut Modal was inserted using code from former Form pages
-  - In the section1_profile three div was placed a top of eachother containing a Titletext, a image, and a textsection containing links to emailaddress and ReportAnIssue modal
-  - In the section2_profile a div with a text-title placed above a div with three icon containing links to contract, invoice and blueprint was added
-  - In the question_frame a jquery was added using earlier jquery as template and adding it with information from earlier Form page
-  
-4. Footer
-    - Kept as template
-
-
-### Step 34. Updated link info and made sure pages was linked togheter, removed unnessary code/files/images, added new images, adjusted font, color etc.. 
-#### Following step was taken in to action
-
-- Fontstyle and size was harmonized for all site
-- Background color for body was set to a grayish color for all pages
-- The sections within the mainsection was divided setting every second sections background color to white
-- Anchor color was set to black
-- Button color to white
-- Extracted images from pexels and used them to enhance the user experiences on the web page (see acknowlegdement)
-
-
-### Step 35. Inspected code in Google inspection tool and through LightHouse in Google Inspection tool
-#### Following information was extracted from the test
- - Result from Google inspection tool showed that the code was responsive with exception for Ipod
- - Result from LightHouse showed that the code follows good practise, had high accessibility and well-adjusted to search engine (score around and above 90 %) but low responsiveness (score below 50%)
- - The responsiveness was affected mainly by image-sizes and loading JS (see fixed bugs)
-
-### Step 36. Optimized the image size using image resizer and removed unused code
-
-
-### Step 37. Deployed code to GITHUB and runned CSS/Html-validation on all pages and css-codes
-#### After validation following was taken to action
-- unused code was removed
-- div was closed were they were opened
-- extra closing divs was removed
-- anchor-tab was arrange in accordance with recommendation from the validation (e.g. not inside button)
-
-
-
-
-
+ ## Technologies Used ##
+ ### Languages
+ - HTML5
+    * Used as the main markup language for the website content.
+- CSS3
+    * Used to style the individual webpages.
+### Libraries
+- Bootstrap
+    * Used to design a mobile-first responsive website layout.
+- jQuery
+    * Loaded as part of the Bootstrap CDN starter template
+- Popper
+    * Loaded as part of the Bootstrap CDN starter template
+- Prettier
+    * Used to format code before deploy the final version of the webpage
+- Gitignore
+    * Used to format code while constructing the webpage
+
+### Tools
+- Git
+    * Git was used for version control by utilising the Gitpod terminal to commit to Git and push to GitHub.
+- GitHub
+    * Used to store, host and deploy the project files and source code after being pushed from Git.
+- Gitpod
+    * An online IDE linked to the GitHub repository used for the majority of the code development.
+- Font-Awesome
+    * Used for icons to enhance headings and add emphasis to text.
+- Google fonts
+    * Used for the website fonts.
+- Free CAD
+    * Used for creating mockups for Blueprint
+- Balsamiq Wiresframes
+    * Used for creating mockups for Wireframes
+- Microsoft Excel
+    * Used for creating mockups for e.g. forms as canceling contract and changing apartment
+- Microsoft Powerpoint
+    * Used for creating mockups for e.g. Topology in readme-file
+- Image Resizer
+    * Used as first step to optimise image size used on the webpage
+- JPEG Compressor
+    * Used as a final step to optimise image size used on the webpage
+- Am I Responsive?
+    * A tool for taking a quick snapshot of the responsive breakpoints of the website to visualise how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
+- Google Inspection Tool
+    * Used for testing the design and its responsiveness
+- LightHouse
+    * Used for validating how well adjusted the design is in large devices as in small mobile devices
+- W3Cs CCS-validator
+    * Used for validating the css-code
+- W3C Markup-validator
+    * Used for validating the html-code
+------
+## Features ##
+
+### Features Implemented
+- Responsive mobile first design using a Bootstrap framework.
+- User friendly with balanced use of image
+- Optimised for search engines adressing keywords and description in metatags in Head section
+- A Navbar with easy navigation that collapses on mobile displays
+- Footer with contact information
+- Contact form on My page to allow the user to sent their request to the House owner
+- Bootstrap accordions to assist with readability of large amounts of text on mobile displays
+- Links with useful information to help user find answer on frequently asked questions
+- Ticker on home page with information about important dates
+- Social media links
+
+### Future Features
+- Activate links to social media
+- Connected Forms to a SQL-database and make them interactive
+- Display PDF such as Blueprint in a modal
 
 ---
+## Version Control ##
+### Version control for this repository is managed within GitHub and Gitpod using main as default branch for the project
+* To start with a New Respository was created in GitHub, named LittleS
+* LittleS was than linked to Gitpod pressing the green button Gitpod in the newly created Respository
+* Gitpod was than used as an editor for  creating the code in this project
+* Python3 -m http.server was used in the Gitpod terminal to see newly made code in the webbrowser under port 8000
+* New or modified files are staged using the git add . command in the Gitpod terminal
+* The changes are committed using git commit -m command in the Gitpod terminal.
+* The committed changes are pushed from Gitpod to GitHub using the git push command.
+
+---
+## Testing ##
+
+### Automated Testing
+
+#### The following validation services and linter were used to check the validity of the website code.
+- Chrome DevTools Lighthouse
+    * An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO
+- W3C Markup Validation
+    * This validator checks the markup validity of Web documents in e.g. HTML
+- W3C CSS validation
+    * his validator checks the validity of cascading style sheets (css) 
+
+### Manual Testing
+#### Following steps were undertaken to test the design and responsiveness of the webpages
+1. The webpages was open in Google Chrome
+2. The responsivness for all underlying pages was tested by shrinking and enlarging the window of the webbrowser
+3. Links were tested in enlarge mode of the webbrowser
+4. Buttons were tested in enlarge mode of the webbrowser
+5. Accordion were tested in enlarge mode of webbrowser
+6. The code was pushed to GitHub and deployed
+7. The deployed code was tested on mobile devices (iphone, Samsung devices) in accordance with step 3-6
+8. As a final step the code was tested in accordance with step 3-6 on Microsoft edge webbrowser
+
 ### Fixed Bugs
 #### I have encountered and fixed following bugs 
 
 Connected to index.html
 
 - Removed underlines when hovering over links in Header Navbar following comments from José Lopez Coronado and Vahid Alvandi on Stack Overflow adding following code to style.css (see Credit-section)
-    * .navbar_header li a:hover{text-decoration:none;}
+
 
 - Adjusted the dropdown list to be presented to the left of the button using alternatives from bootstrapshuffle adding following code to index.html (see Credit-section) 
-    * div class="dropdown dropleft"
 
-- Centered images in Left_upper_div and Right_lower_div in Main section following comments from Tushar Gupta - curioustushar on Stack OverFlow adding following code to style.css (See Credit-Section)
-    * upper_section_left, .lower_section_right{ text-align: center;}
 
 - Removed Dots in the List in Sub Section Navbar following comments from Alexis on Stack OverFlow adding following code to style.css (See Credit-Section)
-    * .links_sub_section li a:hover{text-decoration:none;}
-
-- Removed unused classes and junc-code
-
-- Optimized the size of my image using Image resizer (see Credit-section)
-
-Connect to ReportAnIssue.html
-
-- Aligned FirstName and LastName input beside each other using example from w3school (see Credit-section) adding following code
-    * form class="form-inline"
-
-- Locked the size of the text-area following comments from Simon on Stack Overflow adding following code
-    * #DescriptionOfIssue {resize: none;}
 
 - Remove  unnecessary code, images and files plus optimised size of images
 
-- Integrated ReportAnIssue, MovingIN and MovingOut checklist as modals (see Credit-section) 
+- Integrated MovingIN and MovingOut checklist as modals (see Credit-section) 
 
-- Integrated textcontent in index-pages, AboutUs-pages and profile-pages as tickers (see Credit-section)
+- Integrated textcontent about important dates in index-pages as tickers (see Credit-section)
 
-- Removed unused font-size and optimised images-sizes using Image resizer
+- Removed unused font-size
 
-- Changed colourtheme of background images and text colour of Logo and Footer text-content
+- Changed colourtheme of background images
 
-- Revised design
+- Revised design to be more modern
 
-- Adopted a jquery instead of a collapse Lists
+- Integrated accordions to present text so it doesnt overflow the pages
+
+- changed contact form from a modal to a contact form on my pages
+
+- Adjusted fontcolor the opacity of the background-color of navbar to increase the contrast between them
+
+- Defined the height and width of images so they don't change size when enlarging or shrinking the window of the webbrowser
 
 ### Known Bugs
+#### Due to shortage of time following bugs are still to be handle
+- The contrast between background image and text-content in contactform could be improved by changing backgroundimage
+- The contrast between background image and text-content in the header could be improved by changing backgroundimage
+- The user experience for mobile devices could be increased by making one part of the contract form hidden in mobile devices
+- Images in Neighbourhood pages could be removed to avoid uncontrolled behavior of those when opening rows in accordion (as it is now it get motion to the screen why i decided to keep them to add to the user experience)
+- An modal could be implemented for showing the blueprint 
 
-- Forms not activated
-
-### Open questions
-- How should I handle sending, receiving and store info connected to Login, Report an Issue and open invoices etc
-- How important is the responsiveness to splash screen
-- How important is it that the icon is apple-touch-compatible
-- Aria-label what's the best manufacturing practise
-- How should I label bgimage in css
-
-## Deployment
-
-#### The code is made using Gitpod-editor 
-#### The code has been pushed to GITHUB using following commands in the Gitpod terminal
-* git add .
-* git commit -m ""
-* git push
-#### In GITHUB the code was deployed to "Main Branch" through opening setting and navigate to the section "GitHub pages" and under "Source" choosing "Main branch" and confirming the choice by pushing "Save"-button
----
----
-
-## Credits
+----
+## Credits ##
 
 ### Content
 
@@ -767,8 +270,6 @@ Connect to ReportAnIssue.html
 ---
 #### Original code 
 - [div class="modal" tabindex="-1" id="signUpModal"](https://github.com/GurraT/Newproject/blob/master/index.html) ,code example from Code Institute building a Whiskey page 
-#### Implemented code (in header in all html-pages)
-- div class="modal fade" id="ReportAnIssue" tabindex="-1" role="dialog" aria-labelledby="ReportAnIssueForm" aria-hidden="true"
 #### Implemented code (in header in forms-pages)
 - div class="modal fade" id="MovingIn" tabindex="-1" role="dialog" aria-labelledby="MovingIN" aria-hidden="true"
 - div class="modal fade" id="MovingOut" tabindex="-1" role="dialog" aria-labelledby="MovingOut" aria-hidden="true"
@@ -791,9 +292,8 @@ Connect to ReportAnIssue.html
 - e.g. class="nbgh_frame" with included css-code
 
 ---
-
 ### Media
- - Used images from pexels.com and optimized their size using [Imageresizer](https://imageresizer.com/) 
+ - Used images from pexels.com and optimized their size using [Imageresizer](https://imageresizer.com/) as well as [JPEG compressor](https://www.jpegcompressor.org/)
  - I want to thank following persons for enhancing my user experience by using their images
  * Hannah Nelson from Pexels
  * Daria Shevtsova from Pexels
@@ -801,6 +301,10 @@ Connect to ReportAnIssue.html
  * Luca Nardone from Pexels
  * Serinus Canaria from Pexels
  * Adrien Olichon from Pexels
+ * Rene Asmussen from Pexels
+ * Quang Nguyen from Pexels
+ * Pixabay from Pexels
+
 
 ### Links
 - I have extracted information or linked to following pages to provide the personas using my pages with useful information
@@ -834,6 +338,9 @@ Connect to ReportAnIssue.html
 * [Bostads Portalen](https://bostadsportal.se/info/wp-content/uploads/sites/6/2020/11/Hyreskontrakt-fo%CC%88r-fo%CC%88rstahandsuthyrning-BostadsPortal.pdf)
 * [Word Mallar](https://www.word-mallar.com/wp-content/uploads/2017/03/Mall-hyresavi.jpg)
 
+### Inspiration
+#### The following site has been used for getting inspiration to get a modern feeling on my webpages
+[Urban](https://templated.co/urban)
 
 ### Acknowledgements
 
