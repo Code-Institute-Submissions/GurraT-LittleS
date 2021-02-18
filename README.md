@@ -255,6 +255,22 @@ Connected to index.html
 
 ---
 
+### Deployment
+
+The website was developed using both Gitpod for constructing code which then was pushed to GitHub,  which hosted my repository. I conducted following step to deploy my code.
+- Navigated and logged in to GitHub
+-  Navigated to my repository [GurraT/LittleS](https://github.com/GurraT/LittleS) 
+- Opened settings.
+- Scrolled down to the Section GitHub pages
+- Selected master branch in the source dropdown menu
+- Confirmed choice by clicking on save
+#### To see the endresult and open deployed code in a webbrowser following steps were conducted 
+- Navigated to my repository [GurraT/LittleS](https://gurrat.github.io/LittleS/) 
+- Click on the code buttom
+- Selected http-adress and copied it to a webbrowser
+
+---
+
 ## Credits
 
 ### Content
