@@ -1,2 +1,4 @@
 *.agdai
 MAlonzo/**
+.prettierrc.json
+__node_modules__/
