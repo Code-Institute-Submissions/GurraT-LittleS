@@ -386,15 +386,13 @@ The website was developed using both Gitpod for constructing code which then was
 
 #### I want to thank following persons for enhancing my user experience by using their images
 
+- [Adrien Olichon from Pexels](https://www.pexels.com/photo/architectural-photography-of-brown-building-2387674/) 
 - Hannah Nelson from Pexels
-- Daria Shevtsova from Pexels
-- Emre Can from Pexels
-- Luca Nardone from Pexels
-- Serinus Canaria from Pexels
-- Adrien Olichon from Pexels
-- Rene Asmussen from Pexels
-- Quang Nguyen from Pexels
-- Pixabay from Pexels
+- [Daria Shevtsova from Pexels](https://www.bing.com/images/search?view=detailV2&ccid=JmoXW2xN&id=CC6010AF32E5B38CA4482050CF88180EABEE896B&thid=OIP.JmoXW2xNSyDWxp50t50IGwHaE7&mediaurl=https%3a%2f%2fimages.pexels.com%2fphotos%2f1070945%2fpexels-photo-1070945.jpeg%3fcs%3dsrgb%26dl%3dpexels-daria-shevtsova-1070945.jpg%26fm%3djpg&exph=2832&expw=4256&q=pexels-daria-shevtsova-1070945&simid=608017771793744947&ck=19CFC1D5D129453572A851D852441E68&selectedIndex=0&FORM=IRPRST&idpp=overlayview&ajaxhist=0)
+- [Emre Can from Pexels](https://www.bing.com/images/search?view=detailV2&ccid=1TNxuUWD&id=CD32453EAFCE4424DC2EDEE3470909EEF4202B9F&thid=OIP.1TNxuUWDZAX8n6Z5pAU0mQAAAA&mediaurl=https%3a%2f%2fwww.hayalmobilya.com%2fwp-content%2fuploads%2f2020%2f03%2fpexels-emre-can-2079249-285x425-1.jpg&exph=425&expw=285&q=pexels-emre-can&simid=607998079420664268&ck=8AB020D04E64DDA7C2F6D56C51F5C77D&selectedIndex=6&FORM=IRPRST&ajaxhist=0)
+- [Luca Nardone from Pexels](https://www.bing.com/images/search?view=detailV2&ccid=CHopO%2bbF&id=964BF8E9AC50F5CBD5CBA539DBB5285223112737&thid=OIP.CHopO-bF673tahkJi-RoYgHaE8&mediaurl=https%3a%2f%2ffundscape.co.uk%2fwp-content%2fuploads%2f2020%2f12%2fpexels-luca-nardone-3651820.jpg&exph=400&expw=600&q=pexels-luca-nardone-3651820&simid=608038039845011942&ck=02F6562B64DEAA1BED59724BD30999F2&selectedIndex=1&FORM=IRPRST&ajaxhist=0)
+- [Serinus Canaria from Pexels](https://www.bing.com/images/search?view=detailV2&ccid=%2f7DD2BIM&id=177A528DF7091E87011C44D73C0B6FBA099E5F31&thid=OIP._7DD2BIMSJP9Dxj0mPgIxQHaLH&mediaurl=https%3a%2f%2f1.bp.blogspot.com%2f-A7mIl_te89I%2fX7K3vAyLWcI%2fAAAAAAAAI20%2fQR9QvcCPXfQBkO1VL2nybcdsZtrP8LUAwCLcBGAsYHQ%2fs2048%2fpexels-serinuscanaria-5602170.jpg&exph=2048&expw=1365&q=pexels-serinuscanaria&simid=608010217094713036&ck=2B61A9FB4AE7AB5BC8171A6C7BDFE998&selectedIndex=11&FORM=IRPRST&ajaxhist=0)
+- [Pixabay from Pexels](https://www.bing.com/images/search?view=detailV2&ccid=C7Rjxer4&id=56FAD0DFD17FE8E761566FCDB222DAFF87BA2308&thid=OIP.C7Rjxer4XadPaD7YcIA77QHaFS&mediaurl=https%3a%2f%2fwww.imske.com%2fwp-content%2fuploads%2f2020%2f10%2fpexels-pixabay-221210-scaled.jpg&exph=1828&expw=2560&q=pexels-pixabay-221210&simid=608047321239849818&ck=157DABB82D043DC579E43E6F62BD9920&selectedIndex=2&FORM=IRPRST&ajaxhist=0)
 
 ### Links
 
