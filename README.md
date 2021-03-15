@@ -59,7 +59,7 @@ The personas main goal is to find information about building so that they know h
 1.  Find information about how to relate, locate and act within the building
 2.  Find information about how to contact the House owner, contractors and partners
 3.  Interact and give feedback about their living
-4.  Information of guidelines to save time spent anwering these question orally
+4.  Information of guidelines to save time spent answering these question orally
 
 ---
 
@@ -180,12 +180,41 @@ The personas main goal is to find information about building so that they know h
 - Python3 -m http.server was used in the Gitpod terminal to see newly made code in the webbrowser under port 8000
 - New or modified files are staged using the git add . command in the Gitpod terminal
 - The changes are committed using git commit -m command in the Gitpod terminal.
-- The committed changes are pushed from Gitpod to GitHub using the git push command.
+- The comitted changes are pushed from Gitpod to GitHub using the git push command.
 - The code was deployed in GitHub selecting main branch under setting in LittleS Respository
 
 ---
 
 ## Testing
+
+### Testing User Stories from User Experience (UX) Section
+
+- Overal Goals
+
+i. As a visitor it easy to understand main purpose of the site and get an idea on what informations that is offered on underlying pages
+    
+     a. When entering the webpage the vistor is presented with a clear, intuitive navbar presenting what is found on underlying pages
+     b. The hero image give a clear message that this site is handling a housing company
+     c. Below the hero image there is a ticker presenting important dates for the visitor
+     d. Situated under the ticker, links to underlying pages are presented onces again, with text, intuitive pictures and titles to further clarify what could be found on underlying site
+     e. The main purpose of the webpage is further clarified with an About-section and contact information within the Footer section of the main pages
+ii. As a tenant i can 
+   
+    a. easily get in contact with the company, with contact information presented in the footer section as well as a form at the my pages
+    b. Find answers who to contact in different situation as well as information about the building presented in a clear way on the common question page
+    c. Find informations about the neighbourhood, which is presented in an intuitive way at the neighbourhood page
+    d. Find important documents such as contract, invoice, blueprint on the my pages
+    e. Get information on conducts at the common question pages
+    f. Get information what happens in the neighbourhood presented as a ticker on main page
+
+iii.  As a constructor/contractor i can 
+    a. easily to find contact information to the company, presented in a clear way in the footer section
+    b. find information about the building under common questions
+
+iiii. As a site owner i can
+    a. easily get information from my user by feedback form on my pages
+    b. easily inform my user by advertising important event on the main pages ticker, and give valuable information at the common question page
+
 
 ### Automated Testing
 
@@ -198,6 +227,24 @@ The personas main goal is to find information about building so that they know h
 - W3C CSS validation
   - his validator checks the validity of cascading style sheets (css)
 
+#### Below you find results from automated testing
+
+- Result from Chrome DevTools Lighthouse
+    - [Index page]()
+    - [profile page]()
+    - [question page]()
+    - [neighbourhood page]()
+- Result from W3C Markup Validation
+    - [Index page]()
+    - [profile page]()
+    - [question page]()
+    - [neighbourhood page]()
+- Result from W3C CSS validation
+    - [Index page]()
+    - [profile page]()
+    - [question page]()
+    - [neighbourhood page]()
+
 ### Manual Testing
 
 #### Following steps were undertaken to test the design and responsiveness of the webpages
@@ -207,9 +254,12 @@ The personas main goal is to find information about building so that they know h
 3. Links were tested in enlarge mode of the webbrowser
 4. Buttons were tested in enlarge mode of the webbrowser
 5. Accordion were tested in enlarge mode of webbrowser
-6. The code was pushed to GitHub and deployed
-7. The deployed code was tested on mobile devices (iphone, Samsung devices) in accordance with step 3-6
-8. As a final step the code was tested in accordance with step 3-6 on Microsoft edge webbrowser
+6. Tested that links with telephone number opens in default telephone app and that links with email adress opens in default email app
+7. Tested that contact form at my pages is possible to fill in eventhough not activitated  
+8. The code was pushed to GitHub and deployed
+9. The deployed code was tested on mobile devices (iphone, Samsung devices) in accordance with step 3-7
+10. As a final step the code was tested in accordance with step 3-6 on Microsoft edge webbrowser
+
 
 ### Fixed Bugs
 
@@ -250,7 +300,6 @@ Connected to index.html
 - The contrast between background image and text-content in contactform could be improved by changing backgroundimage
 - The contrast between background image and text-content in the header could be improved by changing backgroundimage
 - The user experience for mobile devices could be increased by making one part of the contract form hidden in mobile devices
-- Images in Neighbourhood pages could be removed to avoid uncontrolled behavior of those when opening rows in accordion (as it is now it get motion to the screen why i decided to keep them to add to the user experience)
 - A modal could be implemented for showing the blueprint
 
 ---
