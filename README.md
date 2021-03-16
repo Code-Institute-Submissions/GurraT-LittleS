@@ -191,35 +191,37 @@ The personas main goal is to find information about building so that they know h
 
 - Overal Goals
 
-i. As a visitor it easy to understand main purpose of the site and get an idea on what informations that is offered on underlying pages
+i. As a visitor it easy to understand main purpose of the site and get an idea on what informations that is offered at underlying pages
     
-     a. When entering the webpage the vistor is presented with a clear, intuitive navbar presenting what is found on underlying pages
-     b. The hero image give a clear message that this site is handling a housing company
-     c. Below the hero image there is a ticker presenting important dates for the visitor
-     d. Situated under the ticker, links to underlying pages are presented onces again, with text, intuitive pictures and titles to further clarify what could be found on underlying site
-     e. The main purpose of the webpage is further clarified with an About-section and contact information within the Footer section of the main pages
+    a. [When entering the webpage the vistor is presented with a clear, intuitive navbar presenting what is found at underlying pages](assets/document/validation/manual_test_1.png "Manual Test 1")
+    b. [The hero image give a clear message that this site is handling a housing company](assets/document/validation/manual_test_1.png "Manual Test 1")
+    c. [Below the hero image there is a ticker presenting important dates for the visitor](assets/document/validation/manual_test_1.png "Manual Test 1")
+    d. [Situated under the ticker, links to underlying pages are presented onces again, with text, intuitive pictures and titles to further clarify what could be found on underlying pages](assets/document/validation/manual_test_2.png "Manual Test 2")
+    e. [The main purpose of the webpage is further clarified with an About-section and contact information within the Footer section of the main pages](assets/document/validation/manual_test_2.png "Manual Test 2")
+
 ii. As a tenant i can 
    
-    a. easily get in contact with the company, with contact information presented in the footer section as well as a form at the my pages
-    b. Find answers who to contact in different situation as well as information about the building presented in a clear way on the common question page
-    c. Find informations about the neighbourhood, which is presented in an intuitive way at the neighbourhood page
-    d. Find important documents such as contract, invoice, blueprint on the my pages
-    e. Get information on conducts at the common question pages
-    f. Get information what happens in the neighbourhood presented as a ticker on main page
+    a. [easily get in contact with the company, with contact information being presented in the footer section as well as a form at the my pages](assets/document/validation/manual_test_3.png "Manual Test 3")
+    b. [Find answers who to contact in different situation as well as information about the building presented in a clear way on the common questions page](assets/document/validation/manual_test_4.png "Manual Test 4")
+    c. [Find informations about the neighbourhood, which is presented in an intuitive way at the neighbourhood page](assets/document/validation/manual_test_5.png "Manual Test 5")
+    d. [Find important documents such as contract, invoice, blueprint at my pages](assets/document/validation/manual_test_6.png "Manual Test 6")
+    e. [Get information on conducts at the common questions pages](assets/document/validation/manual_test_7.png "Manual Test 7")
+    f. [Get information what happens in the neighbourhood presented as a ticker on main page](assets/document/validation/manual_test_8.png "Manual Test 8")
 
 iii.  As a constructor/contractor i can 
-    a. easily to find contact information to the company, presented in a clear way in the footer section
-    b. find information about the building under common questions
+    
+    a. [easily to find contact information to the company, being presented in a clear way in the footer section](assets/document/validation/manual_test9.png "Manual Test 9")
+    b. [find information about the building under common questions](assets/document/validation/manual_test_10.png "Manual Test 10")
 
 iiii. As a site owner i can
-    a. easily get information from my user by feedback form on my pages
-    b. easily inform my user by advertising important event on the main pages ticker, and give valuable information at the common question page
+   
+    a. [easily get information from my user by feedback form on my pages](assets/document/validation/manual_test_11.png "Manual Test 11")
+    b. [easily inform my user by advertising important event on the main pages ticker](assets/document/validation/manual_test_13.png "Manual Test 13"), [and give valuable information at the common question page](assets/document/validation/manual_test_12.png "Manual Test 12")
 
 
 ### Automated Testing
 
 #### The following validation services and linter were used to check the validity of the website code.
-
 - Chrome DevTools Lighthouse
   - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO
 - W3C Markup Validation
@@ -436,7 +438,6 @@ The website was developed using both Gitpod for constructing code which then was
 #### I want to thank following persons for enhancing my user experience by using their images
 
 - [Adrien Olichon from Pexels](https://www.pexels.com/photo/architectural-photography-of-brown-building-2387674/) 
-- Hannah Nelson from Pexels
 - [Daria Shevtsova from Pexels](https://www.bing.com/images/search?view=detailV2&ccid=JmoXW2xN&id=CC6010AF32E5B38CA4482050CF88180EABEE896B&thid=OIP.JmoXW2xNSyDWxp50t50IGwHaE7&mediaurl=https%3a%2f%2fimages.pexels.com%2fphotos%2f1070945%2fpexels-photo-1070945.jpeg%3fcs%3dsrgb%26dl%3dpexels-daria-shevtsova-1070945.jpg%26fm%3djpg&exph=2832&expw=4256&q=pexels-daria-shevtsova-1070945&simid=608017771793744947&ck=19CFC1D5D129453572A851D852441E68&selectedIndex=0&FORM=IRPRST&idpp=overlayview&ajaxhist=0)
 - [Emre Can from Pexels](https://www.bing.com/images/search?view=detailV2&ccid=1TNxuUWD&id=CD32453EAFCE4424DC2EDEE3470909EEF4202B9F&thid=OIP.1TNxuUWDZAX8n6Z5pAU0mQAAAA&mediaurl=https%3a%2f%2fwww.hayalmobilya.com%2fwp-content%2fuploads%2f2020%2f03%2fpexels-emre-can-2079249-285x425-1.jpg&exph=425&expw=285&q=pexels-emre-can&simid=607998079420664268&ck=8AB020D04E64DDA7C2F6D56C51F5C77D&selectedIndex=6&FORM=IRPRST&ajaxhist=0)
 - [Luca Nardone from Pexels](https://www.bing.com/images/search?view=detailV2&ccid=CHopO%2bbF&id=964BF8E9AC50F5CBD5CBA539DBB5285223112737&thid=OIP.CHopO-bF673tahkJi-RoYgHaE8&mediaurl=https%3a%2f%2ffundscape.co.uk%2fwp-content%2fuploads%2f2020%2f12%2fpexels-luca-nardone-3651820.jpg&exph=400&expw=600&q=pexels-luca-nardone-3651820&simid=608038039845011942&ck=02F6562B64DEAA1BED59724BD30999F2&selectedIndex=1&FORM=IRPRST&ajaxhist=0)
