@@ -305,6 +305,7 @@ Connected to index.html
 
 #### Due to shortage of time following bugs are still to be handle
 
+- Eventhough the Hero Image has been resized and optimized it still affect the loadtime of the pages, for optimizing the load time it could be optimal to change image, but for now the image is kept
 - The contrast between background image and text-content in contact form could be improved by changing background image
 - The contrast between background image and text-content in the header could be improved by changing background image
 - The user experience for mobile devices could be increased by making one part of the contract form hidden in mobile devices
