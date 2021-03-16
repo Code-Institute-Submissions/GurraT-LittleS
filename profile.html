@@ -1,741 +1,759 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Apartment at Lilla Essingen" />
-    <meta
-      name="keywords"
-      content="Lilla Essingen, apartment, rent, living, Lomsten"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!-- fontawesome CSS icon -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- Font google fonts Oswald, Roboto, Montserrat -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
-    <title>Lomsten - Frequently Asked Questions</title>
-  </head>
-  <body>
-    <header>
-      <div class="Logo_image_ngbh">
-        <div class="linkmenu d-none d-lg-block">
-          <div class="container">
-            <div class="row">
-             <div class="col-3 profile_logo text-left">
-                <a href="index.html">Home</a>
-              </div>
-              <div class="col-3 profile_logo text-left">
-                <a href="profile.html">My pages</a>
-              </div>
-              <div class="col-3 question_logo text-center">
-                <a href="question.html">Common Questions</a>
-              </div>
-              <div class="col-3 neighbourhood_logo text-right">
-                <a href="neighbourhood.html">The Neighbourhood</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="dropdown menu_header d-block d-lg-none">
-          <div class="container">
-            <div class="text-right dropleft">
-              <button
-                class="btn-light dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                aria-label="Menu"
-              >
-                <i class="fas fa-grip-lines"></i>
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="index.html">Home</a>
-                <a class="dropdown-item" href="profile.html">My pages</a>
-                <a class="dropdown-item" href="question.html"
-                  >Common Questions</a
-                >
-                <a class="dropdown-item" href="neighbourhood.html"
-                  >The Neighbourhood</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="Logo text-center">
-          <div class="container">
-            <a>LOMSTEN</a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <section class="Main_content">
-      <div class="question_frame">
-        <div class="container text-center">
-          <p class="profile_accordion_title">
-            Different situation requires different approach <br />
-            Find out more in the links below
-          </p>
-          <div class="accordion" id="accordionExampleA">
-            <div class="text-center">
-              <div class="" id="headingX">
-                <h2 class="mb-0">
-                  <button
-                    class="btn title_profile_accordion"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapse_profile_movin"
-                    aria-expanded="true"
-                    aria-controls="collapse_profile_movin"
-                  >
-                    Moving In
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapse_profile_movin"
-                class="collapse show"
-                aria-labelledby="headingX"
-                data-parent="#accordionExampleA"
-              >
-                <div class="text_content_profile_accordion">
-                  <p>
-                    We hope you will feel at home in your new apartment, a good
-                    way to start is to go through this
-                    <a href="#" data-toggle="modal" data-target="#MovingIn">
-                      checklist
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="text-center">
-              <div class="" id="headingY">
-                <h2 class="mb-0">
-                  <button
-                    class="btn title_profile_accordion collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapse_movout"
-                    aria-expanded="false"
-                    aria-controls="collapse_movout"
-                  >
-                    Moving Out
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapse_movout"
-                class="collapse"
-                aria-labelledby="headingY"
-                data-parent="#accordionExampleA"
-              >
-                <div class="text_content_profile_accordion">
-                  <p>
-                    We hope you enjoyed your time in our building, before you
-                    move out we encourage you to look into following
-                    <a href="#" data-toggle="modal" data-target="#MovingOut">
-                      checklist
-                    </a>
-                  </p>
-                </div>
-              </div>
-              <div class="text-center">
-                <div class="" id="headingZ">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn title_profile_accordion collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapse_changeApart"
-                      aria-expanded="false"
-                      aria-controls="collapse_changeApart"
-                    >
-                      Changing Apartment
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapse_changeApart"
-                  class="collapse"
-                  aria-labelledby="headingZ"
-                  data-parent="#accordionExampleA"
-                >
-                  <div class="text_content_profile_accordion">
-                    <p>
-                      If you want to change or sublet your apartment please fill
-                      in following
-                      <a
-                        href="assets/document/Applicationforsubleting.pdf"
-                        target="_blank"
-                      >
-                        Form
-                      </a>
-                    </p>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="Apartment at Lilla Essingen" />
+      <meta
+         name="keywords"
+         content="Lilla Essingen, apartment, rent, living, Lomsten"
+         />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Bootstrap CSS -->
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+         crossorigin="anonymous"
+         />
+      <!-- fontawesome CSS icon -->
+      <link
+         rel="stylesheet"
+         href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+         crossorigin="anonymous"
+         />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <!-- Font google fonts Oswald, Roboto, Montserrat -->
+      <link
+         href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap"
+         rel="stylesheet"
+         />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+         rel="stylesheet"
+         />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap"
+         rel="stylesheet"
+         />
+      <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+      <title>Lomsten - Frequently Asked Questions</title>
+   </head>
+   <body>
+      <header>
+         <div class="Logo_image_ngbh">
+            <div class="linkmenu d-none d-lg-block">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-3 profile_logo text-left">
+                        <a href="index.html">Home</a>
+                     </div>
+                     <div class="col-3 profile_logo text-left">
+                        <a href="profile.html">My pages</a>
+                     </div>
+                     <div class="col-3 question_logo text-center">
+                        <a href="question.html">Common Questions</a>
+                     </div>
+                     <div class="col-3 neighbourhood_logo text-right">
+                        <a href="neighbourhood.html">The Neighbourhood</a>
+                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="text-center">
-                <div class="" id="headingV">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn title_profile_accordion collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapse_cancelContract"
-                      aria-expanded="false"
-                      aria-controls="collapse_cancelContract"
-                    >
-                      Cancel Contract
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapse_cancelContract"
-                  class="collapse"
-                  aria-labelledby="headingV"
-                  data-parent="#accordionExampleA"
-                >
-                  <div class="text_content_profile_accordion">
-                    <p>
-                      To cancel your contract please fill-in following
-                      <a
-                        href="assets/document/CancelContract.pdf"
-                        target="_blank"
-                        >Form</a
-                      >
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="text-center">
-                <div class="" id="headingW">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn title_profile_accordion collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapse_relocation"
-                      aria-expanded="false"
-                      aria-controls="collapse_relocation"
-                    >
-                      Update mailadress and notify relocation
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapse_relocation"
-                  class="collapse"
-                  aria-labelledby="headingW"
-                  data-parent="#accordionExampleA"
-                >
-                  <div class="text_content_profile_accordion">
-                    <p>
-                      Notify
-                      <a
-                        href="https://skatteverket.se/privat/folkbokforing.4.18e1b10334ebe8bc800039.html"
-                        target="_blank"
-                      >
-                        the tax authorities
-                      </a>
-                      about your new adress <br />
-                      You can also change the delivery of your mail to your new
-                      adress at
-                      <a href="https://www.adressandring.se/" target="_blank">
-                        Svensk adressändrings homepage
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
+               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="section3_profile">
-        <div class="container">
-          <div class="row">
-            <div class="col-6 gratitude_img text-center">
-              <div class="container">
-                <div class="Postal_field">
-                  <p class="Postal_field_title">
-                    <i class="fas fa-map-marker-alt"></i>Address
-                  </p>
-                  <p class="Postal_field_content">
-                    Furukviststigen 1 <br />S 17432 Lilla Essingen
-                  </p>
-                </div>
-                <div class="Contact_field">
-                  <p class="Contact_field_title">
-                    <i class="fas fa-phone-alt"></i>Lets Talk
-                  </p>
-                  <a href="tel:00468XXXXXX"> 0046(8)XXXXXX </a>
-                </div>
-                <div class="Email_field">
-                  <p class="Email_field_title">
-                    <i class="fas fa-envelope"></i>General Support
-                  </p>
-                  <a href="mailto:xxx@lomsten.se"> xxx@lomsten.se</a>
-                </div>
-              </div>
+            <div class="dropdown menu_header d-block d-lg-none">
+               <div class="container">
+                  <div class="text-right dropleft">
+                     <button
+                        class="btn-light dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-label="Menu"
+                        >
+                     <i class="fas fa-grip-lines"></i>
+                     </button>
+                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <a class="dropdown-item" href="profile.html">My pages</a>
+                        <a class="dropdown-item" href="question.html"
+                           >Common Questions</a
+                           >
+                        <a class="dropdown-item" href="neighbourhood.html"
+                           >The Neighbourhood</a
+                           >
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="col-6 text-center">
-              <form class="contact_form">
-                <div class="contact_form_title">Send Us a Message</div>
-                <label>Tell Us Your Name</label>
-                <div class="text-center contact_name">
+            <div class="Logo text-center">
+               <div class="container">
+                  <a>LOMSTEN</a>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="Main_content">
+         <div class="question_frame">
+            <div class="container text-center">
+               <p class="profile_accordion_title">
+                  Different situation requires different approach <br />
+                  Find out more in the links below
+               </p>
+               <div class="accordion" id="accordionExampleA">
+                  <div class="text-center">
+                     <div class="" id="headingX">
+                        <h2 class="mb-0">
+                           <button
+                              class="btn title_profile_accordion"
+                              type="button"
+                              data-toggle="collapse"
+                              data-target="#collapse_profile_movin"
+                              aria-expanded="true"
+                              aria-controls="collapse_profile_movin"
+                              >
+                           Moving In
+                           </button>
+                        </h2>
+                     </div>
+                     <div
+                        id="collapse_profile_movin"
+                        class="collapse show"
+                        aria-labelledby="headingX"
+                        data-parent="#accordionExampleA"
+                        >
+                        <div class="text_content_profile_accordion">
+                           <p>
+                              We hope you will feel at home in your new apartment, a good
+                              way to start is to go through this
+                              <a href="#" data-toggle="modal" data-target="#MovingIn">
+                              checklist
+                              </a>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="text-center">
+                     <div class="" id="headingY">
+                        <h2 class="mb-0">
+                           <button
+                              class="btn title_profile_accordion collapsed"
+                              type="button"
+                              data-toggle="collapse"
+                              data-target="#collapse_movout"
+                              aria-expanded="false"
+                              aria-controls="collapse_movout"
+                              >
+                           Moving Out
+                           </button>
+                        </h2>
+                     </div>
+                     <div
+                        id="collapse_movout"
+                        class="collapse"
+                        aria-labelledby="headingY"
+                        data-parent="#accordionExampleA"
+                        >
+                        <div class="text_content_profile_accordion">
+                           <p>
+                              We hope you enjoyed your time in our building, before you
+                              move out we encourage you to look into following
+                              <a href="#" data-toggle="modal" data-target="#MovingOut">
+                              checklist
+                              </a>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="text-center">
+                        <div class="" id="headingZ">
+                           <h2 class="mb-0">
+                              <button
+                                 class="btn title_profile_accordion collapsed"
+                                 type="button"
+                                 data-toggle="collapse"
+                                 data-target="#collapse_changeApart"
+                                 aria-expanded="false"
+                                 aria-controls="collapse_changeApart"
+                                 >
+                              Changing Apartment
+                              </button>
+                           </h2>
+                        </div>
+                        <div
+                           id="collapse_changeApart"
+                           class="collapse"
+                           aria-labelledby="headingZ"
+                           data-parent="#accordionExampleA"
+                           >
+                           <div class="text_content_profile_accordion">
+                              <p>
+                                 If you want to change or sublet your apartment please fill
+                                 in following
+                                 <a
+                                    href="assets/document/Applicationforsubleting.pdf"
+                                    target="_blank"
+                                    >
+                                 Form
+                                 </a>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="text-center">
+                        <div class="" id="headingV">
+                           <h2 class="mb-0">
+                              <button
+                                 class="btn title_profile_accordion collapsed"
+                                 type="button"
+                                 data-toggle="collapse"
+                                 data-target="#collapse_cancelContract"
+                                 aria-expanded="false"
+                                 aria-controls="collapse_cancelContract"
+                                 >
+                              Cancel Contract
+                              </button>
+                           </h2>
+                        </div>
+                        <div
+                           id="collapse_cancelContract"
+                           class="collapse"
+                           aria-labelledby="headingV"
+                           data-parent="#accordionExampleA"
+                           >
+                           <div class="text_content_profile_accordion">
+                              <p>
+                                 To cancel your contract please fill-in following
+                                 <a
+                                    href="assets/document/CancelContract.pdf"
+                                    target="_blank"
+                                    >Form</a
+                                    >
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="text-center">
+                        <div class="" id="headingW">
+                           <h2 class="mb-0">
+                              <button
+                                 class="btn title_profile_accordion collapsed"
+                                 type="button"
+                                 data-toggle="collapse"
+                                 data-target="#collapse_relocation"
+                                 aria-expanded="false"
+                                 aria-controls="collapse_relocation"
+                                 >
+                              Update mailadress and notify relocation
+                              </button>
+                           </h2>
+                        </div>
+                        <div
+                           id="collapse_relocation"
+                           class="collapse"
+                           aria-labelledby="headingW"
+                           data-parent="#accordionExampleA"
+                           >
+                           <div class="text_content_profile_accordion">
+                              <p>
+                                 Notify
+                                 <a
+                                    href="https://skatteverket.se/privat/folkbokforing.4.18e1b10334ebe8bc800039.html"
+                                    target="_blank"
+                                    >
+                                 the tax authorities
+                                 </a>
+                                 about your new adress <br />
+                                 You can also change the delivery of your mail to your new
+                                 adress at
+                                 <a href="https://www.adressandring.se/" target="_blank">
+                                 Svensk adressändrings homepage
+                                 </a>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section3_profile">
+            <div class="container">
+               <div class="row">
+                  <div class="col-6 gratitude_img text-center">
+                     <div class="container">
+                        <div class="Postal_field">
+                           <p class="Postal_field_title">
+                              <i class="fas fa-map-marker-alt"></i>Address
+                           </p>
+                           <p class="Postal_field_content">
+                              Furukviststigen 1 <br />S 17432 Lilla Essingen
+                           </p>
+                        </div>
+                        <div class="Contact_field">
+                           <p class="Contact_field_title">
+                              <i class="fas fa-phone-alt"></i>Lets Talk
+                           </p>
+                           <a href="tel:00468XXXXXX"> 0046(8)XXXXXX </a>
+                        </div>
+                        <div class="Email_field">
+                           <p class="Email_field_title">
+                              <i class="fas fa-envelope"></i>General Support
+                           </p>
+                           <a href="mailto:xxx@lomsten.se"> xxx@lomsten.se</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 text-center">
+                     <form class="contact_form">
+                        <div class="contact_form_title">Send Us a Message</div>
+                        <label>Tell Us Your Name</label>
+                        <div class="text-center contact_name">
+                           <div class="container">
+                              <div class="row">
+                                 <input
+                                    type="text"
+                                    name="FirstName"
+                                    class="form-control"
+                                    placeholder="Enter First Name"
+                                    id="first_name"
+                                    required
+                                    />
+                                 <input
+                                    type="text"
+                                    name="LastName"
+                                    class="form-control"
+                                    placeholder="Enter Last Name"
+                                    id="last_name"
+                                    required
+                                    />
+                              </div>
+                           </div>
+                        </div>
+                        <label>Enter Email</label>
+                        <div>
+                           <input
+                              type="email"
+                              class="form-control"
+                              id="email_adress"
+                              placeholder="name@example.se"
+                              />
+                        </div>
+                        <label>Enter Phone#</label>
+                        <div>
+                           <input
+                              type="text"
+                              class="form-control"
+                              id="phone_number"
+                              placeholder="0046-(0)8-xxxxxxx"
+                              />
+                        </div>
+                        <label for="message_contact">Message</label>
+                        <div>
+                           <textarea
+                              name="DescriptionOfIssue"
+                              id="message_contact"
+                              class="form-control"
+                              placeholder="Describe the Issue and how it occured, what has been done, and what help you need"
+                              ></textarea>
+                        </div>
+                        <div class="button_contact">
+                           <button type="button" class="btn btn-secondary text-center">
+                           Send Messages
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section2_profile">
+            <div class="container">
+               <div class="text-center info_buttoms">
+                  <p>In the sections below you find information about</p>
+               </div>
+               <div class="text-center">
+                  <div class="row">
+                     <div class="contract_buttom col-4">
+                        <a
+                           href="https://bostadsportal.se/info/wp-content/uploads/sites/6/2020/11/Hyreskontrakt-fo%CC%88r-fo%CC%88rstahandsuthyrning-BostadsPortal.pdf"
+                           target="_blank"
+                           >
+                           <p><i class="fas fa-file-signature"></i><br />Contract</p>
+                        </a
+                           >
+                     </div>
+                     <div class="invoices_buttom col-4">
+                        <a
+                           href="https://www.word-mallar.com/wp-content/uploads/2017/03/Mall-hyresavi.jpg"
+                           target="_blank"
+                           >
+                           <p>
+                              <i class="fas fa-file-invoice-dollar"></i><br />Invoice
+                           </p>
+                        </a
+                           >
+                     </div>
+                     <div class="blueprint_buttom col-4">
+                        <a
+                           href="assets/document/Blueprint_Mockup_MP1.pdf"
+                           target="_blank"
+                           >
+                           <p><i class="fas fa-cube"></i><br />Blueprint</p>
+                        </a
+                           >
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Modal MovingIn-checklist -->
+         <div
+            class="modal fade"
+            id="MovingIn"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="MovingIn"
+            aria-hidden="true"
+            >
+            <div class="modal-dialog modal-lg" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="MovingIN_label">
+                        Checklist for Moving In
+                     </h5>
+                     <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                        >
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body text-center">
+                     <form class="form Movin_form">
+                        <p>
+                           Pickup your keys before 12 pm at our office, keep in mind to
+                           bring your ID
+                        </p>
+                        <input type="radio" id="keys" name="keys" value="keys" />
+                        <label for="keys">Received Keys</label><br />
+                        <br />
+                        <p>
+                           Avoid blocking elevator or parking in the middle of the street
+                           while moving in
+                        </p>
+                        <input type="radio" id="movIn" name="movIn" value="movIn" />
+                        <label for="movIn">Done moving in my belongings</label><br />
+                        <br />
+                        <p>
+                           Locate your storage space which is marked with your Apartment
+                           ID and install a locker
+                        </p>
+                        <input
+                           type="radio"
+                           id="storage"
+                           name="storage"
+                           value="storage"
+                           />
+                        <label for="storage">Located and locked my storage space</label
+                           ><br />
+                        <br />
+                        <p>
+                           Go over your Inspection protocol, if you find any deficiencies
+                           make sure to report them within 8 days notice
+                        </p>
+                        <input
+                           type="radio"
+                           id="inspection"
+                           name="inspection"
+                           value="inspection"
+                           />
+                        <label for="inspection">Read the Inspection protocol</label
+                           ><br />
+                        <br />
+                        <p>
+                           familiarize yourself with the neighbourhood and find the
+                           parking and storage room for bicycle in the basement
+                        </p>
+                        <input
+                           type="radio"
+                           id="parking"
+                           name="parking"
+                           value="parking"
+                           />
+                        <label for="parking"
+                           >Located Parking lot and Bicycle storage</label
+                           ><br />
+                        <br />
+                        <p>
+                           Located the table for booking washing time in the attic
+                           outside the laundary room, your lock is marked with your
+                           Aprtment ID
+                        </p>
+                        <input
+                           type="radio"
+                           id="laundary"
+                           name="laundary"
+                           value="laundary"
+                           />
+                        <label for="laundary"
+                           >Find the table for booking washing times</label
+                           >
+                        <br />
+                        <p>
+                           Get acquainted with the neighbours, if you planning a moving
+                           in party make sure to set up a notice in the entrance so you
+                           neighbour are aware
+                        </p>
+                        <input
+                           type="radio"
+                           id="sayhello"
+                           name="sayhello"
+                           value="sayhello"
+                           />
+                        <label for="sayhello">Got acquainted with the neighbours</label
+                           ><br />
+                        <br />
+                     </form>
+                  </div>
+                  <div class="modal-footer">
+                     <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                        >
+                     Close
+                     </button>
+                     <button type="button" class="btn report_buttom">
+                     Save changes
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Modal MovingOut-checklist -->
+         <div
+            class="modal fade"
+            id="MovingOut"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="MovingOut"
+            aria-hidden="true"
+            >
+            <div class="modal-dialog modal-lg" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="MovingOut_label">
+                        Checklist for Moving Out
+                     </h5>
+                     <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                        >
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body text-center">
+                     <form class="form Movout_form">
+                        <p>Notify the tax authorities about your new adress</p>
+                        <input type="radio" id="adress" name="adress" value="adress" />
+                        <label for="adress">Updated Mail-adress</label><br />
+                        <br />
+                        <p>Fix remarks on inspection protcol before moving out</p>
+                        <input
+                           type="radio"
+                           id="fixremarks"
+                           name="fixremarks"
+                           value="fixremarks"
+                           />
+                        <label for="fixremarks">Fixed remarks after inspection</label
+                           ><br />
+                        <br />
+                        <p>Clean your apartment throughfully</p>
+                        <input type="radio" id="clean" name="clean" value="clean" />
+                        <label for="clean">Cleaned the apartment</label><br />
+                        <br />
+                        <p>Sort and depose your waste</p>
+                        <input type="radio" id="waste" name="waste" value="waste" />
+                        <label for="waste">Deposed waste</label><br />
+                        <br />
+                        <p>Return all keys to apartment, laundary and storage</p>
+                        <input type="radio" id="key" name="key" value="key" />
+                        <label for="parking">Returned keys</label><br />
+                        <br />
+                        <br /><br />
+                     </form>
+                  </div>
+                  <div class="modal-footer">
+                     <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                        >
+                     Close
+                     </button>
+                     <button type="button" class="btn report_buttom">
+                     Save changes
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="Footer_main">
+            <div class="container">
+               <div class="Footer_upper_section d-none d-md-block">
                   <div class="container">
-                    <div class="row">
-                      <input
-                        type="text"
-                        name="FirstName"
-                        class="form-control"
-                        placeholder="Enter First Name"
-                        id="first_name"
-                        required
-                      />
-                      <input
-                        type="text"
-                        name="LastName"
-                        class="form-control"
-                        placeholder="Enter Last Name"
-                        id="last_name"
-                        required
-                      />
-                    </div>
+                     <div class="row">
+                        <div class="col-6">
+                           <div class="Footer_about_title">
+                              <p>About</p>
+                           </div>
+                           <div class="Footer_about_text">
+                              <p>
+                                 Lomsten has a long tradition of managing rental apartments
+                                 and are proud to offering living in the middle of
+                                 Stockholm. Our building is located in a quiet
+                                 neighbourhood near to the city, shopping and restaurants.
+                                 Feel free to contact us if you want to more about our
+                                 apartments.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="col-4">
+                           <div class="Footer_link_title">
+                              <p>Quick Links</p>
+                           </div>
+                           <div class="Footer_link_text">
+                              <a href="index.html">Home</a><br />
+                              <a href="profile.html">My pages</a><br />
+                              <a href="question.html">Common Questions</a><br />
+                              <a href="neighbourhood.html">The Neighbourhood</a>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <label>Enter Email</label>
-                <div>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email_adress"
-                    placeholder="name@example.se"
-                  />
-                </div>
-                <label>Enter Phone#</label>
-                <div>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="phone_number"
-                    placeholder="0046-(0)8-xxxxxxx"
-                  />
-                </div>
-                <label for="message_contact">Message</label>
-                <div>
-                  <textarea
-                    name="DescriptionOfIssue"
-                    id="message_contact"
-                    class="form-control"
-                    placeholder="Describe the Issue and how it occured, what has been done, and what help you need"
-                  ></textarea>
-                </div>
-                <div class="button_contact">
-                  <button type="button" class="btn btn-secondary text-center">
-                    Send Messages
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section2_profile">
-        <div class="container">
-          <div class="text-center info_buttoms">
-            <p>In the sections below you find information about</p>
-          </div>
-          <div class="text-center">
-            <div class="row">
-              <div class="contract_buttom col-4">
-                <a
-                  href="https://bostadsportal.se/info/wp-content/uploads/sites/6/2020/11/Hyreskontrakt-fo%CC%88r-fo%CC%88rstahandsuthyrning-BostadsPortal.pdf"
-                  target="_blank"
-                  ><p><i class="fas fa-file-signature"></i><br />Contract</p></a
-                >
-              </div>
-              <div class="invoices_buttom col-4">
-                <a
-                  href="https://www.word-mallar.com/wp-content/uploads/2017/03/Mall-hyresavi.jpg"
-                  target="_blank"
-                  ><p>
-                    <i class="fas fa-file-invoice-dollar"></i><br />Invoice
-                  </p></a
-                >
-              </div>
-              <div class="blueprint_buttom col-4">
-                <a
-                  href="assets/document/Blueprint_Mockup_MP1.pdf"
-                  target="_blank"
-                  ><p><i class="fas fa-cube"></i><br />Blueprint</p></a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Modal MovingIn-checklist -->
-      <div
-        class="modal fade"
-        id="MovingIn"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="MovingIn"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="MovingIN_label">
-                Checklist for Moving In
-              </h5>
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body text-center">
-              <form class="form Movin_form">
-                <p>
-                  Pickup your keys before 12 pm at our office, keep in mind to
-                  bring your ID
-                </p>
-                <input type="radio" id="keys" name="keys" value="keys" />
-                <label for="keys">Received Keys</label><br />
-                <br />
-                <p>
-                  Avoid blocking elevator or parking in the middle of the street
-                  while moving in
-                </p>
-                <input type="radio" id="movIn" name="movIn" value="movIn" />
-                <label for="movIn">Done moving in my belongings</label><br />
-                <br />
-                <p>
-                  Locate your storage space which is marked with your Apartment
-                  ID and install a locker
-                </p>
-                <input
-                  type="radio"
-                  id="storage"
-                  name="storage"
-                  value="storage"
-                />
-                <label for="storage">Located and locked my storage space</label
-                ><br />
-                <br />
-                <p>
-                  Go over your Inspection protocol, if you find any deficiencies
-                  make sure to report them within 8 days notice
-                </p>
-                <input
-                  type="radio"
-                  id="inspection"
-                  name="inspection"
-                  value="inspection"
-                />
-                <label for="inspection">Read the Inspection protocol</label
-                ><br />
-                <br />
-                <p>
-                  familiarize yourself with the neighbourhood and find the
-                  parking and storage room for bicycle in the basement
-                </p>
-                <input
-                  type="radio"
-                  id="parking"
-                  name="parking"
-                  value="parking"
-                />
-                <label for="parking"
-                  >Located Parking lot and Bicycle storage</label
-                ><br />
-                <br />
-                <p>
-                  Located the table for booking washing time in the attic
-                  outside the laundary room, your lock is marked with your
-                  Aprtment ID
-                </p>
-                <input
-                  type="radio"
-                  id="laundary"
-                  name="laundary"
-                  value="laundary"
-                />
-                <label for="laundary"
-                  >Find the table for booking washing times</label
-                >
-                <br />
-                <p>
-                  Get acquainted with the neighbours, if you planning a moving
-                  in party make sure to set up a notice in the entrance so you
-                  neighbour are aware
-                </p>
-                <input
-                  type="radio"
-                  id="sayhello"
-                  name="sayhello"
-                  value="sayhello"
-                />
-                <label for="sayhello">Got acquainted with the neighbours</label
-                ><br />
-                <br />
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn report_buttom">
-                Save changes
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Modal MovingOut-checklist -->
-      <div
-        class="modal fade"
-        id="MovingOut"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="MovingOut"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="MovingOut_label">
-                Checklist for Moving Out
-              </h5>
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body text-center">
-              <form class="form Movout_form">
-                <p>Notify the tax authorities about your new adress</p>
-                <input type="radio" id="adress" name="adress" value="adress" />
-                <label for="adress">Updated Mail-adress</label><br />
-                <br />
-                <p>Fix remarks on inspection protcol before moving out</p>
-                <input
-                  type="radio"
-                  id="fixremarks"
-                  name="fixremarks"
-                  value="fixremarks"
-                />
-                <label for="fixremarks">Fixed remarks after inspection</label
-                ><br />
-                <br />
-                <p>Clean your apartment throughfully</p>
-                <input type="radio" id="clean" name="clean" value="clean" />
-                <label for="clean">Cleaned the apartment</label><br />
-                <br />
-                <p>Sort and depose your waste</p>
-                <input type="radio" id="waste" name="waste" value="waste" />
-                <label for="waste">Deposed waste</label><br />
-                <br />
-                <p>Return all keys to apartment, laundary and storage</p>
-                <input type="radio" id="key" name="key" value="key" />
-                <label for="parking">Returned keys</label><br />
-                <br />
-                <br /><br />
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn report_buttom">
-                Save changes
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="Footer_main">
-        <div class="container">
-          <div class="Footer_upper_section d-none d-md-block">
-            <div class="container">
-              <div class="row">
-                <div class="col-6">
-                  <div class="Footer_about_title"><p>About</p></div>
-                  <div class="Footer_about_text">
-                    <p>
-                      Lomsten has a long tradition of managing rental apartments
-                      and are proud to offering living in the middle of
-                      Stockholm. Our building is located in a quiet
-                      neighbourhood near to the city, shopping and restaurants.
-                      Feel free to contact us if you want to more about our
-                      apartments.
-                    </p>
+               </div>
+               <div class="Footer_upper_section d-block d-md-none">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-6">
+                           <div class="Footer_about_title">
+                              <p>About</p>
+                           </div>
+                           <div class="Footer_about_text">
+                              <p>
+                                 Lomsten has a long tradition of managing rental apartments
+                                 and are proud to offering living in the middle of
+                                 Stockholm. Feel free to contact us.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="col-4">
+                           <div class="Footer_link_title">
+                              <p>Quick Links</p>
+                           </div>
+                           <div class="Footer_link_text">
+                              <a href="index.html">Home</a><br />
+                              <a href="profile.html">My pages</a><br />
+                              <a href="question.html">Questions</a><br />
+                              <a href="neighbourhood.html">Neighbourhood</a>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <div class="col-2"></div>
-                <div class="col-4">
-                  <div class="Footer_link_title"><p>Quick Links</p></div>
-                  <div class="Footer_link_text">
-                    <a href="index.html">Home</a><br />
-                    <a href="profile.html">My pages</a><br />
-                    <a href="question.html">Common Questions</a><br />
-                    <a href="neighbourhood.html">The Neighbourhood</a>
+               </div>
+               <div class="Footer_lower_section d-none d-md-block">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-3 text-left">
+                           <p>Lomsten</p>
+                        </div>
+                        <div class="col-3 text-center">
+                           <a href="mailto:xxx@lomsten.se"> xxx@lomsten.se</a>
+                        </div>
+                        <div class="col-3 text-center">
+                           <a href="tel:00468XXXXXX"> 0046(8)XXXXXX </a>
+                        </div>
+                        <div class="col-3 text-right social-links">
+                           <ul class="social-icons">
+                              <li>
+                                 <a class="facebook" href="https://www.facebook.com/" target="_blank"
+                                    ><i class="fab fa-facebook"></i
+                                    ></a>
+                              </li>
+                              <li>
+                                 <a class="twitter" href="https://twitter.com/" target="_blank"
+                                    ><i class="fab fa-twitter"></i
+                                    ></a>
+                              </li>
+                              <li>
+                                 <a class="linkedin" href="https://www.linkedin.com/home" target="_blank"
+                                    ><i class="fab fa-linkedin"></i
+                                    ></a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="Footer_upper_section d-block d-md-none">
-            <div class="container">
-              <div class="row">
-                <div class="col-6">
-                  <div class="Footer_about_title"><p>About</p></div>
-                  <div class="Footer_about_text">
-                    <p>
-                      Lomsten has a long tradition of managing rental apartments
-                      and are proud to offering living in the middle of
-                      Stockholm. Feel free to contact us.
-                    </p>
+               </div>
+               <div class="Footer_lower_section d-block d-md-none">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-6 text-left">
+                           <p>Lomsten</p>
+                        </div>
+                        <div class="col-6 text-center social-links">
+                           <ul class="social-icons">
+                              <li>
+                                 <a class="facebook" href="#"
+                                    ><i class="fab fa-facebook"></i
+                                    ></a>
+                              </li>
+                              <li>
+                                 <a class="twitter" href="#"
+                                    ><i class="fab fa-twitter"></i
+                                    ></a>
+                              </li>
+                              <li>
+                                 <a class="dribbble" href="#"
+                                    ><i class="fab fa-dribbble"></i
+                                    ></a>
+                              </li>
+                              <li>
+                                 <a class="linkedin" href="#"
+                                    ><i class="fab fa-linkedin"></i
+                                    ></a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <div class="col-2"></div>
-                <div class="col-4">
-                  <div class="Footer_link_title"><p>Quick Links</p></div>
-                  <div class="Footer_link_text">
-                    <a href="index.html">Home</a><br />
-                    <a href="profile.html">My pages</a><br />
-                    <a href="question.html">Questions</a><br />
-                    <a href="neighbourhood.html">Neighbourhood</a>
-                  </div>
-                </div>
-              </div>
+               </div>
             </div>
-          </div>
-          <div class="Footer_lower_section d-none d-md-block">
-            <div class="container">
-              <div class="row">
-                <div class="col-3 text-left"><p>Lomsten</p></div>
-                <div class="col-3 text-center">
-                  <a href="mailto:xxx@lomsten.se"> xxx@lomsten.se</a>
-                </div>
-                <div class="col-3 text-center">
-                  <a href="tel:00468XXXXXX"> 0046(8)XXXXXX </a>
-                </div>
-                <div class="col-3 text-right social-links">
-                  <ul class="social-icons">
-                    <li>
-                      <a class="facebook" href="https://www.facebook.com/" target="_blank"
-                        ><i class="fab fa-facebook"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a class="twitter" href="https://twitter.com/" target="_blanks"
-                        ><i class="fab fa-twitter"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a class="linkedin" href="https://www.linkedin.com/home" target="_blanks"
-                        ><i class="fab fa-linkedin"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="Footer_lower_section d-block d-md-none">
-            <div class="container">
-              <div class="row">
-                <div class="col-6 text-left"><p>Lomsten</p></div>
-                <div class="col-6 text-center social-links">
-                  <ul class="social-icons">
-                    <li>
-                      <a class="facebook" href="#"
-                        ><i class="fab fa-facebook"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a class="twitter" href="#"
-                        ><i class="fab fa-twitter"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a class="dribbble" href="#"
-                        ><i class="fab fa-dribbble"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a class="linkedin" href="#"
-                        ><i class="fab fa-linkedin"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+         </div>
+      </footer>
+      <script
+         src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+         crossorigin="anonymous"
+         ></script>
+   </body>
 </html>

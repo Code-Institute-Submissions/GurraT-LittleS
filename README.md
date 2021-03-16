@@ -17,7 +17,7 @@
 #### The features on the website will:
 
 - Give Tenants and Partners more ways to interact with Lomsten (contact form, social media, phone, email).
-- Provide Tenants and Partners with crucial information about the building and its sourrounding (forms, links, modals)
+- Provide Tenants and Partners with crucial information about the building and its surrounding (forms, links, modals)
 
 #### I achieved this by:
 
@@ -39,7 +39,7 @@ The personas main goal is to find information about building so that they know h
 
 #### As a tenant I want to have a website so that....
 
-1.  I can find information to who i can contact if i have questions or if need to solve an issue
+1.  I can find information to who I can contact if I have questions or if need to solve an issue
 2.  I can see what is included in the rent
 3.  I know where I can find assets such as storage, laundry etc.
 4.  I know how I should act in different situations (e.g., when to turn done music, if it is allowed to refurbishing the apartment etc.)
@@ -59,7 +59,7 @@ The personas main goal is to find information about building so that they know h
 1.  Find information about how to relate, locate and act within the building
 2.  Find information about how to contact the House owner, contractors and partners
 3.  Interact and give feedback about their living
-4.  Information of guidelines to save time spent answering these question orally
+4.  Information of guidelines to save time spent answering these questions orally
 
 ---
 
@@ -75,15 +75,15 @@ The personas main goal is to find information about building so that they know h
 
 #### Colours
 
-#### I focused mainly on black and white colortheme to create a clear, simple and easy to read webpage, the background color in the footer is #dfe0e4
+#### I focused mainly on black and white colour theme to create a clear, simple and easy to read webpage, the background colour in the footer is #dfe0e4
 
 #### Wireframes
 
-#### The orginal idea has in dialog with my mentor been revised several of times, below you find the mockups created in Balsamiq Wireframes for the orginal idea, which after implementation was revised to meet a more modern standard
+#### The original idea has in dialog with my mentor been revised several of times, below you find the mock-ups created in Balsamiq Wireframes for the original idea, which after implementation was revised to meet a more modern standard
 [Large Media Devices](assets/document/MP1en2.pdf "Wireframe Lomsten")
 [Small Media Devices](assets/document/MP1ensmd3.pdf "Wireframe Lomsten small devices")
 
-### Before decision to adapt a more modern design the webpage look as the mockup below
+### Before decision to adapt a more modern design the webpage look as the mock-up below
 ![Lomsten old page](assets/img/Lomsten.png "Old page before revision")
 ---
 
@@ -122,13 +122,13 @@ The personas main goal is to find information about building so that they know h
 - Google fonts
   - Used for the website fonts.
 - Free CAD
-  - Used for creating mockups for Blueprint
+  - Used for creating mock-ups for Blueprint
 - Balsamiq Wireframes
-  - Used for creating mockups for Wireframes
+  - Used for creating mock-ups for Wireframes
 - Microsoft Excel
-  - Used for creating mockups for e.g., forms as canceling contract and changing apartment
+  - Used for creating mock-ups for e.g., forms as cancelling contract and changing apartment
 - Microsoft PowerPoint
-  - Used for creating mockups for e.g., Topology in readme-file
+  - Used for creating mock-ups for e.g., Topology in readme-file
 - Image Resizer
   - Used as first step to optimise image size used on the webpage
 - JPEG Compressor
@@ -152,10 +152,10 @@ The personas main goal is to find information about building so that they know h
 
 - Responsive mobile first design using a Bootstrap framework.
 - User friendly with balanced use of image
-- Optimised for search engines adressing keywords and description in metatags in Head section
+- Optimised for search engines addressing keywords and description in metatags in Head section
 - A Navbar with easy navigation that collapses on mobile displays
 - Footer with contact information
-- Contact form on My page to allow the user to sent their request to the House owner
+- Contact form on My page to allow the user to send their request to the House owner
 - Bootstrap accordions to assist with readability of large amounts of text on mobile displays
 - Links with useful information to help user find answer on frequently asked questions
 - Ticker on home page with information about important dates
@@ -166,7 +166,7 @@ The personas main goal is to find information about building so that they know h
 - Activate links to social media
 - Connected Forms to a SQL-database and make them interactive
 - Display PDF such as Blueprint in a modal
-- Connect a login-form to My pages and lock this pages and make it personilized to indivual user
+- Connect a login-form to My pages and lock this page and make it personalized to individual user
 
 ---
 
@@ -174,14 +174,14 @@ The personas main goal is to find information about building so that they know h
 
 ### Version control for this repository is managed within GitHub and Gitpod using main as default branch for the project
 
-- To start with a New Respository was created in GitHub, named LittleS
-- LittleS was than linked to Gitpod pressing the green button Gitpod in the newly created Respository
-- Gitpod was than used as an editor for creating the code in this project
-- Python3 -m http.server was used in the Gitpod terminal to see newly made code in the webbrowser under port 8000
+- To start with a New Repository was created in GitHub, named LittleS
+- LittleS was than linked to Gitpod pressing the green button Gitpod in the newly created Repository
+- Gitpod was then used as an editor for creating the code in this project
+- Python3 -m http.server was used in the Gitpod terminal to see newly made code in the web browser under port 8000
 - New or modified files are staged using the git add . command in the Gitpod terminal
 - The changes are committed using git commit -m command in the Gitpod terminal.
-- The comitted changes are pushed from Gitpod to GitHub using the git push command.
-- The code was deployed in GitHub selecting main branch under setting in LittleS Respository
+- The committed changes are pushed from Gitpod to GitHub using the git push command.
+- The code was deployed in GitHub selecting main branch under setting in LittleS Repository
 
 ---
 
@@ -189,34 +189,34 @@ The personas main goal is to find information about building so that they know h
 
 ### Testing User Stories from User Experience (UX) Section
 
-- Overal Goals
+- Overall Goals
 
-i. As a visitor it easy to understand main purpose of the site and get an idea on what informations that is offered at underlying pages
+i. As a visitor it easy to understand main purpose of the site and get an idea on what information that is offered at underlying pages
     
-    a. [When entering the webpage the vistor is presented with a clear, intuitive navbar presenting what is found at underlying pages](assets/document/validation/manual_test_1.png "Manual Test 1")
-    b. [The hero image give a clear message that this site is handling a housing company](assets/document/validation/manual_test_1.png "Manual Test 1")
-    c. [Below the hero image there is a ticker presenting important dates for the visitor](assets/document/validation/manual_test_1.png "Manual Test 1")
-    d. [Situated under the ticker, links to underlying pages are presented onces again, with text, intuitive pictures and titles to further clarify what could be found on underlying pages](assets/document/validation/manual_test_2.png "Manual Test 2")
-    e. [The main purpose of the webpage is further clarified with an About-section and contact information within the Footer section of the main pages](assets/document/validation/manual_test_2.png "Manual Test 2")
+- [When entering the webpage the visitor is presented with a clear, intuitive navbar presenting what is found at underlying pages](assets/document/validation/manual_test_1.png "Manual Test 1")
+- [The hero image gives a clear message that this site is handling a housing company](assets/document/validation/manual_test_1.png "Manual Test 1")
+- [Below the hero image there is a ticker presenting important dates for the visitor](assets/document/validation/manual_test_1.png "Manual Test 1")
+- [Situated under the ticker, links to underlying pages are presented once again, with text, intuitive pictures and titles to further clarify what could be found on underlying pages](assets/document/validation/manual_test_2.png "Manual Test 2")
+- [The main purpose of the webpage is further clarified with an About-section and contact information within the Footer section of the main pages](assets/document/validation/manual_test_2.png "Manual Test 2")
 
 ii. As a tenant i can 
    
-    a. [easily get in contact with the company, with contact information being presented in the footer section as well as a form at the my pages](assets/document/validation/manual_test_3.png "Manual Test 3")
-    b. [Find answers who to contact in different situation as well as information about the building presented in a clear way on the common questions page](assets/document/validation/manual_test_4.png "Manual Test 4")
-    c. [Find informations about the neighbourhood, which is presented in an intuitive way at the neighbourhood page](assets/document/validation/manual_test_5.png "Manual Test 5")
-    d. [Find important documents such as contract, invoice, blueprint at my pages](assets/document/validation/manual_test_6.png "Manual Test 6")
-    e. [Get information on conducts at the common questions pages](assets/document/validation/manual_test_7.png "Manual Test 7")
-    f. [Get information what happens in the neighbourhood presented as a ticker on main page](assets/document/validation/manual_test_8.png "Manual Test 8")
+- [easily get in contact with the company, with contact information being presented in the footer section as well as a form at my pages](assets/document/validation/manual_test_3.png "Manual Test 3")
+- [Find answers who to contact in different situation as well as information about the building presented in a clear way on the common questions page](assets/document/validation/manual_test_4.png "Manual Test 4")
+- [Find information about the neighbourhood, which is presented in an intuitive way at the neighbourhood page](assets/document/validation/manual_test_5.png "Manual Test 5")
+- [Find important documents such as contract, invoice, blueprint at my pages](assets/document/validation/manual_test_6.png "Manual Test 6")
+- [Get information on conducts at the common question pages](assets/document/validation/manual_test_7.png "Manual Test 7")
+- [Get information what happens in the neighbourhood presented as a ticker on main page](assets/document/validation/manual_test_8.png "Manual Test 8")
 
 iii.  As a constructor/contractor i can 
     
-    a. [easily to find contact information to the company, being presented in a clear way in the footer section](assets/document/validation/manual_test9.png "Manual Test 9")
-    b. [find information about the building under common questions](assets/document/validation/manual_test_10.png "Manual Test 10")
+- [easily to find contact information to the company, being presented in a clear way in the footer section](assets/document/validation/manual_test9.png "Manual Test 9")
+- [find information about the building under common questions](assets/document/validation/manual_test_10.png "Manual Test 10")
 
 iiii. As a site owner i can
-   
-    a. [easily get information from my user by feedback form on my pages](assets/document/validation/manual_test_11.png "Manual Test 11")
-    b. [easily inform my user by advertising important event on the main pages ticker](assets/document/validation/manual_test_13.png "Manual Test 13"), [and give valuable information at the common question page](assets/document/validation/manual_test_12.png "Manual Test 12")
+
+- [easily get information from my user by feedback form on my pages](assets/document/validation/manual_test_11.png "Manual Test 11")
+- [easily inform my user by advertising important event on the main page’s ticker](assets/document/validation/manual_test_13.png "Manual Test 13"), [and give valuable information at the common question page](assets/document/validation/manual_test_12.png "Manual Test 12")
 
 
 ### Automated Testing
@@ -231,36 +231,42 @@ iiii. As a site owner i can
 
 #### Below you find results from automated testing
 
-- Result from Chrome DevTools Lighthouse
-    - [Index page]()
-    - [profile page]()
-    - [question page]()
-    - [neighbourhood page]()
+- Result from Chrome DevTools Lighthouse - Large Devices
+    - [Index page](assets/document/validation/LightHouse_lg_index_page.png)
+    - [profile page](assets/document/validation/LightHouse_lg_profile_page.png)
+    - [question page](assets/document/validation/LightHouse_lg_question_page.png)
+    - [neighbourhood page](assets/document/validation/LightHouse_smd_neighbourhood_page.png)
+
+- Result from Chrome DevTools Lighthouse - Responsiveness
+    - [Index page](assets/document/validation/LightHouse_smd_index_page.png)
+    - [profile page](assets/document/validation/LightHouse_smd_profile_page.png)
+    - [question page](assets/document/validation/LightHouse_smd_question_page.png)
+    - [neighbourhood page](assets/document/validation/LightHouse_lg_neighbourhood_page.png)
+
 - Result from W3C Markup Validation
-    - [Index page]()
-    - [profile page]()
-    - [question page]()
-    - [neighbourhood page]()
+    - [Index page](assets/document/validation/Html_validation_index_page.png)
+    - [profile page](assets/document/validation/Html_validation_profile_page.png)
+    - [question page](assets/document/validation/Html_validation_question_page.png)
+    - [neighbourhood page](assets/document/validation/Html_validation_neighbourhood_page.png)
+
 - Result from W3C CSS validation
-    - [Index page]()
-    - [profile page]()
-    - [question page]()
-    - [neighbourhood page]()
+    - [Styles.css](assets/document/validation/CSS_validation.png)
+
 
 ### Manual Testing
 
 #### Following steps were undertaken to test the design and responsiveness of the webpages
 
 1. The webpages was open in Google Chrome
-2. The responsivness for all underlying pages was tested by shrinking and enlarging the window of the webbrowser
-3. Links were tested in enlarge mode of the webbrowser
-4. Buttons were tested in enlarge mode of the webbrowser
-5. Accordion were tested in enlarge mode of webbrowser
-6. Tested that links with telephone number opens in default telephone app and that links with email adress opens in default email app
-7. Tested that contact form at my pages is possible to fill in eventhough not activitated  
+2. The responsivness for all underlying pages was tested by shrinking and enlarging the window of the web browser
+3. Links were tested in enlarge mode of the web browser
+4. Buttons were tested in enlarge mode of the web browser
+5. Accordion were tested in enlarge mode of web browser
+6. Tested that links with telephone number opens in default telephone app and that links with email address opens in default email app
+7. Tested that contact form at my pages is possible to fill in even though not activated  
 8. The code was pushed to GitHub and deployed
-9. The deployed code was tested on mobile devices (iphone, Samsung devices) in accordance with step 3-7
-10. As a final step the code was tested in accordance with step 3-6 on Microsoft edge webbrowser
+9. The deployed code was tested on mobile devices (iPhone, Samsung devices) in accordance with step 3-7
+10. As a final step the code was tested in accordance with step 3-6 on Microsoft edge web browser
 
 
 ### Fixed Bugs
@@ -279,7 +285,7 @@ Connected to index.html
 
 - Integrated MovingIN and MovingOut checklist as modals (see Credit-section)
 
-- Integrated textcontent about important dates in index-pages as tickers (see Credit-section)
+- Integrated text content about important dates in index-pages as tickers (see Credit-section)
 
 - Removed unused font-size
 
@@ -287,20 +293,20 @@ Connected to index.html
 
 - Revised design to be more modern
 
-- Integrated accordions to present text so it doesnt overflow the pages
+- Integrated accordions to present text so it doesn’t overflow the pages
 
 - changed contact form from a modal to a contact form on my pages
 
 - Adjusted fontcolor and the opacity of the background-color of navbar to increase the contrast between them
 
-- Defined the height and width of images so they don't change size when enlarging or shrinking the window of the webbrowser
+- Defined the height and width of images so they don't change size when enlarging or shrinking the window of the web browser
 
 ### Known Bugs
 
 #### Due to shortage of time following bugs are still to be handle
 
-- The contrast between background image and text-content in contactform could be improved by changing backgroundimage
-- The contrast between background image and text-content in the header could be improved by changing backgroundimage
+- The contrast between background image and text-content in contact form could be improved by changing background image
+- The contrast between background image and text-content in the header could be improved by changing background image
 - The user experience for mobile devices could be increased by making one part of the contract form hidden in mobile devices
 - A modal could be implemented for showing the blueprint
 
@@ -308,17 +314,17 @@ Connected to index.html
 
 ### Deployment
 
-The website was developed using both Gitpod for constructing code which then was pushed to GitHub,  which hosted my repository. I conducted following step to deploy my code.
+The website was developed using both Gitpod for constructing code which then was pushed to GitHub, which hosted my repository. I conducted following step to deploy my code.
 - Navigated and logged in to GitHub
 -  Navigated to my repository [GurraT/LittleS](https://github.com/GurraT/LittleS) 
 - Opened settings.
 - Scrolled down to the Section GitHub pages
 - Selected master branch in the source dropdown menu
 - Confirmed choice by clicking on save
-#### To see the endresult and open deployed code in a webbrowser following steps were conducted 
+#### To see the end result and open deployed code in a web browser following steps were conducted 
 - Navigated to my repository [GurraT/LittleS](https://gurrat.github.io/LittleS/) 
-- Click on the code buttom
-- Selected http-adress and copied it to a webbrowser
+- Click on the code bottom
+- Selected http-address and copied it to a web browser
 
 ---
 
